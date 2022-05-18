@@ -1,27 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations;
 
 public class SoftBodyController : MonoBehaviour
 {
+    Animator anim;
+
+    #region Slime Variables
+    [SerializeField] Rigidbody2D centerSlimeRb; //  Hueso central del Mochi en el modo Slime
     [SerializeField] int speed;
-    Rigidbody2D rb;
+    float movH;
+    #endregion
 
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        Movement();
+        if (Input.GetKeyDown(KeyCode.W)) anim.SetTrigger("ToSphere");
+        MovementSlime();
     }
 
-    void Movement()
+    void MovementSlime()
     {
-        rb.velocity = Vector2.right * Input.GetAxis("Horizontal") * speed * Time.deltaTime;
+        movH = Input.GetAxis("Horizontal");
+        centerSlimeRb.velocity = new Vector2(movH * speed * Time.deltaTime, centerSlimeRb.velocity.y);    //  Permite el movimiento lateral, si no se le indica el ejeY caera "flotando" y no con su peso real
     }
-
 
 }
