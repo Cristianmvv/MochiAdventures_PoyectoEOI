@@ -15,7 +15,6 @@ public class SoftBodyController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W)) anim.SetTrigger("ToSphere");
         MovementSlime();
     }
 
