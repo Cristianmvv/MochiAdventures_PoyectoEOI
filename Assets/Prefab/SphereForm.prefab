@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5007650291400012701}
   - component: {fileID: 5007650291400012702}
   - component: {fileID: 5007650293237586797}
+  - component: {fileID: 1934045508479933612}
   m_Layer: 0
   m_Name: SphereForm
   m_TagString: Untagged
@@ -47,7 +48,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 0.2
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
@@ -123,3 +124,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1934045508479933612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5007650291400012696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85752608f23a0444eb62052d81cfec71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 500
