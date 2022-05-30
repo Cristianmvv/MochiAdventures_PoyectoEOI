@@ -5,11 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - SlimeCenter
+  - MochiSlime
+  - Ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 

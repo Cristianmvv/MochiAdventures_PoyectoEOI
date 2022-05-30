@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -1847009239714792641}
   m_Layer: 0
   m_Name: SlimeForm
-  m_TagString: Untagged
+  m_TagString: MochiSlime
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   centerSlimeRb: {fileID: 6430051628710831513}
-  PerimeterSlimeRb:
+  perimeterSlimeRb:
   - {fileID: 6430051627733930912}
   - {fileID: 6430051627489995946}
   - {fileID: 6430051628321074300}
@@ -146,7 +146,11 @@ MonoBehaviour:
   - {fileID: 6430051628797948674}
   - {fileID: 6430051628767511028}
   - {fileID: 6430051627973455859}
-  speed: 200
+  speed: 4
+  isGrounded: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &3967017436944533150
 GameObject:
   m_ObjectHideFlags: 0
