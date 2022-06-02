@@ -41,7 +41,8 @@ public class MochiManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        IsGrounded = CheckGrounded();
+        if (SphereController.Instance == null) IsGrounded = CheckGrounded();
+        else IsGrounded = CheckGrounded(SphereController.Instance.isGrounded);
 
         //IsGrounded = SoftBodyController.Instance.isGrounded;    //  No se me ocurria otra forma que no fuera un singleton... Seguramente le estoy dando dolor en la medula a alguien pero me da igual, hacer simplemente el valor publico no funcionaba asi que nos quedamos asi.
         ChangeForms();
@@ -120,8 +121,8 @@ public class MochiManager : MonoBehaviour
         //slimeCenter.GetComponent<Rigidbody2D>().velocity = inertia;   //  Para poder meterle la inercia a todos los RigidBody ahora lo coje desde su controller, ?Porque no lo hago igual con la esfera? porque si lo hago igual no salta la esfera, no pregunteis, no tengo ni idea.
     }
 
-    bool CheckGrounded()
+    bool CheckGrounded(bool _sphere = false)
     {
-        return SoftBodyController.Instance.isGrounded || SphereController.Instance.isGrounded;
+        return SoftBodyController.Instance.isGrounded || _sphere;
     }
 }
