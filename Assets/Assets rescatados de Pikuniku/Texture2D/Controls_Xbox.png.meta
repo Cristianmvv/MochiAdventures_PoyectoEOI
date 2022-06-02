@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 8e62f09377f2fb14c965d89097e0dac7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Controls_Xbox
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 29
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Controls_Xbox
+      rect:
+        serializedVersion: 2
+        x: 302.0761
+        y: 316.0268
+        width: 447.8478
+        height: 315.8971
+      alignment: 9
+      pivot: {x: 0.4687394, y: 0.6203704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -221, y: -120.9753}
+        - {x: -224, y: -102.9753}
+        - {x: -224, y: -54.97533}
+        - {x: -220, y: -34.97533}
+        - {x: -180, y: 89.02467}
+        - {x: -157, y: 132.0247}
+        - {x: -149, y: 141.0247}
+        - {x: -124, y: 151.0247}
+        - {x: -112, y: 156.0247}
+        - {x: -96, y: 158.0247}
+        - {x: -72, y: 158.0247}
+        - {x: -69, y: 157.0247}
+        - {x: -59, y: 148.0247}
+        - {x: 59, y: 149.0247}
+        - {x: 73, y: 158.0247}
+        - {x: 97, y: 158.0247}
+        - {x: 116, y: 156.0247}
+        - {x: 151, y: 141.0247}
+        - {x: 171, y: 105.0247}
+        - {x: 173, y: 102.0247}
+        - {x: 180, y: 87.02467}
+        - {x: 202, y: 23.02467}
+        - {x: 219, y: -29.97533}
+        - {x: 224, y: -54.97533}
+        - {x: 224, y: -105.9753}
+        - {x: 222, y: -117.9753}
+        - {x: 215, y: -134.9753}
+        - {x: 197, y: -154.9753}
+        - {x: 188, y: -157.9753}
+        - {x: 169, y: -157.9753}
+        - {x: 162, y: -156.9753}
+        - {x: 155, y: -152.9753}
+        - {x: 134, y: -128.9753}
+        - {x: 106, y: -88.97533}
+        - {x: 74, y: -74.97533}
+        - {x: -72, y: -73.97533}
+        - {x: -106, y: -90.97533}
+        - {x: -144, y: -142.9753}
+        - {x: -155, y: -152.9753}
+        - {x: -166, y: -157.9753}
+        - {x: -190, y: -157.9753}
+        - {x: -213, y: -139.9753}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646100ca9867478ba38a31ed3d66c44e
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Controls_Xbox: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: af64d5e6e2319494db7c28cef62dd788
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Controls_Keyboard_Lines
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 29
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Controls_Keyboard_Lines
+      rect:
+        serializedVersion: 2
+        x: 186.0761
+        y: 334.0761
+        width: 651.8972
+        height: 338.8478
+      alignment: 9
+      pivot: {x: 0.4999621, y: 0.525085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -202.0247, y: 143.5}
+        - {x: -326.0247, y: 143.5}
+        - {x: -326.0247, y: 167.5}
+        - {x: -319.0247, y: 169.5}
+        - {x: -237.0247, y: 169.5}
+        - {x: -52.02469, y: 159.5}
+        - {x: -52.02469, y: 151.5}
+      - - {x: 208.9753, y: 138.5}
+        - {x: 102.9753, y: 147.5}
+        - {x: 102.9753, y: 164.5}
+        - {x: 325.9753, y: 164.5}
+        - {x: 325.9753, y: 142.5}
+        - {x: 319.9753, y: 138.5}
+      - - {x: 196.9753, y: -6.500001}
+        - {x: 141.9753, y: -28.5}
+        - {x: 138.9753, y: -31.5}
+        - {x: 134.9753, y: -31.5}
+        - {x: 132.9753, y: -29.5}
+        - {x: 132.9753, y: 63.5}
+        - {x: 255.9753, y: 71.5}
+        - {x: 318.9753, y: 71.5}
+        - {x: 324.9753, y: 64.5}
+        - {x: 324.9753, y: 52.5}
+        - {x: 323.9753, y: 50.5}
+        - {x: 317.9753, y: 40.5}
+        - {x: 263.9753, y: 19.5}
+        - {x: 266.9753, y: 19.5}
+        - {x: 324.9753, y: 19.5}
+        - {x: 324.9753, y: -31.5}
+        - {x: 322.9753, y: -32.5}
+        - {x: 324.9753, y: -33.5}
+        - {x: 324.9753, y: -60.5}
+        - {x: 317.9753, y: -169.5}
+        - {x: 68.97531, y: -169.5}
+        - {x: 68.97531, y: -79.5}
+        - {x: 196.9753, y: -54.5}
+      - - {x: -99.02469, y: -87.5}
+        - {x: -228.0247, y: -40.5}
+        - {x: -228.0247, y: -69.5}
+        - {x: -230.0247, y: -72.5}
+        - {x: -234.0247, y: -72.5}
+        - {x: -325.0247, y: -56.5}
+        - {x: -325.0247, y: -23.5}
+        - {x: -275.0247, y: -23.5}
+        - {x: -322.0247, y: -6.500001}
+        - {x: -325.0247, y: 0.5}
+        - {x: -325.0247, y: 27.5}
+        - {x: -211.0247, y: 27.5}
+        - {x: -96.02469, y: 19.5}
+        - {x: -93.02469, y: 16.5}
+        - {x: -93.02469, y: -84.5}
+        - {x: -94.02469, y: -87.5}
+      - - {x: -318.0247, y: -154.5}
+        - {x: -325.0247, y: -145.5}
+        - {x: -325.0247, y: -74.5}
+        - {x: -158.0247, y: -74.5}
+        - {x: -158.0247, y: -152.5}
+        - {x: -160.0247, y: -154.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b32fc3c1e414abbaa22e6294fc4cd68
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Controls_Keyboard_Lines: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

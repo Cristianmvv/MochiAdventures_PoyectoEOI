@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 415834080e8702c4ea4883f59d338779
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: 360_A
+  - first:
+      213: 21300002
+    second: 360_Y
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 512
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 360_A
+      rect:
+        serializedVersion: 2
+        x: 96.07612
+        y: 378.0761
+        width: 85.84776
+        height: 85.86082
+      alignment: 9
+      pivot: {x: 0.5, y: 0.499924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -41.00653}
+        - {x: -43, y: -21.00653}
+        - {x: -43, y: 23.99347}
+        - {x: -40, y: 38.99347}
+        - {x: -25, y: 42.99347}
+        - {x: 23, y: 42.99347}
+        - {x: 43, y: 23.99347}
+        - {x: 43, y: -23.00653}
+        - {x: 22, y: -43.00653}
+        - {x: -12, y: -43.00653}
+      physicsShape:
+      - - {x: 40, y: 27.99347}
+        - {x: 16, y: 41.99347}
+        - {x: -16, y: 41.99347}
+        - {x: -32, y: 32.99347}
+        - {x: -42, y: 15.99347}
+        - {x: -42, y: -16.00653}
+        - {x: -28, y: -34.00653}
+        - {x: -22, y: -42.00653}
+        - {x: 19, y: -42.00653}
+        - {x: 41, y: -24.00653}
+        - {x: 42, y: -16.00653}
+        - {x: 42, y: 19.99347}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e509155c875141f8ba48978a8d444ecc
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 360_Y
+      rect:
+        serializedVersion: 2
+        x: 192.0761
+        y: 0.07612038
+        width: 85.84776
+        height: 85.84776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: -43}
+        - {x: -43, y: -18}
+        - {x: -43, y: 24}
+        - {x: -27, y: 43}
+        - {x: 28, y: 43}
+        - {x: 43, y: 27}
+        - {x: 43, y: -21}
+        - {x: 31, y: -43}
+      physicsShape:
+      - - {x: 41, y: 16}
+        - {x: 38, y: 27}
+        - {x: 14, y: 42}
+        - {x: -17, y: 42}
+        - {x: -41, y: 24}
+        - {x: -42, y: 15}
+        - {x: -42, y: -20}
+        - {x: -22, y: -42}
+        - {x: 18, y: -42}
+        - {x: 39, y: -23}
+        - {x: 42, y: -14}
+        - {x: 42, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a69046fc5ed4b45810d7bf28a405ab5
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      360_A: 21300000
+      360_Y: 21300002
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

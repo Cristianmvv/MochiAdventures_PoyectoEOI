@@ -1,0 +1,999 @@
+fileFormatVersion: 2
+guid: 885403da85381e54c98843190b01a6b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: spritesheet_PikuDig_0
+  - first:
+      213: 21300002
+    second: spritesheet_PikuDig_1
+  - first:
+      213: 21300004
+    second: spritesheet_PikuDig_2
+  - first:
+      213: 21300006
+    second: spritesheet_PikuDig_3
+  - first:
+      213: 21300008
+    second: spritesheet_PikuDig_4
+  - first:
+      213: 21300010
+    second: spritesheet_PikuDig_5
+  - first:
+      213: 21300012
+    second: spritesheet_PikuDig_6
+  - first:
+      213: 21300014
+    second: spritesheet_PikuDig_7
+  - first:
+      213: 21300016
+    second: spritesheet_PikuDig_8
+  - first:
+      213: 21300018
+    second: spritesheet_PikuDig_9
+  - first:
+      213: 21300020
+    second: spritesheet_PikuDig_10
+  - first:
+      213: 21300022
+    second: spritesheet_PikuDig_11
+  - first:
+      213: 21300024
+    second: spritesheet_PikuDig_12
+  - first:
+      213: 21300026
+    second: spritesheet_PikuDig_13
+  - first:
+      213: 21300028
+    second: spritesheet_PikuDig_14
+  - first:
+      213: 21300030
+    second: spritesheet_PikuDig_15
+  - first:
+      213: 21300032
+    second: spritesheet_PikuDig_16
+  - first:
+      213: 21300034
+    second: PikuDig_Mud1
+  - first:
+      213: 21300036
+    second: PikuDig_Mud13
+  - first:
+      213: 21300038
+    second: PikuDig_Mud8
+  - first:
+      213: 21300040
+    second: PikuDig_Mud6
+  - first:
+      213: 21300042
+    second: PikuDig_Mud12
+  - first:
+      213: 21300044
+    second: PikuDig_Mud14
+  - first:
+      213: 21300046
+    second: PikuDig_Stone
+  - first:
+      213: 21300048
+    second: PikuDig_Treasure_Skull
+  - first:
+      213: 21300050
+    second: PikuDig_Treasure_Bone
+  - first:
+      213: 21300052
+    second: PikuDig_Treasure_Key
+  - first:
+      213: 21300054
+    second: PikuDig_Treasure_Wall
+  - first:
+      213: 21300056
+    second: PikuDig_Title
+  - first:
+      213: 21300058
+    second: PikuDig_Worm1
+  - first:
+      213: 21300060
+    second: PikuDig_Worm2
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 512
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15.9
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_PikuDig_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 495
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db93b7f5eac44ce4a665ddafc9cab926
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_PikuDig_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 495
+        width: 12
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -7}
+        - {x: -6, y: 7}
+        - {x: 6, y: 7}
+        - {x: 6, y: -7}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a966ba7f166e4169b780a7c91f643b2b
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_PikuDig_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 495
+        width: 12
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -7}
+        - {x: -6, y: 7}
+        - {x: 6, y: 7}
+        - {x: 6, y: -7}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31575b0ce0944f668d63a5deecb47271
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_PikuDig_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 495
+        width: 12
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -7}
+        - {x: -6, y: 7}
+        - {x: 6, y: 7}
+        - {x: 6, y: -7}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdd79849809478891d6c5628254fcfe
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_PikuDig_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 495
+        width: 12
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -7}
+        - {x: -6, y: 7}
+        - {x: 6, y: 7}
+        - {x: 6, y: -7}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c68ce41f3014ae4a9ecced52df95ff8
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_PikuDig_5
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 495
+        width: 12
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -7}
+        - {x: -6, y: 7}
+        - {x: 6, y: 7}
+        - {x: 6, y: -7}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67b70d727854c659c948bde276b1ba4
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_PikuDig_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 495
+        width: 12
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -7}
+        - {x: -6, y: 7}
+        - {x: 6, y: 7}
+        - {x: 6, y: -7}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5ad7c966a34c5498b23f122b8d3c79
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_PikuDig_7
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 495
+        width: 12
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -7}
+        - {x: -6, y: 7}
+        - {x: 6, y: 7}
+        - {x: 6, y: -7}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8895f3918ed14c548537c6ec7f65d779
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_PikuDig_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 478
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefd0f0ce34d46ccaf7cb27b38ea35f6
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_PikuDig_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 461
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -10}
+        - {x: -8, y: 10}
+        - {x: 8, y: 10}
+        - {x: 8, y: -10}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f72bb013224889b18d647edf03b6c4
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_PikuDig_10
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 461
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -10}
+        - {x: -8, y: 10}
+        - {x: 8, y: 10}
+        - {x: 8, y: -10}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6526215cb9be4e21a42c75a6ed41c466
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_PikuDig_11
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 461
+        width: 16
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -13}
+        - {x: -8, y: 13}
+        - {x: 8, y: 13}
+        - {x: 8, y: -13}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d58d1d86d234008839f5ac32285cbc9
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_PikuDig_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 461
+        width: 16
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -13}
+        - {x: -8, y: 13}
+        - {x: 8, y: 13}
+        - {x: 8, y: -13}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd469f3d240a48ddbf9a45827dc7f693
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_PikuDig_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 461
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc93b33f1efe451cb0f19bfa024ad045
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_PikuDig_14
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 461
+        width: 16
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8.5}
+        - {x: -8, y: 8.5}
+        - {x: 8, y: 8.5}
+        - {x: 8, y: -8.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdfd1951dcd4add99cabd3b4c70a81d
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_PikuDig_15
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 461
+        width: 16
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8.5}
+        - {x: -8, y: 8.5}
+        - {x: 8, y: 8.5}
+        - {x: 8, y: -8.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f05dc0ea2143d4975de95ccf89f7b4
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_PikuDig_16
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 495
+        width: 12
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -7}
+        - {x: -6, y: 7}
+        - {x: 6, y: 7}
+        - {x: 6, y: -7}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4ac8279c124ef59cb6eec064e3d509
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikuDig_Mud1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 444
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c89f7d2f96943babccb01432176535c
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikuDig_Mud13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 427
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ecf6bbecf34c0dbbc2b552bbf193a0
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikuDig_Mud8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 427
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0448953f424db58615ef930494eb06
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikuDig_Mud6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 410
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194a2fc42e974b35a3f03458db4cb8ca
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikuDig_Mud12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 410
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e02b2a0a82343319596c168880500cb
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikuDig_Mud14
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 410
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd057c847cee4e09b9e463f641a52b90
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikuDig_Stone
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 392
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbad7b6e8bc48fdbd72b9fb7f737769
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikuDig_Treasure_Skull
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 444
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee3b95b47a14d029a76e429080b7e1e
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikuDig_Treasure_Bone
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 444
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548acf32210c403496a10094b6c69e81
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikuDig_Treasure_Key
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 444
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74adbb7c9b644d25a5cb05c09d3c76cf
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikuDig_Treasure_Wall
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 444
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0afc60e0be84a3285a86658a98568d8
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikuDig_Title
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 315
+        width: 174
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87, y: -19}
+        - {x: -87, y: -19}
+        - {x: -87, y: 16}
+        - {x: -79, y: 19}
+        - {x: 76, y: 19}
+        - {x: 87, y: 8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfb97c71738492a9a69a17a6d6b3639
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikuDig_Worm1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 410
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eda8cdf14d04900a13357f0acf63ad7
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PikuDig_Worm2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 410
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffbfbec5d9e494f849bcf1a3f5e8318
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PikuDig_Mud1: 21300034
+      PikuDig_Treasure_Key: 21300052
+      spritesheet_PikuDig_3: 21300006
+      spritesheet_PikuDig_1: 21300002
+      PikuDig_Worm2: 21300060
+      spritesheet_PikuDig_8: 21300016
+      PikuDig_Title: 21300056
+      PikuDig_Treasure_Wall: 21300054
+      spritesheet_PikuDig_0: 21300000
+      spritesheet_PikuDig_15: 21300030
+      PikuDig_Mud13: 21300036
+      spritesheet_PikuDig_5: 21300010
+      spritesheet_PikuDig_4: 21300008
+      spritesheet_PikuDig_9: 21300018
+      spritesheet_PikuDig_16: 21300032
+      PikuDig_Treasure_Bone: 21300050
+      spritesheet_PikuDig_7: 21300014
+      PikuDig_Mud14: 21300044
+      PikuDig_Stone: 21300046
+      spritesheet_PikuDig_10: 21300020
+      PikuDig_Worm1: 21300058
+      spritesheet_PikuDig_14: 21300028
+      PikuDig_Mud6: 21300040
+      PikuDig_Mud12: 21300042
+      spritesheet_PikuDig_11: 21300022
+      PikuDig_Mud8: 21300038
+      PikuDig_Treasure_Skull: 21300048
+      spritesheet_PikuDig_12: 21300024
+      spritesheet_PikuDig_13: 21300026
+      spritesheet_PikuDig_6: 21300012
+      spritesheet_PikuDig_2: 21300004
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

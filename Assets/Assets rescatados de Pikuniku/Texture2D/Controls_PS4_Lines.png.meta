@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: d4dbffd8ac836714f90a59f50ac8f2c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Controls_PS4_Lines
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 29
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Controls_PS4_Lines
+      rect:
+        serializedVersion: 2
+        x: 223.0761
+        y: 353.0761
+        width: 575.8641
+        height: 351.8478
+      alignment: 9
+      pivot: {x: 0.5017223, y: 0.4516836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -154.0082, y: 76}
+        - {x: -163.0082, y: 158}
+        - {x: -163.0082, y: 174}
+        - {x: -162.0082, y: 176}
+        - {x: -129.0082, y: 176}
+        - {x: -121.0082, y: 117}
+        - {x: -121.0082, y: 76}
+      - - {x: 50.99182, y: 38}
+        - {x: 54.99183, y: 25}
+        - {x: 44.99182, y: 16}
+        - {x: 27.99182, y: 16}
+        - {x: 25.99182, y: 22}
+        - {x: 25.99182, y: 72}
+        - {x: 34.99182, y: 137}
+        - {x: 35.99182, y: 169}
+        - {x: 36.99182, y: 172}
+        - {x: 286.9918, y: 172}
+        - {x: 286.9918, y: 164}
+        - {x: 285.9918, y: 162}
+      - - {x: 201.9918, y: 47}
+        - {x: 140.9918, y: 47}
+        - {x: 140.9918, y: 73}
+        - {x: 210.9918, y: 73}
+        - {x: 284.9918, y: 63}
+        - {x: 286.9918, y: 61}
+        - {x: 286.9918, y: 54}
+      - - {x: 175.9918, y: -7}
+        - {x: 149.9918, y: -3}
+        - {x: 126.9918, y: 3}
+        - {x: 126.9918, y: 23}
+        - {x: 128.9918, y: 28}
+        - {x: 203.9918, y: 28}
+        - {x: 265.9918, y: 22}
+        - {x: 287.9918, y: -5}
+        - {x: 287.9918, y: -17}
+        - {x: 235.9918, y: -17}
+        - {x: 223.9918, y: -15}
+        - {x: 287.9918, y: -87}
+        - {x: 287.9918, y: -102}
+        - {x: 237.9918, y: -102}
+        - {x: 287.9918, y: -165}
+        - {x: 287.9918, y: -174}
+        - {x: 285.9918, y: -176}
+        - {x: 151.9918, y: -176}
+        - {x: 143.9918, y: -90}
+        - {x: 143.9918, y: -33}
+        - {x: 147.9918, y: -29}
+        - {x: 175.9918, y: -29}
+      - - {x: -134.0082, y: -69}
+        - {x: -288.0082, y: -32}
+        - {x: -288.0082, y: -22}
+        - {x: -265.0082, y: -22}
+        - {x: -96.00818, y: -36}
+        - {x: -96.00818, y: -69}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d74143797b41b295a6b332d583d751
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Controls_PS4_Lines: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
