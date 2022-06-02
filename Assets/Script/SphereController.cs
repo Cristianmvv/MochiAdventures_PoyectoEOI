@@ -81,14 +81,12 @@ public class SphereController : MonoBehaviour
         Debug.DrawRay(sphereRb.transform.position, sphereRb.transform.right* 100, Color.red);
         Debug.DrawRay(sphereRb.transform.position, left45 * 100, Color.red);
         Debug.DrawRay(sphereRb.transform.position, right45 * 100, Color.red);
-        Debug.Log(sphereRb.transform.right);
-        Debug.Log(sphereRb.transform.forward);
 
     }
 
     private void OnDisable()
     {
-        //isGrounded = false;
+        isGrounded = false;
     }
 
     //void SendInertiaValue()

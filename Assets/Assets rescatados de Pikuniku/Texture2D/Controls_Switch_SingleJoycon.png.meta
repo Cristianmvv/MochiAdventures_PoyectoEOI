@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: f18b1a6f7884d714c8d345a42f865a7f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Controls_Switch_SingleJoycon
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 29
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Controls_Switch_SingleJoycon
+      rect:
+        serializedVersion: 2
+        x: 352.0761
+        y: 307.0761
+        width: 332.881
+        height: 364.8478
+      alignment: 9
+      pivot: {x: 0.4804236, y: 0.5616695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -163.5166, y: 96.49998}
+        - {x: -166.5166, y: 106.5}
+        - {x: -166.5166, y: 180.5}
+        - {x: -163.5166, y: 182.5}
+        - {x: 163.4834, y: 182.5}
+        - {x: 166.4834, y: 178.5}
+        - {x: 166.4834, y: 114.5}
+        - {x: 163.4834, y: 95.49998}
+        - {x: 149.4834, y: 74.49998}
+        - {x: 131.4834, y: 59.49998}
+        - {x: 113.4834, y: 51.49998}
+        - {x: -115.5166, y: 51.49998}
+        - {x: -140.5166, y: 63.49998}
+        - {x: -151.5166, y: 77.49998}
+      - - {x: -154.5166, y: -153.5}
+        - {x: -164.5166, y: -128.5}
+        - {x: -164.5166, y: -56.50002}
+        - {x: -161.5166, y: -53.50002}
+        - {x: 161.4834, y: -53.50002}
+        - {x: 163.4834, y: -55.50002}
+        - {x: 163.4834, y: -121.5}
+        - {x: 162.4834, y: -135.5}
+        - {x: 146.4834, y: -163.5}
+        - {x: 121.4834, y: -179.5}
+        - {x: 103.4834, y: -182.5}
+        - {x: -113.5166, y: -182.5}
+        - {x: -138.5166, y: -168.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4acf76356304c4889d7ad2058415c34
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Controls_Switch_SingleJoycon: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

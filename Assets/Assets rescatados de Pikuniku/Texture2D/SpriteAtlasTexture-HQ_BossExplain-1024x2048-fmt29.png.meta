@@ -1,0 +1,716 @@
+fileFormatVersion: 2
+guid: e7ea6b8d6a9b6f4418be74e036f1ee6e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: HQ_BE_House3
+  - first:
+      213: 21300002
+    second: HQ_BE_Corn1
+  - first:
+      213: 21300004
+    second: HQ_BE_Eruption3
+  - first:
+      213: 21300006
+    second: HQ_BE_House2
+  - first:
+      213: 21300008
+    second: HQ_BE_House4
+  - first:
+      213: 21300010
+    second: HQ_BE_Fire2
+  - first:
+      213: 21300012
+    second: HQ_BE_Corn4
+  - first:
+      213: 21300014
+    second: HQ_BE_Eruption2
+  - first:
+      213: 21300016
+    second: HQ_BE_Eruption1
+  - first:
+      213: 21300018
+    second: HQ_BE_Corn2
+  - first:
+      213: 21300020
+    second: HQ_BE_House1
+  - first:
+      213: 21300022
+    second: HQ_BE_Corn3
+  - first:
+      213: 21300024
+    second: HQ_BE_Fire1
+  - first:
+      213: 21300026
+    second: HQ_BE_Fire3
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 29
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HQ_BE_House3
+      rect:
+        serializedVersion: 2
+        x: 365.0429
+        y: 1839.027
+        width: 362.9303
+        height: 175.9465
+      alignment: 9
+      pivot: {x: 0.4765573, y: 0.8921647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 181.4919, y: -87.99999}
+        - {x: -181.5081, y: -87.99999}
+        - {x: -181.5081, y: -74.99999}
+        - {x: -167.5081, y: -46.99999}
+        - {x: -120.5081, y: 42.00001}
+        - {x: -115.5081, y: 47.00001}
+        - {x: -37.50807, y: 88.00001}
+        - {x: 25.49193, y: 88.00001}
+        - {x: 59.49193, y: 46.00001}
+        - {x: 116.4919, y: 57.00001}
+        - {x: 120.4919, y: 43.00001}
+        - {x: 127.4919, y: -11.99999}
+        - {x: 154.4919, y: -32.99999}
+        - {x: 181.4919, y: -73.99999}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa18ccbfad2e4378b0a3eba2fa0adc92
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HQ_BE_Corn1
+      rect:
+        serializedVersion: 2
+        x: 0.04290771
+        y: 1598.027
+        width: 362.9303
+        height: 289.9465
+      alignment: 9
+      pivot: {x: 0.4765573, y: 0.541387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -76.50807, y: 32.00002}
+        - {x: 52.49193, y: 32.00002}
+        - {x: 52.49193, y: 139}
+        - {x: 80.49193, y: 145}
+        - {x: 164.4919, y: 145}
+        - {x: 180.4919, y: 119}
+        - {x: 180.4919, y: 54.00002}
+        - {x: 172.4919, y: 33.00002}
+        - {x: 157.4919, y: 23.00002}
+        - {x: 95.49193, y: 23.00002}
+        - {x: 124.4919, y: -7.999985}
+        - {x: 124.4919, y: -1.999985}
+        - {x: 125.4919, y: 2.000015}
+        - {x: 130.4919, y: 12.00002}
+        - {x: 143.4919, y: 12.00002}
+        - {x: 151.4919, y: 8.000015}
+        - {x: 153.4919, y: -9.999985}
+        - {x: 153.4919, y: -14.99999}
+        - {x: 147.4919, y: -35.99998}
+        - {x: 156.4919, y: -47.99999}
+        - {x: 181.4919, y: -130}
+        - {x: 181.4919, y: -145}
+        - {x: -181.5081, y: -145}
+        - {x: -181.5081, y: -127}
+        - {x: -121.5081, y: -13.99998}
+        - {x: -116.5081, y: 0.00001525879}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33efde808f93421898cc50477e7ba112
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HQ_BE_Eruption3
+      rect:
+        serializedVersion: 2
+        x: 365.0429
+        y: 924.0267
+        width: 362.9303
+        height: 276.8972
+      alignment: 9
+      pivot: {x: 0.4765573, y: 0.5669009}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -180.5081, y: -138.4753}
+        - {x: -181.5081, y: -135.4753}
+        - {x: -181.5081, y: -96.47533}
+        - {x: -98.50807, y: -78.47533}
+        - {x: -46.50807, y: -19.47533}
+        - {x: -85.50807, y: 120.5247}
+        - {x: -54.50807, y: 138.5247}
+        - {x: 32.49193, y: 138.5247}
+        - {x: 54.49193, y: 130.5247}
+        - {x: 78.49193, y: 129.5247}
+        - {x: 83.49193, y: -102.4753}
+        - {x: 95.49193, y: -86.47532}
+        - {x: 157.4919, y: -88.47533}
+        - {x: 181.4919, y: -105.4753}
+        - {x: 181.4919, y: -138.4753}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97080dff0ec4954a6ea152cc5340bcf
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HQ_BE_House2
+      rect:
+        serializedVersion: 2
+        x: 0.04290771
+        y: 316.0267
+        width: 362.9303
+        height: 345.9465
+      alignment: 9
+      pivot: {x: 0.4765573, y: 0.4537501}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -75.50807, y: -4.999985}
+        - {x: -126.5081, y: 6.000015}
+        - {x: -126.5081, y: -3.999985}
+        - {x: -132.5081, y: -5.999985}
+        - {x: -155.5081, y: -5.999985}
+        - {x: -155.5081, y: 139}
+        - {x: -138.5081, y: 173}
+        - {x: -53.50807, y: 173}
+        - {x: -26.50807, y: 134}
+        - {x: -26.50807, y: 13.00002}
+        - {x: -32.50807, y: 4.000015}
+        - {x: 79.49193, y: 4.000015}
+        - {x: 164.4919, y: -19.99998}
+        - {x: 156.4919, y: -124}
+        - {x: 181.4919, y: -159}
+        - {x: 181.4919, y: -173}
+        - {x: -181.5081, y: -173}
+        - {x: -181.5081, y: -155}
+        - {x: -115.5081, y: -61.99998}
+        - {x: -115.5081, y: -4.999985}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915563e350294e97ac26ae95f3040448
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HQ_BE_House4
+      rect:
+        serializedVersion: 2
+        x: 0.07612228
+        y: 0.02674866
+        width: 412.8971
+        height: 313.9465
+      alignment: 9
+      pivot: {x: 0.5423236, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -156.5247, y: -23.99998}
+        - {x: -198.5247, y: 36.00002}
+        - {x: -206.5247, y: 53.00001}
+        - {x: -206.5247, y: 131}
+        - {x: -173.5247, y: 157}
+        - {x: -127.5247, y: 157}
+        - {x: -80.52469, y: 114}
+        - {x: -80.52469, y: -4.999985}
+        - {x: -81.52469, y: -5.999985}
+        - {x: -6.524689, y: 19.00002}
+        - {x: -1.524689, y: 20.00002}
+        - {x: 58.47531, y: 20.00002}
+        - {x: 96.47531, y: -13.99998}
+        - {x: 151.4753, y: -22.99998}
+        - {x: 206.4753, y: -121}
+        - {x: 206.4753, y: -157}
+        - {x: -156.5247, y: -157}
+        - {x: -156.5247, y: -131}
+        - {x: -100.5247, y: -22.99998}
+        - {x: -116.5247, y: -17.99998}
+        - {x: -123.5247, y: -28.99998}
+        - {x: -137.5247, y: -28.99998}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd121dfc5dd4471855fedff6d020c8c
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HQ_BE_Fire2
+      rect:
+        serializedVersion: 2
+        x: 365.0429
+        y: 623.0267
+        width: 362.9303
+        height: 298.9465
+      alignment: 9
+      pivot: {x: 0.4765573, y: 0.5250881}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.50807, y: 149.5}
+        - {x: 31.49193, y: 149.5}
+        - {x: 42.49193, y: 145.5}
+        - {x: 81.49193, y: 60.50001}
+        - {x: 38.49193, y: 8.500015}
+        - {x: 67.49193, y: -38.49998}
+        - {x: 167.4919, y: -82.49998}
+        - {x: 181.4919, y: -132.5}
+        - {x: 181.4919, y: -149.5}
+        - {x: -181.5081, y: -149.5}
+        - {x: -181.5081, y: -93.49998}
+        - {x: -109.5081, y: -12.49998}
+        - {x: -29.50807, y: -13.49998}
+        - {x: -6.508072, y: 27.50002}
+        - {x: -69.50807, y: 38.50002}
+        - {x: -69.50807, y: 101.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0092e72815b40a18fcbecb2e616be60
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HQ_BE_Corn4
+      rect:
+        serializedVersion: 2
+        x: 365.0429
+        y: 1661.027
+        width: 362.9303
+        height: 175.9465
+      alignment: 9
+      pivot: {x: 0.4765573, y: 0.8921647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.50807, y: 62.00001}
+        - {x: -52.50807, y: 81.00001}
+        - {x: -28.50807, y: 88.00001}
+        - {x: 38.49193, y: 88.00001}
+        - {x: 46.49193, y: 69.00001}
+        - {x: 47.49193, y: 47.00001}
+        - {x: 46.49193, y: 41.00001}
+        - {x: 49.49193, y: 48.00001}
+        - {x: 54.49193, y: 56.00001}
+        - {x: 134.4919, y: 60.00001}
+        - {x: 181.4919, y: -15.99999}
+        - {x: 181.4919, y: -87.99999}
+        - {x: -181.5081, y: -87.99999}
+        - {x: -181.5081, y: -32.99999}
+        - {x: -161.5081, y: 21.00001}
+        - {x: -117.5081, y: 49.00001}
+        - {x: -57.50807, y: 58.00001}
+        - {x: -49.50807, y: 48.00001}
+        - {x: -49.50807, y: 44.00001}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152607abd45e49a8ad58186449450d97
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HQ_BE_Eruption2
+      rect:
+        serializedVersion: 2
+        x: 365.0429
+        y: 1452.027
+        width: 362.9303
+        height: 206.9465
+      alignment: 9
+      pivot: {x: 0.4765573, y: 0.758521}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -88.50807, y: 103.5}
+        - {x: 55.49193, y: 103.5}
+        - {x: 181.4919, y: -29.49999}
+        - {x: 181.4919, y: -101.5}
+        - {x: 179.4919, y: -103.5}
+        - {x: -180.5081, y: -103.5}
+        - {x: -181.5081, y: -102.5}
+        - {x: -181.5081, y: -92.49999}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036dc909d86048f48475296e13a882f6
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HQ_BE_Eruption1
+      rect:
+        serializedVersion: 2
+        x: 365.0429
+        y: 1203.027
+        width: 362.9303
+        height: 246.8971
+      alignment: 9
+      pivot: {x: 0.4765573, y: 0.635784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.49193, y: 123.5247}
+        - {x: 73.49193, y: 69.52468}
+        - {x: 83.49193, y: 69.52468}
+        - {x: 97.49192, y: 63.52468}
+        - {x: 181.4919, y: -95.47532}
+        - {x: 181.4919, y: -123.4753}
+        - {x: -180.5081, y: -123.4753}
+        - {x: -181.5081, y: -122.4753}
+        - {x: -181.5081, y: -107.4753}
+        - {x: -118.5081, y: 123.5247}
+        - {x: -68.50807, y: 113.5247}
+        - {x: -54.50807, y: 92.52467}
+        - {x: -56.50807, y: 86.52467}
+        - {x: -35.50807, y: 123.5247}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4553861c49e54f95b4bd49c6f80425d2
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HQ_BE_Corn2
+      rect:
+        serializedVersion: 2
+        x: 365.0429
+        y: 316.0267
+        width: 362.9303
+        height: 304.9465
+      alignment: 9
+      pivot: {x: 0.4765573, y: 0.5147567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -124.5081, y: 31.50002}
+        - {x: -124.5081, y: 108.5}
+        - {x: -107.5081, y: 152.5}
+        - {x: -15.50807, y: 152.5}
+        - {x: 4.491928, y: 110.5}
+        - {x: 4.491928, y: 31.50002}
+      - - {x: -70.50807, y: -12.49998}
+        - {x: -64.50807, y: -7.499985}
+        - {x: -65.50807, y: -5.499985}
+        - {x: -65.50807, y: 28.50002}
+        - {x: -38.50807, y: 28.50002}
+        - {x: -37.50807, y: 20.50002}
+        - {x: -34.50807, y: 22.50002}
+        - {x: -25.50807, y: 24.50002}
+        - {x: 45.49193, y: 24.50002}
+        - {x: 130.4919, y: -7.499985}
+        - {x: 180.4919, y: -89.49998}
+        - {x: 181.4919, y: -110.5}
+        - {x: 181.4919, y: -152.5}
+        - {x: -181.5081, y: -152.5}
+        - {x: -181.5081, y: -119.5}
+        - {x: -116.5081, y: -4.499985}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dd9630b89a48098a95defb83f643ca
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HQ_BE_House1
+      rect:
+        serializedVersion: 2
+        x: 0.04290771
+        y: 664.0267
+        width: 362.9303
+        height: 335.9465
+      alignment: 9
+      pivot: {x: 0.4765573, y: 0.4672567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -141.5081, y: 168}
+        - {x: -70.50807, y: 168}
+        - {x: -36.50807, y: 118}
+        - {x: -33.50807, y: 106}
+        - {x: -33.50807, y: 71.00002}
+        - {x: -45.50807, y: 33.00002}
+        - {x: -35.50807, y: 0.00001525879}
+        - {x: -35.50807, y: -0.9999847}
+        - {x: -22.50807, y: 9.000015}
+        - {x: 32.49193, y: 9.000015}
+        - {x: 71.49193, y: -24.99998}
+        - {x: 126.4919, y: -33.99998}
+        - {x: 181.4919, y: -132}
+        - {x: 181.4919, y: -168}
+        - {x: -181.5081, y: -168}
+        - {x: -181.5081, y: -141}
+        - {x: -147.5081, y: -81.99998}
+        - {x: -99.50807, y: -46.99998}
+        - {x: -106.5081, y: -46.99998}
+        - {x: -145.5081, y: -1.999985}
+        - {x: -151.5081, y: 46.00002}
+        - {x: -162.5081, y: 68.00002}
+        - {x: -162.5081, y: 130}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762d0590b7c64a4bb70a1141f5ddc7ec
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HQ_BE_Corn3
+      rect:
+        serializedVersion: 2
+        x: 415.0268
+        y: 0.02674866
+        width: 428.9465
+        height: 262.9465
+      alignment: 9
+      pivot: {x: 0.5571167, y: 0.5969779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -142.5, y: 2.500015}
+        - {x: -196.5, y: 2.500015}
+        - {x: -214.5, y: 14.50002}
+        - {x: -214.5, y: 124.5}
+        - {x: -184.5, y: 131.5}
+        - {x: -137.5, y: 131.5}
+        - {x: -89.49997, y: 101.5}
+        - {x: -89.49997, y: 37.50002}
+        - {x: -108.5, y: 2.500015}
+        - {x: -118.5, y: 2.500015}
+        - {x: -114.5, y: -7.499985}
+        - {x: -114.5, y: -23.49998}
+        - {x: -96.49997, y: 14.50002}
+        - {x: -32.49997, y: 14.50002}
+        - {x: -15.49997, y: 7.500015}
+        - {x: -16.49997, y: 1.500015}
+        - {x: -16.49997, y: 0.5000153}
+        - {x: -15.49997, y: 3.500015}
+        - {x: -12.49997, y: 22.50002}
+        - {x: -25.49997, y: 41.50002}
+        - {x: -10.49997, y: 45.50002}
+        - {x: 69.50003, y: 45.50002}
+        - {x: 78.50003, y: 21.50002}
+        - {x: 79.50003, y: -0.4999847}
+        - {x: 81.50003, y: 7.500015}
+        - {x: 95.50003, y: 13.50002}
+        - {x: 147.5, y: 4.500015}
+        - {x: 197.5, y: -43.49998}
+        - {x: 214.5, y: -115.5}
+        - {x: 214.5, y: -131.5}
+        - {x: -148.5, y: -131.5}
+        - {x: -148.5, y: -95.49998}
+        - {x: -122.5, y: -40.49998}
+        - {x: -138.5, y: -40.49998}
+        - {x: -142.5, y: -22.49998}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117bd476bff9440a810e89b2f6813d2f
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HQ_BE_Fire1
+      rect:
+        serializedVersion: 2
+        x: 0.04290771
+        y: 1002.027
+        width: 362.9303
+        height: 297.9465
+      alignment: 9
+      pivot: {x: 0.4765573, y: 0.5268505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.49193, y: 146}
+        - {x: 55.49193, y: 149}
+        - {x: 139.4919, y: 149}
+        - {x: 154.4919, y: 112}
+        - {x: 154.4919, y: 28.00002}
+        - {x: 123.4919, y: -19.99998}
+        - {x: 117.4919, y: -25.99998}
+        - {x: 144.4919, y: -38.99998}
+        - {x: 181.4919, y: -125}
+        - {x: 181.4919, y: -149}
+        - {x: -181.5081, y: -149}
+        - {x: -181.5081, y: -92.99998}
+        - {x: -111.5081, y: -12.99998}
+        - {x: -29.50807, y: 6.000015}
+        - {x: 38.49193, y: 6.000015}
+        - {x: 24.49193, y: 31.00002}
+        - {x: 24.49193, y: 127}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfe0f4a265e445fb11c06204961eae0
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HQ_BE_Fire3
+      rect:
+        serializedVersion: 2
+        x: 0.04290771
+        y: 1302.027
+        width: 362.9303
+        height: 293.9219
+      alignment: 9
+      pivot: {x: 0.4765573, y: 0.5340644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -142.5081, y: 147.0123}
+        - {x: -48.50807, y: 147.0123}
+        - {x: -31.50807, y: 106.0123}
+        - {x: -31.50807, y: 56.01228}
+        - {x: -38.50807, y: 34.01228}
+        - {x: -52.50807, y: -14.98772}
+        - {x: -54.50807, y: -19.98772}
+        - {x: 85.49193, y: -19.98772}
+        - {x: 164.4919, y: -83.98772}
+        - {x: 181.4919, y: -130.9877}
+        - {x: 181.4919, y: -146.9877}
+        - {x: -181.5081, y: -146.9877}
+        - {x: -181.5081, y: -123.9877}
+        - {x: -147.5081, y: -27.98772}
+        - {x: -109.5081, y: -20.98772}
+        - {x: -161.5081, y: 44.01228}
+        - {x: -161.5081, y: 102.0123}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8d92c9fcb7448d867edf62c8aa955e
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      HQ_BE_Corn2: 21300018
+      HQ_BE_House3: 21300000
+      HQ_BE_Eruption1: 21300016
+      HQ_BE_Fire2: 21300010
+      HQ_BE_House2: 21300006
+      HQ_BE_Fire3: 21300026
+      HQ_BE_Corn4: 21300012
+      HQ_BE_Corn3: 21300022
+      HQ_BE_Eruption2: 21300014
+      HQ_BE_Eruption3: 21300004
+      HQ_BE_House4: 21300008
+      HQ_BE_Fire1: 21300024
+      HQ_BE_Corn1: 21300002
+      HQ_BE_House1: 21300020
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
