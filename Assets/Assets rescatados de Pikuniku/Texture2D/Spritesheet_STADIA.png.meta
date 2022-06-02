@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 0c58ae81cb774b046bf3889d22e92870
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Stadia_0
+  - first:
+      213: 21300002
+    second: Stadia_19
+  - first:
+      213: 21300004
+    second: Stadia_5
+  - first:
+      213: 21300006
+    second: Stadia_3
+  - first:
+      213: 21300008
+    second: Stadia_18
+  - first:
+      213: 21300010
+    second: Stadia_16
+  - first:
+      213: 21300012
+    second: Stadia_8
+  - first:
+      213: 21300014
+    second: Stadia_17
+  - first:
+      213: 21300016
+    second: Stadia_10
+  - first:
+      213: 21300018
+    second: Stadia_13
+  - first:
+      213: 21300020
+    second: Stadia_4
+  - first:
+      213: 21300022
+    second: Stadia_12
+  - first:
+      213: 21300024
+    second: Stadia_2
+  - first:
+      213: 21300026
+    second: Stadia_15
+  - first:
+      213: 21300028
+    second: Stadia_9
+  - first:
+      213: 21300030
+    second: Stadia_14
+  - first:
+      213: 21300032
+    second: Stadia_6
+  - first:
+      213: 21300034
+    second: Stadia_1
+  - first:
+      213: 21300036
+    second: Stadia_11
+  - first:
+      213: 21300038
+    second: Stadia_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 29
+  maxTextureSize: 512
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stadia_0
+      rect:
+        serializedVersion: 2
+        x: 8.07612
+        y: 422
+        width: 81.92388
+        height: 81.92388
+      alignment: 9
+      pivot: {x: 0.4995354, y: 0.5004646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.03806, y: -30.96194}
+        - {x: -41.03806, y: -21.96194}
+        - {x: -41.03806, y: 27.03806}
+        - {x: -30.03806, y: 41.03806}
+        - {x: 20.96194, y: 41.03806}
+        - {x: 40.96194, y: 35.03806}
+        - {x: 40.96194, y: -24.96194}
+        - {x: 23.96194, y: -40.96194}
+        - {x: -18.03806, y: -40.96194}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605747ebca2542a9b16601b6c86dc79f
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_19
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 120
+        width: 82.97325
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5302914, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.48663, y: -40.5}
+        - {x: -41.48663, y: -34.5}
+        - {x: -41.48663, y: 38.5}
+        - {x: -33.48663, y: 40.5}
+        - {x: 39.51337, y: 40.5}
+        - {x: 41.51337, y: 32.5}
+        - {x: 41.51337, y: -31.5}
+        - {x: 24.51337, y: -40.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a824f0fe234b11a50c024a7d18786d
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 316
+        width: 93
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: -47}
+        - {x: -46.5, y: -24}
+        - {x: -46.5, y: 12}
+        - {x: -11.5, y: 47}
+        - {x: 11.5, y: 47}
+        - {x: 39.5, y: 26}
+        - {x: 46.5, y: 13}
+        - {x: 46.5, y: -33}
+        - {x: 35.5, y: -47}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb979c40cbb14f6faae2d405dde5d6ef
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 415
+        width: 93
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: -46.5}
+        - {x: -46.5, y: -21.5}
+        - {x: -46.5, y: 36.5}
+        - {x: -28.5, y: 46.5}
+        - {x: 35.5, y: 46.5}
+        - {x: 46.5, y: 28.5}
+        - {x: 46.5, y: -23.5}
+        - {x: 22.5, y: -46.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77740d9e7eec4eaf8210b7f5602a6e20
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_18
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 122
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -38}
+        - {x: -40, y: -22}
+        - {x: -40, y: 19}
+        - {x: -38, y: 28}
+        - {x: -20, y: 40}
+        - {x: 22, y: 40}
+        - {x: 29, y: 39}
+        - {x: 40, y: 33}
+        - {x: 40, y: -26}
+        - {x: 32, y: -40}
+        - {x: -25, y: -40}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0894f7905fb3484a947fe07fb47518ce
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_16
+      rect:
+        serializedVersion: 2
+        x: 107.0761
+        y: 120
+        width: 81.92388
+        height: 81
+      alignment: 9
+      pivot: {x: 0.4812258, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.03806, y: -40.5}
+        - {x: -41.03806, y: -34.5}
+        - {x: -41.03806, y: 32.5}
+        - {x: -23.03806, y: 40.5}
+        - {x: 36.96194, y: 40.5}
+        - {x: 40.96194, y: 25.5}
+        - {x: 40.96194, y: -27.5}
+        - {x: 29.96194, y: -38.5}
+        - {x: 19.96194, y: -40.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d947211e8f4db7876e0530dd5818eb
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_8
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 324
+        width: 77.92388
+        height: 76
+      alignment: 9
+      pivot: {x: 0.519738, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.96194, y: -38}
+        - {x: -38.96194, y: -29}
+        - {x: -38.96194, y: 22}
+        - {x: -32.96194, y: 38}
+        - {x: 33.03806, y: 38}
+        - {x: 39.03806, y: 21}
+        - {x: 39.03806, y: -28}
+        - {x: 23.03806, y: -38}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b794a22ef2c4217bbe787f5cecbc585
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_17
+      rect:
+        serializedVersion: 2
+        x: 208.0761
+        y: 120
+        width: 83.84776
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5238526, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.00001, y: -40.5}
+        - {x: -42.00001, y: -38.5}
+        - {x: -42.00001, y: 32.5}
+        - {x: -24.00001, y: 40.5}
+        - {x: 36.99999, y: 40.5}
+        - {x: 41.99999, y: 23.5}
+        - {x: 41.99999, y: -32.5}
+        - {x: 30.99999, y: -40.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c94e5ea3f04d8f9a9db9331de2739f
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 240.0267
+        width: 77
+        height: 39.97325
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4996655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: -20.01337}
+        - {x: -38.5, y: -12.01337}
+        - {x: -38.5, y: 11.98663}
+        - {x: -31.5, y: 19.98663}
+        - {x: 30.5, y: 19.98663}
+        - {x: 38.5, y: 12.98663}
+        - {x: 38.5, y: -13.01337}
+        - {x: 27.5, y: -20.01337}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6450e10b0995446ead054653d92b6bcf
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_13
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 223
+        width: 76
+        height: 77.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.519738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -38.96194}
+        - {x: -38, y: -38.96194}
+        - {x: -38, y: 34.03806}
+        - {x: -21, y: 39.03806}
+        - {x: 12, y: 39.03806}
+        - {x: 38, y: 21.03806}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01abac5d8f34b368f0231dc6f5ab87a
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 414
+        width: 93
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: -47}
+        - {x: -46.5, y: -14}
+        - {x: -46.5, y: 37}
+        - {x: -37.5, y: 47}
+        - {x: 20.5, y: 47}
+        - {x: 46.5, y: 30}
+        - {x: 46.5, y: -13}
+        - {x: 21.5, y: -47}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619af2604ff44082a53b55ef36fba5aa
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_12
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 223
+        width: 76
+        height: 77.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.519738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -38.96194}
+        - {x: -38, y: -27.96194}
+        - {x: -38, y: 21.03806}
+        - {x: -32, y: 39.03806}
+        - {x: 22, y: 39.03806}
+        - {x: 38, y: 20.03806}
+        - {x: 38, y: -25.96194}
+        - {x: 23, y: -38.96194}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267ad95368d64f72af6f25105568002b
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 415
+        width: 93
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: -46.5}
+        - {x: -46.5, y: -22.5}
+        - {x: -46.5, y: 22.5}
+        - {x: -16.5, y: 46.5}
+        - {x: 37.5, y: 46.5}
+        - {x: 46.5, y: 35.5}
+        - {x: 46.5, y: -10.5}
+        - {x: 20.5, y: -46.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022b2812e46b44c1a910da8b4bb782e0
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_15
+      rect:
+        serializedVersion: 2
+        x: 9.07612
+        y: 120.0761
+        width: 81.92388
+        height: 83.84776
+      alignment: 9
+      pivot: {x: 0.4934322, y: 0.5238528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.96194, y: -42}
+        - {x: -41.03806, y: -42}
+        - {x: -41.03806, y: 32}
+        - {x: -36.03806, y: 42}
+        - {x: 32.96194, y: 42}
+        - {x: 40.96194, y: 26}
+        - {x: 40.96194, y: -38}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdbe3ed63534b01b121bc9c98853708
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 323
+        width: 76
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -38.5}
+        - {x: -38, y: -38.5}
+        - {x: -38, y: 29.5}
+        - {x: -17, y: 38.5}
+        - {x: 37, y: 38.5}
+        - {x: 38, y: 37.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d95fdc72d16430c9ed1a03910ea6674
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_14
+      rect:
+        serializedVersion: 2
+        x: 411.0268
+        y: 240
+        width: 77.97325
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4805909, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.01339, y: -20}
+        - {x: -39.01339, y: -14}
+        - {x: -39.01339, y: 11}
+        - {x: -36.01339, y: 20}
+        - {x: 35.98661, y: 20}
+        - {x: 38.98661, y: 17}
+        - {x: 38.98661, y: -16}
+        - {x: 37.98661, y: -20}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a388bf28d2274d78ac9dcde3dbb1a518
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_6
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 315
+        width: 93
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: -46.5}
+        - {x: -46.5, y: -12.5}
+        - {x: -46.5, y: 16.5}
+        - {x: -45.5, y: 21.5}
+        - {x: -20.5, y: 46.5}
+        - {x: 21.5, y: 46.5}
+        - {x: 46.5, y: 21.5}
+        - {x: 46.5, y: -11.5}
+        - {x: 11.5, y: -46.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9e0b6e6ac548e8b976ffa86e9c95c5
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 422
+        width: 81.92388
+        height: 81.92388
+      alignment: 9
+      pivot: {x: 0.5004646, y: 0.5004646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.03806, y: -40.96194}
+        - {x: -40.96194, y: -40.96194}
+        - {x: -40.96194, y: 41.03806}
+        - {x: 40.03806, y: 41.03806}
+        - {x: 41.03806, y: 38.03806}
+        - {x: 41.03806, y: -33.96194}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269d89ac569d4ea68be13c6f2a8eebb1
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 232.0761
+        width: 76
+        height: 55.92388
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4993193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -28.03806}
+        - {x: -38, y: -28.03806}
+        - {x: -38, y: 27.96194}
+        - {x: 38, y: 27.96194}
+        - {x: 38, y: -27.03807}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72d777e9e54498a80f138c5883e1713
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stadia_7
+      rect:
+        serializedVersion: 2
+        x: 216.0267
+        y: 336
+        width: 79.9465
+        height: 55.97325
+      alignment: 9
+      pivot: {x: 0.5, y: 0.500239}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -27.98663}
+        - {x: -40, y: -27.98663}
+        - {x: -40, y: 25.01337}
+        - {x: -36, y: 28.01337}
+        - {x: 33, y: 28.01337}
+        - {x: 40, y: 23.01337}
+        - {x: 40, y: -22.98663}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d254b7e8621405590d24a132d9a9620
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Stadia_2: 21300024
+      Stadia_11: 21300036
+      Stadia_7: 21300038
+      Stadia_10: 21300016
+      Stadia_12: 21300022
+      Stadia_14: 21300030
+      Stadia_9: 21300028
+      Stadia_13: 21300018
+      Stadia_0: 21300000
+      Stadia_16: 21300010
+      Stadia_8: 21300012
+      Stadia_3: 21300006
+      Stadia_1: 21300034
+      Stadia_5: 21300004
+      Stadia_4: 21300020
+      Stadia_15: 21300026
+      Stadia_17: 21300014
+      Stadia_6: 21300032
+      Stadia_19: 21300002
+      Stadia_18: 21300008
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

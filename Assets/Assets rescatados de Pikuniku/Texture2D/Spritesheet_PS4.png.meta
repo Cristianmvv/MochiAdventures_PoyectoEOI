@@ -1,0 +1,704 @@
+fileFormatVersion: 2
+guid: 8f09c3fcc6a5d5c4dadbd6bb917bd95f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: PS4_0
+  - first:
+      213: 21300002
+    second: PS4_1
+  - first:
+      213: 21300004
+    second: PS4_2
+  - first:
+      213: 21300006
+    second: PS4_3
+  - first:
+      213: 21300008
+    second: PS4_4
+  - first:
+      213: 21300010
+    second: PS4_5
+  - first:
+      213: 21300012
+    second: PS4_6
+  - first:
+      213: 21300014
+    second: PS4_7
+  - first:
+      213: 21300016
+    second: PS4_8
+  - first:
+      213: 21300018
+    second: PS4_9
+  - first:
+      213: 21300020
+    second: PS4_10
+  - first:
+      213: 21300022
+    second: PS4_11
+  - first:
+      213: 21300024
+    second: PS4_12
+  - first:
+      213: 21300026
+    second: PS4_13
+  - first:
+      213: 21300028
+    second: PS4_14
+  - first:
+      213: 21300030
+    second: PS4_15
+  - first:
+      213: 21300032
+    second: PS4_16
+  - first:
+      213: 21300034
+    second: PS4_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 29
+  maxTextureSize: 512
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PS4_0
+      rect:
+        serializedVersion: 2
+        x: 8.07612
+        y: 420.0761
+        width: 84.84776
+        height: 84.84776
+      alignment: 9
+      pivot: {x: 0.4941071, y: 0.4941072}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: -42.49999}
+        - {x: -42.5, y: -30.49999}
+        - {x: -42.5, y: 19.50001}
+        - {x: -30.5, y: 42.50001}
+        - {x: 22.5, y: 42.50001}
+        - {x: 42.5, y: 34.50001}
+        - {x: 42.5, y: -34.49999}
+        - {x: 23.5, y: -42.49999}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a303aefd32994ba791d9d304c0635ebc
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS4_1
+      rect:
+        serializedVersion: 2
+        x: 108.0761
+        y: 419.0761
+        width: 84.84776
+        height: 84.84776
+      alignment: 9
+      pivot: {x: 0.4941071, y: 0.505893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: -42.49999}
+        - {x: -42.5, y: -36.49999}
+        - {x: -42.5, y: 27.50001}
+        - {x: -35.5, y: 42.50001}
+        - {x: 29.5, y: 42.50001}
+        - {x: 42.5, y: 38.50001}
+        - {x: 42.5, y: -27.49999}
+        - {x: 31.5, y: -42.49999}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81f36836a014134a6b0da952b475735
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS4_2
+      rect:
+        serializedVersion: 2
+        x: 202.0761
+        y: 414.0761
+        width: 95.84776
+        height: 95.84776
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.00001, y: -48}
+        - {x: -48.00001, y: -36}
+        - {x: -48.00001, y: 16}
+        - {x: -30.00001, y: 48}
+        - {x: 35.99999, y: 48}
+        - {x: 47.99999, y: 20}
+        - {x: 47.99999, y: -41}
+        - {x: 31.99999, y: -48}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8f9ed70edc42cb82f93268ca247306
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS4_3
+      rect:
+        serializedVersion: 2
+        x: 301.0761
+        y: 414.0761
+        width: 95.84776
+        height: 95.84776
+      alignment: 9
+      pivot: {x: 0.5104333, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.99999, y: -48}
+        - {x: -47.99999, y: -17}
+        - {x: -47.99999, y: 15}
+        - {x: -14.99999, y: 48}
+        - {x: 15.00001, y: 48}
+        - {x: 48.00001, y: 15}
+        - {x: 48.00001, y: -36}
+        - {x: 28.00001, y: -48}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f9a461208a41ca8f4fb77bb603c0e3
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS4_4
+      rect:
+        serializedVersion: 2
+        x: 401.0761
+        y: 414.0761
+        width: 95.84776
+        height: 95.84776
+      alignment: 9
+      pivot: {x: 0.5104333, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.99999, y: -48}
+        - {x: -47.99999, y: -17}
+        - {x: -47.99999, y: 15}
+        - {x: -14.99999, y: 48}
+        - {x: 15.00001, y: 48}
+        - {x: 48.00001, y: 15}
+        - {x: 48.00001, y: -36}
+        - {x: 28.00001, y: -48}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e566ea4f4241d7bebaa407218df834
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS4_5
+      rect:
+        serializedVersion: 2
+        x: 2.07612
+        y: 314.0761
+        width: 95.84776
+        height: 95.84776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -48}
+        - {x: -48, y: -36}
+        - {x: -48, y: 16}
+        - {x: -30, y: 48}
+        - {x: 36, y: 48}
+        - {x: 48, y: 20}
+        - {x: 48, y: -41}
+        - {x: 32, y: -48}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03bd4d9bda642ca9a5626d7ef7933bd
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS4_6
+      rect:
+        serializedVersion: 2
+        x: 102.0761
+        y: 313.0761
+        width: 95.84776
+        height: 95.84776
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5104333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: -47.99999}
+        - {x: -48, y: -35.99999}
+        - {x: -48, y: 24.00001}
+        - {x: -37, y: 48.00001}
+        - {x: 23, y: 48.00001}
+        - {x: 48, y: 34.00001}
+        - {x: 48, y: -13.99999}
+        - {x: 29, y: -47.99999}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86e1db82a6e4590b443cdb8ce79b236
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS4_7
+      rect:
+        serializedVersion: 2
+        x: 218.0267
+        y: 338.0268
+        width: 62.9465
+        height: 43.89713
+      alignment: 9
+      pivot: {x: 0.5079433, y: 0.546123}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: -21.97533}
+        - {x: -31.5, y: -12.97533}
+        - {x: -31.5, y: 21.02467}
+        - {x: -18.5, y: 22.02467}
+        - {x: 26.5, y: 22.02467}
+        - {x: 31.5, y: 20.02467}
+        - {x: 31.5, y: -9.975332}
+        - {x: 28.5, y: -21.97533}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ba76efa6e94afcabfa2021ba8e0235
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS4_8
+      rect:
+        serializedVersion: 2
+        x: 319.0761
+        y: 338.0761
+        width: 60.84776
+        height: 54.89713
+      alignment: 9
+      pivot: {x: 0.5082173, y: 0.4357949}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.50001, y: -27.52468}
+        - {x: -30.49999, y: -27.52468}
+        - {x: -30.49999, y: -0.5246773}
+        - {x: -29.5, y: 10.47532}
+        - {x: -13.49999, y: 25.47532}
+        - {x: -6.499994, y: 27.47532}
+        - {x: 12.50001, y: 27.47532}
+        - {x: 30.50001, y: 8.475323}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e93cbde9b6741b2b549162b7c628b21
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS4_9
+      rect:
+        serializedVersion: 2
+        x: 404.0761
+        y: 315.0761
+        width: 92.84776
+        height: 92.84776
+      alignment: 9
+      pivot: {x: 0.4946149, y: 0.5053852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.49999, y: -46.5}
+        - {x: -46.49999, y: -28.5}
+        - {x: -46.49999, y: 23.5}
+        - {x: -27.49999, y: 46.5}
+        - {x: 39.50001, y: 46.5}
+        - {x: 46.50001, y: 24.5}
+        - {x: 46.50001, y: -30.5}
+        - {x: 29.50001, y: -40.5}
+        - {x: 12.50001, y: -46.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bb0cc89cca4619b49d00bf9d8b9b46
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS4_10
+      rect:
+        serializedVersion: 2
+        x: 1.047704
+        y: 219.0267
+        width: 95.92554
+        height: 88.9465
+      alignment: 9
+      pivot: {x: 0.5103155, y: 0.4831359}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.01048, y: -25.5}
+        - {x: -19.01048, y: -20.5}
+        - {x: -19.01048, y: 41.5}
+        - {x: -16.01048, y: 44.5}
+        - {x: 9.989525, y: 44.5}
+        - {x: 18.98952, y: 41.5}
+        - {x: 18.98952, y: -20.5}
+        - {x: 8.989525, y: -25.5}
+        - {x: 45.98952, y: -25.5}
+        - {x: 47.98952, y: -31.5}
+        - {x: 47.98952, y: -42.5}
+        - {x: 44.98952, y: -44.5}
+        - {x: -48.01048, y: -44.5}
+        - {x: -48.01048, y: -30.5}
+        - {x: -46.01048, y: -25.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aafe7305a814e859cfa378ccae8ae02
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS4_11
+      rect:
+        serializedVersion: 2
+        x: 118.0267
+        y: 237.0267
+        width: 62.9465
+        height: 43.89713
+      alignment: 9
+      pivot: {x: 0.5079433, y: 0.5689039}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: -21.97532}
+        - {x: -31.5, y: -12.97532}
+        - {x: -31.5, y: 21.02468}
+        - {x: -18.5, y: 22.02468}
+        - {x: 26.5, y: 22.02468}
+        - {x: 31.5, y: 20.02468}
+        - {x: 31.5, y: -9.975315}
+        - {x: 28.5, y: -21.97532}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77bce0bba0747ea93d4ec95f3c5100e
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS4_12
+      rect:
+        serializedVersion: 2
+        x: 225.0761
+        y: 237.0761
+        width: 60.84776
+        height: 54.89713
+      alignment: 9
+      pivot: {x: 0.4096104, y: 0.4540105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.49999, y: -27.52469}
+        - {x: -30.50001, y: -27.52469}
+        - {x: -30.50001, y: -0.5246925}
+        - {x: -29.50001, y: 10.47531}
+        - {x: -13.50001, y: 25.47531}
+        - {x: -6.500008, y: 27.47531}
+        - {x: 12.49999, y: 27.47531}
+        - {x: 30.49999, y: 8.475307}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93386db2886a4327838c5e1efb76e8e1
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS4_13
+      rect:
+        serializedVersion: 2
+        x: 304.0761
+        y: 215.0761
+        width: 92.84776
+        height: 92.84776
+      alignment: 9
+      pivot: {x: 0.4946149, y: 0.5053851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.49999, y: -46.5}
+        - {x: -46.49999, y: -28.5}
+        - {x: -46.49999, y: 23.5}
+        - {x: -27.49999, y: 46.5}
+        - {x: 39.50001, y: 46.5}
+        - {x: 46.50001, y: 24.5}
+        - {x: 46.50001, y: -30.5}
+        - {x: 29.50001, y: -40.5}
+        - {x: 12.50001, y: -46.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b5629380ae413f81eb18dc6694c914
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS4_14
+      rect:
+        serializedVersion: 2
+        x: 414.0429
+        y: 218.0267
+        width: 69.93034
+        height: 88.92194
+      alignment: 9
+      pivot: {x: 0.5141844, y: 0.4945152}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.00808, y: -25.48772}
+        - {x: -19.00808, y: -19.48772}
+        - {x: -19.00808, y: 40.51228}
+        - {x: -13.00808, y: 44.51228}
+        - {x: 10.99192, y: 44.51228}
+        - {x: 14.99192, y: 43.51228}
+        - {x: 19.99192, y: 37.51228}
+        - {x: 19.99192, y: -20.48772}
+        - {x: 10.99192, y: -25.48772}
+        - {x: 34.99192, y: -25.48772}
+        - {x: 34.99192, y: -44.48772}
+        - {x: -35.00808, y: -44.48772}
+        - {x: -35.00808, y: -28.48772}
+        - {x: -34.00808, y: -25.48772}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2d56dcebf545de9257c20f6be31071
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS4_15
+      rect:
+        serializedVersion: 2
+        x: 7.07612
+        y: 120.0761
+        width: 84.84776
+        height: 84.84776
+      alignment: 9
+      pivot: {x: 0.5058929, y: 0.4941071}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: -42.5}
+        - {x: -42.5, y: -31.5}
+        - {x: -42.5, y: 42.5}
+        - {x: 28.5, y: 42.5}
+        - {x: 42.5, y: 34.5}
+        - {x: 42.5, y: -23.5}
+        - {x: 21.5, y: -42.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd01aa9183ba46e9aaa6233ad27faeeb
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS4_16
+      rect:
+        serializedVersion: 2
+        x: 100.0267
+        y: 126.0267
+        width: 99.97325
+        height: 70.9465
+      alignment: 9
+      pivot: {x: 0.4998662, y: 0.5070475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.01337, y: -35.5}
+        - {x: -50.01337, y: -34.5}
+        - {x: -50.01337, y: 35.5}
+        - {x: 49.98663, y: 35.5}
+        - {x: 49.98663, y: -31.5}
+        - {x: 47.98663, y: -35.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a0dbf832364865b4c039b314db2ea9
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS4_17
+      rect:
+        serializedVersion: 2
+        x: 208.0761
+        y: 120.0761
+        width: 84.84776
+        height: 84.84776
+      alignment: 9
+      pivot: {x: 0.494107, y: 0.4941071}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.50001, y: -42.5}
+        - {x: -42.50001, y: -30.5}
+        - {x: -42.50001, y: 19.5}
+        - {x: -30.50001, y: 42.5}
+        - {x: 22.49999, y: 42.5}
+        - {x: 42.49999, y: 34.5}
+        - {x: 42.49999, y: -34.5}
+        - {x: 23.49999, y: -42.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0faa901be474808bdd86f84a7ebd2c8
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PS4_10: 21300020
+      PS4_2: 21300004
+      PS4_5: 21300010
+      PS4_12: 21300024
+      PS4_1: 21300002
+      PS4_6: 21300012
+      PS4_7: 21300014
+      PS4_3: 21300006
+      PS4_13: 21300026
+      PS4_9: 21300018
+      PS4_17: 21300034
+      PS4_14: 21300028
+      PS4_16: 21300032
+      PS4_8: 21300016
+      PS4_15: 21300030
+      PS4_11: 21300022
+      PS4_0: 21300000
+      PS4_4: 21300008
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

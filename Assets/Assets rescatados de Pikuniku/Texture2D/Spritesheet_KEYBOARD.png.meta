@@ -1,0 +1,2950 @@
+fileFormatVersion: 2
+guid: 10d80d6721582774ea89f2f63d3cedd2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: keyboardUI_0
+  - first:
+      213: 21300002
+    second: keyboardUI_1
+  - first:
+      213: 21300004
+    second: keyboardUI_2
+  - first:
+      213: 21300006
+    second: keyboardUI_3
+  - first:
+      213: 21300008
+    second: keyboardUI_4
+  - first:
+      213: 21300010
+    second: keyboardUI_5
+  - first:
+      213: 21300012
+    second: keyboardUI_6
+  - first:
+      213: 21300014
+    second: keyboardUI_7
+  - first:
+      213: 21300016
+    second: keyboardUI_8
+  - first:
+      213: 21300018
+    second: keyboardUI_9
+  - first:
+      213: 21300020
+    second: keyboardUI_10
+  - first:
+      213: 21300022
+    second: keyboardUI_11
+  - first:
+      213: 21300024
+    second: keyboardUI_12
+  - first:
+      213: 21300026
+    second: keyboardUI_13
+  - first:
+      213: 21300028
+    second: keyboardUI_14
+  - first:
+      213: 21300030
+    second: keyboardUI_15
+  - first:
+      213: 21300032
+    second: keyboardUI_16
+  - first:
+      213: 21300034
+    second: keyboardUI_17
+  - first:
+      213: 21300036
+    second: keyboardUI_18
+  - first:
+      213: 21300038
+    second: keyboardUI_19
+  - first:
+      213: 21300040
+    second: keyboardUI_20
+  - first:
+      213: 21300042
+    second: keyboardUI_21
+  - first:
+      213: 21300044
+    second: keyboardUI_22
+  - first:
+      213: 21300046
+    second: keyboardUI_23
+  - first:
+      213: 21300048
+    second: keyboardUI_24
+  - first:
+      213: 21300050
+    second: keyboardUI_25
+  - first:
+      213: 21300052
+    second: keyboardUI_26
+  - first:
+      213: 21300054
+    second: keyboardUI_27
+  - first:
+      213: 21300056
+    second: keyboardUI_28
+  - first:
+      213: 21300058
+    second: keyboardUI_29
+  - first:
+      213: 21300060
+    second: keyboardUI_30
+  - first:
+      213: 21300062
+    second: keyboardUI_31
+  - first:
+      213: 21300064
+    second: keyboardUI_32
+  - first:
+      213: 21300066
+    second: keyboardUI_33
+  - first:
+      213: 21300068
+    second: keyboardUI_34
+  - first:
+      213: 21300070
+    second: keyboardUI_35
+  - first:
+      213: 21300072
+    second: keyboardUI_36
+  - first:
+      213: 21300074
+    second: keyboardUI_37
+  - first:
+      213: 21300076
+    second: keyboardUI_38
+  - first:
+      213: 21300078
+    second: keyboardUI_39
+  - first:
+      213: 21300080
+    second: keyboardUI_40
+  - first:
+      213: 21300082
+    second: keyboardUI_41
+  - first:
+      213: 21300084
+    second: keyboardUI_42
+  - first:
+      213: 21300086
+    second: keyboardUI_43
+  - first:
+      213: 21300088
+    second: keyboardUI_44
+  - first:
+      213: 21300090
+    second: keyboardUI_45
+  - first:
+      213: 21300092
+    second: keyboardUI_46
+  - first:
+      213: 21300094
+    second: keyboardUI_47
+  - first:
+      213: 21300096
+    second: keyboardUI_48
+  - first:
+      213: 21300098
+    second: keyboardUI_49
+  - first:
+      213: 21300100
+    second: keyboardUI_50
+  - first:
+      213: 21300102
+    second: keyboardUI_51
+  - first:
+      213: 21300104
+    second: keyboardUI_52
+  - first:
+      213: 21300106
+    second: keyboardUI_53
+  - first:
+      213: 21300108
+    second: keyboardUI_54
+  - first:
+      213: 21300110
+    second: keyboardUI_55
+  - first:
+      213: 21300112
+    second: keyboardUI_56
+  - first:
+      213: 21300114
+    second: keyboardUI_57
+  - first:
+      213: 21300116
+    second: keyboardUI_58
+  - first:
+      213: 21300118
+    second: keyboardUI_59
+  - first:
+      213: 21300120
+    second: keyboardUI_60
+  - first:
+      213: 21300122
+    second: keyboardUI_61
+  - first:
+      213: 21300124
+    second: keyboardUI_62
+  - first:
+      213: 21300126
+    second: keyboardUI_63
+  - first:
+      213: 21300128
+    second: keyboardUI_64
+  - first:
+      213: 21300130
+    second: keyboardUI_65
+  - first:
+      213: 21300132
+    second: keyboardUI_66
+  - first:
+      213: 21300134
+    second: keyboardUI_67
+  - first:
+      213: 21300136
+    second: keyboardUI_68
+  - first:
+      213: 21300138
+    second: keyboardUI_69
+  - first:
+      213: 21300140
+    second: keyboardUI_70
+  - first:
+      213: 21300142
+    second: keyboardUI_71
+  - first:
+      213: 21300144
+    second: keyboardUI_72
+  - first:
+      213: 21300146
+    second: keyboardUI_73
+  - first:
+      213: 21300148
+    second: keyboardUI_74
+  - first:
+      213: 21300150
+    second: keyboardUI_75
+  - first:
+      213: 21300152
+    second: keyboardUI_76
+  - first:
+      213: 21300154
+    second: keyboardUI_77
+  - first:
+      213: 21300156
+    second: keyboardUI_78
+  - first:
+      213: 21300158
+    second: keyboardUI_79
+  - first:
+      213: 21300160
+    second: keyboardUI_80
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: keyboardUI_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 933
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+        - {x: 38, y: -33}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 34}
+        - {x: 35, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd625083dfda43998a9f095099c089bd
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 945
+        width: 96
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47, y: -24}
+        - {x: -48, y: -24}
+        - {x: -48, y: 24}
+        - {x: 48, y: 24}
+        - {x: 48, y: -23}
+      physicsShape:
+      - - {x: -48, y: 24}
+        - {x: -48, y: -24}
+        - {x: 48, y: -24}
+        - {x: 48, y: 24}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4532bc30994f709c1357fb15d2c030
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_2
+      rect:
+        serializedVersion: 2
+        x: 249.0267
+        y: 922
+        width: 51.9465
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5000001, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -47}
+        - {x: -26, y: -47}
+        - {x: -26, y: 41}
+        - {x: -22, y: 47}
+        - {x: 24, y: 47}
+        - {x: 26, y: 46}
+      physicsShape:
+      - - {x: 21, y: 47}
+        - {x: -25, y: 47}
+        - {x: -25, y: -47}
+        - {x: 23, y: -47}
+        - {x: 26, y: -43}
+        - {x: 26, y: 44}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5765d0dd2ba54273a60fd19f141f2de5
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 938
+        width: 92
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: -31}
+        - {x: -46, y: -31}
+        - {x: -46, y: 31}
+        - {x: 46, y: 31}
+        - {x: 46, y: -30}
+      physicsShape:
+      - - {x: -46, y: 31}
+        - {x: -46, y: -31}
+        - {x: 46, y: -31}
+        - {x: 46, y: 31}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877ba05c8c764f57b88b5a75d087ab1e
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_4
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 933
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 35, y: 36}
+        - {x: 38, y: 34}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c12f54d39484a59b0f716478008f462
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_5
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 933
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103d9189b6404b01a618cc629dbf4448
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_6
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 933
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 35}
+        - {x: -36, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 31}
+        - {x: 34, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6989c699e538485fa2f69998da5b8627
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_7
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 933
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 32}
+        - {x: -34, y: 36}
+        - {x: 36, y: 36}
+        - {x: 38, y: 35}
+      physicsShape:
+      - - {x: -36, y: 36}
+        - {x: -38, y: 31}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc27c97be2534304beee2281c51bafd0
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_8
+      rect:
+        serializedVersion: 2
+        x: 897.0267
+        y: 933
+        width: 75.97325
+        height: 72
+      alignment: 9
+      pivot: {x: 0.4998242, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.98664, y: -36}
+        - {x: -38.01336, y: -36}
+        - {x: -38.01336, y: 31}
+        - {x: -34.01336, y: 36}
+        - {x: 36.98664, y: 36}
+        - {x: 37.98664, y: 35}
+      physicsShape:
+      - - {x: -37.01336, y: 36}
+        - {x: -37.01336, y: -36}
+        - {x: 37.98664, y: -36}
+        - {x: 37.98664, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855ae2bebe6a45fbb1ec784b9cb3c25c
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 823
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -34, y: 36}
+        - {x: -38, y: 32}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: afeb96de2b5e446fb4d13e66d491c50a
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 823
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 32}
+        - {x: -34, y: 36}
+        - {x: 34, y: 36}
+        - {x: 38, y: 33}
+      physicsShape:
+      - - {x: -34, y: 36}
+        - {x: -38, y: 33}
+        - {x: -38, y: -34}
+        - {x: -36, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 32}
+        - {x: 37, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ddf81906da4cd68ef7951b2135a07d
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_11
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 823
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: -36}
+        - {x: -38, y: -33}
+        - {x: -38, y: 33}
+        - {x: -36, y: 36}
+        - {x: 38, y: 36}
+        - {x: 38, y: -36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252350f30ab54ec6aa55a7503145e348
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_12
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 823
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 34, y: -36}
+        - {x: 38, y: -33}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadcc2797edc493594a45e8019076c79
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_13
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 823
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -34, y: 36}
+        - {x: -38, y: 31}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550aabdefae8464f89598edd3e21f812
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_14
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 823
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603abac01d664a1da3ab8902126e093b
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_15
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 828
+        width: 91.97325
+        height: 63.97325
+      alignment: 9
+      pivot: {x: 0.5001454, y: 1.000418}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.98663, y: -31.98663}
+        - {x: -45.98663, y: -30.98663}
+        - {x: -45.98663, y: 32.01337}
+        - {x: 46.01337, y: 32.01337}
+        - {x: 46.01337, y: -31.98663}
+      physicsShape:
+      - - {x: -45.98662, y: 31.01337}
+        - {x: -45.98662, y: -31.98663}
+        - {x: 45.01337, y: -31.98663}
+        - {x: 45.01337, y: 31.01337}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc093b2729742f49416e4a3f294105e
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_16
+      rect:
+        serializedVersion: 2
+        x: 779.0267
+        y: 828
+        width: 91.97325
+        height: 63.97325
+      alignment: 9
+      pivot: {x: 0.4998547, y: 1.000418}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.98664, y: -31.98663}
+        - {x: -46.01336, y: -31.98663}
+        - {x: -46.01336, y: 25.01337}
+        - {x: -40.01336, y: 32.01337}
+        - {x: 45.98664, y: 32.01337}
+      physicsShape:
+      - - {x: -45.01336, y: 31.01337}
+        - {x: -45.01336, y: -31.98663}
+        - {x: 45.98664, y: -31.98663}
+        - {x: 45.98664, y: 31.01337}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e55a01defd9412db8bb5f9e9df7c51e
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_17
+      rect:
+        serializedVersion: 2
+        x: 897.0267
+        y: 823
+        width: 75.97325
+        height: 72
+      alignment: 9
+      pivot: {x: 0.4998242, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.01336, y: -36}
+        - {x: -38.01336, y: -31}
+        - {x: -38.01336, y: 30}
+        - {x: -33.01336, y: 36}
+        - {x: 34.98664, y: 36}
+        - {x: 37.98664, y: 33}
+        - {x: 37.98664, y: -34}
+        - {x: 35.98664, y: -36}
+      physicsShape:
+      - - {x: -37.01336, y: 36}
+        - {x: -37.01336, y: -36}
+        - {x: 37.98664, y: -36}
+        - {x: 37.98664, y: 33}
+        - {x: 34.98664, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc48eaa3116e49e4b75660bae491a1d5
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 713
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -35, y: 36}
+        - {x: -38, y: 32}
+        - {x: -38, y: -36}
+        - {x: 37, y: -36}
+        - {x: 38, y: -32}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f66b62a73f04d4c9c5b504053dda7f5
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_19
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 713
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 32}
+        - {x: -34, y: 36}
+        - {x: 33, y: 36}
+        - {x: 38, y: 32}
+      physicsShape:
+      - - {x: 38, y: -36}
+        - {x: 38, y: 36}
+        - {x: -38, y: 36}
+        - {x: -38, y: -36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aa1772d79d44609a267b4421dc7af7
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_20
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 713
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 36, y: 36}
+        - {x: 38, y: 35}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 35, y: -36}
+        - {x: 38, y: -32}
+        - {x: 38, y: 33}
+        - {x: 34, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04a2494f7b543c886c862a902073c32
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_21
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 713
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 34, y: -36}
+        - {x: 38, y: -33}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c492022fa66c47c3a3b2168f34010e62
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_22
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 708
+        width: 91.92388
+        height: 85
+      alignment: 9
+      pivot: {x: 0.500414, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.03806, y: -42.5}
+        - {x: -45.96194, y: -42.5}
+        - {x: -45.96194, y: 34.5}
+        - {x: -18.96194, y: 42.5}
+        - {x: 46.03806, y: 42.5}
+      physicsShape:
+      - - {x: -9.96194, y: 42.5}
+        - {x: -45.96194, y: 22.5}
+        - {x: -45.96194, y: -42.5}
+        - {x: 46.03806, y: -42.5}
+        - {x: 46.03806, y: 42.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225b9a2b43554fc1a271c280dc6a4eb1
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_23
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 708
+        width: 90.92388
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5059177, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.46194, y: -42.5}
+        - {x: -45.46194, y: -40.5}
+        - {x: -45.46194, y: 40.5}
+        - {x: -35.46194, y: 42.5}
+        - {x: 45.53806, y: 42.5}
+        - {x: 45.53806, y: -38.5}
+        - {x: 41.53806, y: -42.5}
+      physicsShape:
+      - - {x: -45.46194, y: 19.5}
+        - {x: -45.46194, y: -39.5}
+        - {x: -42.46194, y: -42.5}
+        - {x: 42.53806, y: -42.5}
+        - {x: 45.53806, y: -41.5}
+        - {x: 45.53806, y: 42.5}
+        - {x: -10.46194, y: 42.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed1162dd8b340e99aa5bf7e0c99b83a
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_24
+      rect:
+        serializedVersion: 2
+        x: 689.0267
+        y: 702
+        width: 51.9465
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5000004, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.00002, y: -47}
+        - {x: -25.99998, y: -47}
+        - {x: -25.99998, y: 44}
+        - {x: -21.99998, y: 47}
+        - {x: 26.00002, y: 47}
+      physicsShape:
+      - - {x: -22.99998, y: 47}
+        - {x: -24.99998, y: 43}
+        - {x: -24.99998, y: -47}
+        - {x: 24.00002, y: -47}
+        - {x: 26.00002, y: -44}
+        - {x: 26.00002, y: 47}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b017adb7759649c5af118c2095a23ac8
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_25
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 713
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd9e0463e0242af846601e89d655f3c
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_26
+      rect:
+        serializedVersion: 2
+        x: 897.0267
+        y: 713
+        width: 75.97325
+        height: 72
+      alignment: 9
+      pivot: {x: 0.4998242, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.98664, y: -36}
+        - {x: -38.01336, y: -36}
+        - {x: -38.01336, y: 36}
+        - {x: 34.98664, y: 36}
+        - {x: 37.98664, y: 33}
+        - {x: 37.98664, y: -34}
+      physicsShape:
+      - - {x: -37.01336, y: 36}
+        - {x: -37.01336, y: -36}
+        - {x: 37.98664, y: -36}
+        - {x: 37.98664, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1ee84c3b9540e48225bf624bef2fde
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 603
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+        - {x: 38, y: -33}
+      physicsShape:
+      - - {x: -34, y: 36}
+        - {x: -38, y: 32}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f421d44e3c7a44a68740a963e51b7cdd
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_28
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 603
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: 34, y: 36}
+        - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 34, y: -36}
+        - {x: 38, y: -32}
+        - {x: 38, y: 31}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5117f58a2ea34b87aa2e98dd32784e93
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_29
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 603
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17108a67c33745fba2ed95f24ed8623c
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_30
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 603
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea32017c3de4442f8fd6a8b41c76e2ac
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_31
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 603
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: -36}
+        - {x: -38, y: -33}
+        - {x: -38, y: 34}
+        - {x: -37, y: 36}
+        - {x: 38, y: 36}
+        - {x: 38, y: -36}
+      physicsShape:
+      - - {x: -33, y: 36}
+        - {x: -38, y: 31}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac7e0fa7f5e427c875814dcf5276405
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_32
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 603
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: -36}
+        - {x: -38, y: -35}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+        - {x: 38, y: -35}
+        - {x: 36, y: -36}
+      physicsShape:
+      - - {x: -35, y: 36}
+        - {x: -38, y: 32}
+        - {x: -38, y: -33}
+        - {x: -34, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9424d044befa42d9ad8a9a3a9626e6bb
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_33
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 603
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -37, y: 36}
+        - {x: -38, y: 35}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3ba8234c024b1fa888661d8bd777b5
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_34
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 603
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03726e7fc4bf4b6685eb5613983b4341
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_35
+      rect:
+        serializedVersion: 2
+        x: 897.0267
+        y: 603
+        width: 75.97325
+        height: 72
+      alignment: 9
+      pivot: {x: 0.4998242, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.01336, y: -34}
+        - {x: -38.01336, y: -29}
+        - {x: -38.01336, y: 30}
+        - {x: -33.01336, y: 36}
+        - {x: 34.98664, y: 36}
+        - {x: 37.98664, y: 33}
+        - {x: 37.98664, y: -36}
+        - {x: -35.01336, y: -36}
+      physicsShape:
+      - - {x: -33.01336, y: 36}
+        - {x: -37.01336, y: 31}
+        - {x: -37.01336, y: -32}
+        - {x: -36.01336, y: -36}
+        - {x: 37.98664, y: -36}
+        - {x: 37.98664, y: 33}
+        - {x: 35.98664, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0036f93fbb2946d5b9363f3a349dd14e
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_36
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 493
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 34, y: 36}
+        - {x: 38, y: 33}
+        - {x: 38, y: -33}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261edc5ca3324e20a948457b2268af93
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_37
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 498
+        width: 92
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: -31}
+        - {x: -46, y: -31}
+        - {x: -46, y: 31}
+        - {x: 46, y: 31}
+        - {x: 46, y: -28}
+      physicsShape:
+      - - {x: -46, y: 31}
+        - {x: -46, y: -31}
+        - {x: 46, y: -31}
+        - {x: 46, y: 31}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b401e7e96f4efe9baa2d5d49f3fed8
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_38
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 493
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: -36}
+        - {x: -38, y: -34}
+        - {x: -38, y: 33}
+        - {x: -35, y: 36}
+        - {x: 33, y: 36}
+        - {x: 38, y: 33}
+        - {x: 38, y: -33}
+        - {x: 34, y: -36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df8996dea264eb0ab22a9df0e9fb88e
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_39
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 493
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 32}
+        - {x: -34, y: 36}
+        - {x: 36, y: 36}
+        - {x: 38, y: 33}
+      physicsShape:
+      - - {x: -36, y: 36}
+        - {x: -38, y: 33}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 32}
+        - {x: 34, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba4a5d6077941dfad54a764f85c741f
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_40
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 493
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff09f2feab04fcba217bb76d2e63734
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_41
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 493
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecec31f19d14c7ea37fe70b8baf8e4f
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_42
+      rect:
+        serializedVersion: 2
+        x: 689.0267
+        y: 482
+        width: 51.9465
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5000004, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.99998, y: -47}
+        - {x: -25.99998, y: -41}
+        - {x: -25.99998, y: 47}
+        - {x: 26.00002, y: 47}
+        - {x: 26.00002, y: -47}
+      physicsShape:
+      - - {x: -24.99998, y: 47}
+        - {x: -24.99998, y: -42}
+        - {x: -20.99998, y: -47}
+        - {x: 21.00002, y: -47}
+        - {x: 25.00002, y: -44}
+        - {x: 25.00002, y: 45}
+        - {x: 24.00002, y: 47}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5cc090727b4b86a2efeb9339172f78
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_43
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 493
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 32}
+        - {x: -34, y: 36}
+        - {x: 36, y: 36}
+        - {x: 38, y: 35}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6eeac3b9d84ec6b5fee182f2cdf032
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_44
+      rect:
+        serializedVersion: 2
+        x: 897.0267
+        y: 493
+        width: 75.97325
+        height: 72
+      alignment: 9
+      pivot: {x: 0.4998242, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.98664, y: -36}
+        - {x: -38.01336, y: -36}
+        - {x: -38.01336, y: 31}
+        - {x: -34.01336, y: 36}
+        - {x: 36.98664, y: 36}
+        - {x: 37.98664, y: 35}
+      physicsShape:
+      - - {x: -32.01336, y: 36}
+        - {x: -37.01336, y: 32}
+        - {x: -37.01336, y: -30.99999}
+        - {x: -33.01336, y: -36}
+        - {x: 34.98664, y: -36}
+        - {x: 37.98664, y: -33}
+        - {x: 37.98664, y: 33}
+        - {x: 33.98664, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf81489e4a34ed4b44ffe1cfafab873
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_45
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 383
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 35, y: 36}
+        - {x: 38, y: 32}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e7438d77bb4471aeeae82121b2ec7b
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_46
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 383
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 35}
+        - {x: -35, y: 36}
+        - {x: 34, y: 36}
+        - {x: 38, y: 32}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 31}
+        - {x: 34, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e90ef8a12547eeb9d596da3964f2db
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_47
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 383
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 35, y: -36}
+        - {x: 38, y: -32}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82201b15b8c4473bb9a962665141c522
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_48
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 383
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -36, y: 36}
+        - {x: -38, y: 33}
+        - {x: -38, y: -34}
+        - {x: -34, y: -36}
+        - {x: 35, y: -36}
+        - {x: 38, y: -32}
+        - {x: 38, y: 32}
+        - {x: 35, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7bf43517694049bdf3357d7cd9c548
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_49
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 383
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 37, y: 36}
+        - {x: 38, y: 33}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca40c50bbe542b0b2cc5cbe5d84fe80
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_50
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 383
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -37, y: 36}
+        - {x: -38, y: 35}
+        - {x: -38, y: -32}
+        - {x: -36, y: -36}
+        - {x: 34, y: -36}
+        - {x: 38, y: -30.99999}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3f77e4f01e419f9bfe9ce90e96baa1
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_51
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 388
+        width: 91.97325
+        height: 63.92388
+      alignment: 9
+      pivot: {x: 0.5001454, y: 1.001191}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.01337, y: -31.96194}
+        - {x: -45.98663, y: -31.96194}
+        - {x: -45.98663, y: 32.03806}
+        - {x: 46.01337, y: 32.03806}
+      physicsShape:
+      - - {x: 42.01337, y: 31.03806}
+        - {x: -45.98662, y: 31.03806}
+        - {x: -45.98662, y: -31.96194}
+        - {x: 41.01337, y: -31.96194}
+        - {x: 45.01337, y: -28.96194}
+        - {x: 45.01337, y: 26.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968aa5fa8ee54600bd439b71de67ba73
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_52
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 395
+        width: 95.97325
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5001394, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.01337, y: -24}
+        - {x: -47.98663, y: -24}
+        - {x: -47.98663, y: 24}
+        - {x: 45.01337, y: 24}
+        - {x: 48.01337, y: 22}
+      physicsShape:
+      - - {x: -47.98663, y: 24}
+        - {x: -47.98663, y: -24}
+        - {x: 45.01337, y: -24}
+        - {x: 48.01337, y: -22}
+        - {x: 48.01337, y: 23}
+        - {x: 47.01337, y: 24}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba2b3437c194af88820f3ead42a209e
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_53
+      rect:
+        serializedVersion: 2
+        x: 897.0267
+        y: 383
+        width: 75.97325
+        height: 72
+      alignment: 9
+      pivot: {x: 0.4998242, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.98664, y: -36}
+        - {x: -38.01336, y: -36}
+        - {x: -38.01336, y: 36}
+        - {x: 37.98664, y: 36}
+      physicsShape:
+      - - {x: -37.01336, y: 36}
+        - {x: -37.01336, y: -36}
+        - {x: 37.98664, y: -36}
+        - {x: 37.98664, y: 34}
+        - {x: 36.98664, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ef9196da9e48caa2a26c3b745fa42e
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_54
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 273
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ad774b6b6341a48900535cf8605b63
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_55
+      rect:
+        serializedVersion: 2
+        x: 119.0267
+        y: 278
+        width: 91.97325
+        height: 62
+      alignment: 9
+      pivot: {x: 0.4998546, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.01337, y: -31}
+        - {x: -46.01337, y: -28}
+        - {x: -46.01337, y: 31}
+        - {x: 45.98663, y: 31}
+        - {x: 45.98663, y: -31}
+      physicsShape:
+      - - {x: -42.01337, y: 31}
+        - {x: -46.01337, y: 26}
+        - {x: -46.01337, y: -27}
+        - {x: -43.01337, y: -31}
+        - {x: 45.98662, y: -31}
+        - {x: 45.98662, y: 29}
+        - {x: 43.98663, y: 31}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6de0a319cb84a8bad2fb883649c11e9
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_56
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 273
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 33}
+        - {x: -36, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 35, y: -36}
+        - {x: 38, y: -32}
+        - {x: 38, y: 34}
+        - {x: 37, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06c31875992436e9373ae1ffba13eb2
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_57
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 273
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 33}
+        - {x: -36, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c035b27e1cf44dee937ae3d0cca151f7
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_58
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 273
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 33}
+        - {x: 35, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: be33c68e13604d88bfe31b5e54dec93c
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_59
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 285
+        width: 96
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: -24}
+        - {x: -48, y: -24}
+        - {x: -48, y: 24}
+        - {x: 44, y: 24}
+        - {x: 48, y: 20}
+        - {x: 48, y: -22}
+      physicsShape:
+      - - {x: -44, y: 24}
+        - {x: -48, y: 20}
+        - {x: -48, y: -19}
+        - {x: -43, y: -24}
+        - {x: 48, y: -24}
+        - {x: 48, y: 24}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad668e4984564bd891353e465508c295
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_60
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 273
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 35}
+        - {x: -36, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 31}
+        - {x: 34, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2888a3496b740bda208d95bfd368b7d
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_61
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 273
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -34}
+        - {x: -36, y: -36}
+        - {x: 35, y: -36}
+        - {x: 38, y: -32}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e234f3ac18c46b9ac8c190c4b828ae4
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_62
+      rect:
+        serializedVersion: 2
+        x: 897.0267
+        y: 273
+        width: 75.97325
+        height: 72
+      alignment: 9
+      pivot: {x: 0.4998242, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.98664, y: -36}
+        - {x: -38.01336, y: -36}
+        - {x: -38.01336, y: 31}
+        - {x: -32.01336, y: 36}
+        - {x: 34.98664, y: 36}
+        - {x: 37.98664, y: 33}
+      physicsShape:
+      - - {x: -37.01336, y: 36}
+        - {x: -37.01336, y: -30}
+        - {x: -36.01336, y: -36}
+        - {x: 36.98664, y: -36}
+        - {x: 37.98664, y: -35}
+        - {x: 37.98664, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2dcce87c3c4005938a182ca932884a
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_63
+      rect:
+        serializedVersion: 2
+        x: 9.026751
+        y: 168
+        width: 91.97325
+        height: 63.92388
+      alignment: 9
+      pivot: {x: 0.4998546, y: 1.001191}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.98663, y: -31.96194}
+        - {x: -46.01337, y: -31.96194}
+        - {x: -46.01337, y: 26.03806}
+        - {x: -39.01337, y: 32.03806}
+        - {x: 45.98663, y: 32.03806}
+      physicsShape:
+      - - {x: -40.01337, y: 31.03806}
+        - {x: -46.01337, y: 23.03806}
+        - {x: -46.01337, y: -31.96194}
+        - {x: 45.98662, y: -31.96194}
+        - {x: 45.98662, y: 31.03806}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a455b8099f0b41ac8b72a0faf718ecb9
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_64
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 163
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 35}
+        - {x: -35, y: 36}
+        - {x: 34, y: 36}
+        - {x: 38, y: 32}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 32}
+        - {x: 34, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1363720d14e476fa95b1daa0782bae2
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_65
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 163
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: -36}
+        - {x: -38, y: -34}
+        - {x: -38, y: 36}
+        - {x: 37, y: 36}
+        - {x: 38, y: 34}
+        - {x: 38, y: -36}
+      physicsShape:
+      - - {x: -33, y: 36}
+        - {x: -38, y: 32}
+        - {x: -38, y: -32}
+        - {x: -35, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ab8b792be140bc8ac0a472ad85af29
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_66
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 163
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -35, y: 36}
+        - {x: -38, y: 32}
+        - {x: -38, y: -34}
+        - {x: -34, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813a58bf95ef45129941403a4b583f30
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_67
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 163
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 37, y: 36}
+        - {x: 38, y: 33}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e394dbe2784c869eccd9f3b43e6f57
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_68
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 163
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -37, y: 36}
+        - {x: -38, y: 35}
+        - {x: -38, y: -32}
+        - {x: -36, y: -36}
+        - {x: 34, y: -36}
+        - {x: 38, y: -30.99999}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f121277b547047b2a3ed842c0b2cc409
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_69
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 163
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: -36}
+        - {x: -38, y: -35}
+        - {x: -38, y: 32}
+        - {x: -34, y: 36}
+        - {x: 35, y: 36}
+        - {x: 38, y: 33}
+        - {x: 38, y: -34}
+        - {x: 35, y: -36}
+      physicsShape:
+      - - {x: 35, y: 36}
+        - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 30}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d882147b2d4200a214016bfdbcf7b7
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_70
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 163
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+        - {x: 38, y: -35}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 35}
+        - {x: 37, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6eeab67a4be4fa897693c4486800bbb
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_71
+      rect:
+        serializedVersion: 2
+        x: 897.0267
+        y: 163
+        width: 75.97325
+        height: 72
+      alignment: 9
+      pivot: {x: 0.4998242, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.98664, y: -36}
+        - {x: -38.01336, y: -36}
+        - {x: -38.01336, y: 36}
+        - {x: 37.98664, y: 36}
+      physicsShape:
+      - - {x: -37.01336, y: -36}
+        - {x: 37.98664, y: -36}
+        - {x: 37.98664, y: 36}
+        - {x: -37.01336, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe1be51b17745d886646e5e6bc3c47c
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_72
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 53
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -35, y: 36}
+        - {x: -38, y: 32}
+        - {x: -38, y: -36}
+        - {x: 37, y: -36}
+        - {x: 38, y: -32}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36482bfb9f24140af54d1f264606ad1
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_73
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 53
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 32}
+        - {x: -34, y: 36}
+        - {x: 33, y: 36}
+        - {x: 38, y: 32}
+      physicsShape:
+      - - {x: 38, y: -36}
+        - {x: 38, y: 36}
+        - {x: -38, y: 36}
+        - {x: -38, y: -36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4518e98658f943be9aa25a6a2bf9d85b
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_74
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 53
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 36, y: 36}
+        - {x: 38, y: 35}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 35, y: -36}
+        - {x: 38, y: -32}
+        - {x: 38, y: 33}
+        - {x: 34, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6695940cc247428d90f42a0b75f7f913
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_75
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 53
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 34, y: -36}
+        - {x: 38, y: -33}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8326a8e2dee4933bd4d9603022d2770
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_76
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 53
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 34, y: 36}
+        - {x: 38, y: 32}
+        - {x: 38, y: -33}
+      physicsShape:
+      - - {x: -34, y: 36}
+        - {x: -38, y: 31}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8ec6b81aa444b6a78f5900dcff069b
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_77
+      rect:
+        serializedVersion: 2
+        x: 560.0267
+        y: 58
+        width: 90.97325
+        height: 62
+      alignment: 9
+      pivot: {x: 0.494357, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.51336, y: -31}
+        - {x: -45.51336, y: -28}
+        - {x: -45.51336, y: 31}
+        - {x: 45.48664, y: 31}
+        - {x: 45.48664, y: -31}
+      physicsShape:
+      - - {x: -45.51336, y: 31}
+        - {x: -45.51336, y: -31}
+        - {x: 44.48664, y: -31}
+        - {x: 45.48664, y: -29}
+        - {x: 45.48664, y: 28}
+        - {x: 41.48664, y: 31}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b9286acec44334a6d04734786916f2
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_78
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 53
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 35}
+        - {x: -37, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39541dbdc584646aef73dd1045fc250
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_79
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 53
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -36}
+        - {x: -38, y: -36}
+        - {x: -38, y: 36}
+        - {x: 38, y: 36}
+      physicsShape:
+      - - {x: -38, y: 36}
+        - {x: -38, y: -36}
+        - {x: 38, y: -36}
+        - {x: 38, y: 36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76250ca011814635b495cb5421606ebd
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboardUI_80
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 48
+        width: 90.95709
+        height: 85
+      alignment: 9
+      pivot: {x: 0.505733, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.47855, y: -42.5}
+        - {x: -45.47855, y: -41.5}
+        - {x: -45.47855, y: 22.5}
+        - {x: -4.478546, y: 40.5}
+        - {x: -2.478546, y: 42.5}
+        - {x: 45.52145, y: 42.5}
+        - {x: 45.52145, y: -41.5}
+        - {x: 43.52145, y: -42.5}
+      physicsShape:
+      - - {x: -22.47854, y: 42.5}
+        - {x: -45.47854, y: 19.5}
+        - {x: -45.47854, y: -42.5}
+        - {x: 44.52145, y: -42.5}
+        - {x: 45.52145, y: -41.5}
+        - {x: 45.52145, y: 42.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11af163ddb240cdbe6553dfe9061796
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      keyboardUI_38: 21300076
+      keyboardUI_14: 21300028
+      keyboardUI_80: 21300160
+      keyboardUI_63: 21300126
+      keyboardUI_34: 21300068
+      keyboardUI_44: 21300088
+      keyboardUI_3: 21300006
+      keyboardUI_1: 21300002
+      keyboardUI_26: 21300052
+      keyboardUI_39: 21300078
+      keyboardUI_53: 21300106
+      keyboardUI_9: 21300018
+      keyboardUI_27: 21300054
+      keyboardUI_30: 21300060
+      keyboardUI_35: 21300070
+      keyboardUI_74: 21300148
+      keyboardUI_56: 21300112
+      keyboardUI_10: 21300020
+      keyboardUI_78: 21300156
+      keyboardUI_16: 21300032
+      keyboardUI_11: 21300022
+      keyboardUI_17: 21300034
+      keyboardUI_61: 21300122
+      keyboardUI_71: 21300142
+      keyboardUI_43: 21300086
+      keyboardUI_69: 21300138
+      keyboardUI_24: 21300048
+      keyboardUI_70: 21300140
+      keyboardUI_25: 21300050
+      keyboardUI_36: 21300072
+      keyboardUI_54: 21300108
+      keyboardUI_55: 21300110
+      keyboardUI_31: 21300062
+      keyboardUI_45: 21300090
+      keyboardUI_59: 21300118
+      keyboardUI_5: 21300010
+      keyboardUI_29: 21300058
+      keyboardUI_0: 21300000
+      keyboardUI_12: 21300024
+      keyboardUI_64: 21300128
+      keyboardUI_51: 21300102
+      keyboardUI_19: 21300038
+      keyboardUI_6: 21300012
+      keyboardUI_73: 21300146
+      keyboardUI_67: 21300134
+      keyboardUI_41: 21300082
+      keyboardUI_75: 21300150
+      keyboardUI_68: 21300136
+      keyboardUI_20: 21300040
+      keyboardUI_76: 21300152
+      keyboardUI_37: 21300074
+      keyboardUI_58: 21300116
+      keyboardUI_62: 21300124
+      keyboardUI_47: 21300094
+      keyboardUI_22: 21300044
+      keyboardUI_48: 21300096
+      keyboardUI_8: 21300016
+      keyboardUI_7: 21300014
+      keyboardUI_32: 21300064
+      keyboardUI_65: 21300130
+      keyboardUI_4: 21300008
+      keyboardUI_79: 21300158
+      keyboardUI_72: 21300144
+      keyboardUI_49: 21300098
+      keyboardUI_50: 21300100
+      keyboardUI_2: 21300004
+      keyboardUI_18: 21300036
+      keyboardUI_60: 21300120
+      keyboardUI_77: 21300154
+      keyboardUI_21: 21300042
+      keyboardUI_23: 21300046
+      keyboardUI_66: 21300132
+      keyboardUI_46: 21300092
+      keyboardUI_33: 21300066
+      keyboardUI_15: 21300030
+      keyboardUI_52: 21300104
+      keyboardUI_13: 21300026
+      keyboardUI_57: 21300114
+      keyboardUI_42: 21300084
+      keyboardUI_28: 21300056
+      keyboardUI_40: 21300080
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

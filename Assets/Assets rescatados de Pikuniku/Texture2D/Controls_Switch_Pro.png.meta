@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 678f3bd1fed49d0419c18f99129c856b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Controls_Switch_Pro
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 29
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Controls_Switch_Pro
+      rect:
+        serializedVersion: 2
+        x: 293.0761
+        y: 316.0268
+        width: 450.8478
+        height: 319.8971
+      alignment: 9
+      pivot: {x: 0.4855827, y: 0.6126133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -224.5, y: -124.9753}
+        - {x: -225.5, y: -115.9753}
+        - {x: -225.5, y: -80.97532}
+        - {x: -215.5, y: -13.97533}
+        - {x: -203.5, y: 52.02467}
+        - {x: -198.5, y: 75.02467}
+        - {x: -191.5, y: 99.02467}
+        - {x: -171.5, y: 135.0247}
+        - {x: -157.5, y: 149.0247}
+        - {x: -126.5, y: 159.0247}
+        - {x: -109.5, y: 160.0247}
+        - {x: -84.5, y: 160.0247}
+        - {x: -76.5, y: 157.0247}
+        - {x: 63.5, y: 146.0247}
+        - {x: 79.5, y: 160.0247}
+        - {x: 112.5, y: 160.0247}
+        - {x: 139.5, y: 157.0247}
+        - {x: 165.5, y: 143.0247}
+        - {x: 187.5, y: 107.0247}
+        - {x: 192.5, y: 96.02467}
+        - {x: 202.5, y: 57.02467}
+        - {x: 220.5, y: -44.97533}
+        - {x: 225.5, y: -87.97533}
+        - {x: 225.5, y: -116.9753}
+        - {x: 224.5, y: -126.9753}
+        - {x: 214.5, y: -144.9753}
+        - {x: 206.5, y: -152.9753}
+        - {x: 193.5, y: -159.9753}
+        - {x: 171.5, y: -159.9753}
+        - {x: 161.5, y: -155.9753}
+        - {x: 148.5, y: -141.9753}
+        - {x: 139.5, y: -127.9753}
+        - {x: 120.5, y: -89.97533}
+        - {x: 98.49999, y: -69.97532}
+        - {x: -100.5, y: -69.97532}
+        - {x: -116.5, y: -82.97533}
+        - {x: -148.5, y: -143.9753}
+        - {x: -159.5, y: -154.9753}
+        - {x: -169.5, y: -159.9753}
+        - {x: -193.5, y: -159.9753}
+        - {x: -203.5, y: -155.9753}
+        - {x: -219.5, y: -137.9753}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f83e705dc344d5b635fd5e6016b9aa
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Controls_Switch_Pro: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: ba370df38358a23409f7eca34ae68d17
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Forest_NesGame_Char1
+  - first:
+      213: 21300002
+    second: Forest_NesGame_Ground
+  - first:
+      213: 21300004
+    second: Forest_NesGame_Char2
+  - first:
+      213: 21300006
+    second: Forest_NesGame_Char3
+  - first:
+      213: 21300008
+    second: Forest_NesGame_Char4
+  - first:
+      213: 21300010
+    second: Forest_NesGame_Char5
+  - first:
+      213: 21300012
+    second: Forest_NesGame_Ball_XL
+  - first:
+      213: 21300014
+    second: Forest_NesGame_Explo1
+  - first:
+      213: 21300016
+    second: Forest_NesGame_Explo2
+  - first:
+      213: 21300018
+    second: Forest_NesGame_Explo3
+  - first:
+      213: 21300020
+    second: Forest_NesGame_Explo4
+  - first:
+      213: 21300022
+    second: Forest_NesGame_Explo5
+  - first:
+      213: 21300024
+    second: Forest_NesGame_Nbr_0
+  - first:
+      213: 21300026
+    second: Forest_NesGame_Nbr_1
+  - first:
+      213: 21300028
+    second: Forest_NesGame_Nbr_2
+  - first:
+      213: 21300030
+    second: Forest_NesGame_Nbr_3
+  - first:
+      213: 21300032
+    second: Forest_NesGame_Nbr_4
+  - first:
+      213: 21300034
+    second: Forest_NesGame_Nbr_5
+  - first:
+      213: 21300036
+    second: Forest_NesGame_Nbr_6
+  - first:
+      213: 21300038
+    second: Forest_NesGame_Nbr_7
+  - first:
+      213: 21300040
+    second: Forest_NesGame_Nbr_8
+  - first:
+      213: 21300042
+    second: Forest_NesGame_Nbr_9
+  - first:
+      213: 21300044
+    second: Forest_NesGame_Char6
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 12
+  maxTextureSize: 64
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Forest_NesGame_Char1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 52
+        width: 11
+        height: 10
+      alignment: 9
+      pivot: {x: 0.3636364, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: -5}
+        - {x: -5.5, y: 5}
+        - {x: 5.5, y: 5}
+        - {x: 5.5, y: -5}
+      physicsShape:
+      - - {x: -5.5, y: 5}
+        - {x: -5.5, y: -5}
+        - {x: 3.5, y: -5}
+        - {x: 5.5, y: -3}
+        - {x: 5.5, y: 4}
+        - {x: 4.5, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc46bf8332b493f859cdea3685a144d
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Ground
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 64
+        height: 1
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -0.5}
+        - {x: -32, y: 0.5}
+        - {x: 32, y: 0.5}
+        - {x: 32, y: -0.5}
+      physicsShape:
+      - - {x: -32, y: 0.5}
+        - {x: -32, y: -0.5}
+        - {x: 32, y: -0.5}
+        - {x: 32, y: 0.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81822cd38f5246838dd8d747c89fc74a
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Char2
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 52
+        width: 11
+        height: 10
+      alignment: 9
+      pivot: {x: 0.3636364, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: -5}
+        - {x: -5.5, y: 5}
+        - {x: 5.5, y: 5}
+        - {x: 5.5, y: -5}
+      physicsShape:
+      - - {x: -5.5, y: 5}
+        - {x: -5.5, y: -4}
+        - {x: -4.5, y: -5}
+        - {x: 3.5, y: -5}
+        - {x: 5.5, y: -3}
+        - {x: 5.5, y: 4}
+        - {x: 4.5, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a40fb0f819341778f522abd6c128a6c
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Char3
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 52
+        width: 11
+        height: 10
+      alignment: 9
+      pivot: {x: 0.3636364, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: -5}
+        - {x: -5.5, y: 5}
+        - {x: 5.5, y: 5}
+        - {x: 5.5, y: -5}
+      physicsShape:
+      - - {x: -5.5, y: 5}
+        - {x: -5.5, y: -5}
+        - {x: 3.5, y: -5}
+        - {x: 5.5, y: -3}
+        - {x: 5.5, y: 4}
+        - {x: 4.5, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47c77deadc84ac78e05db912525c6c2
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Char4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 52
+        width: 11
+        height: 11
+      alignment: 9
+      pivot: {x: 0.3636364, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: -5.5}
+        - {x: -5.5, y: 5.5}
+        - {x: 5.5, y: 5.5}
+        - {x: 5.5, y: -5.5}
+      physicsShape:
+      - - {x: -5.5, y: 5.5}
+        - {x: -5.5, y: -4.5}
+        - {x: -4.5, y: -5.5}
+        - {x: 3.5, y: -5.5}
+        - {x: 5.5, y: -3.5}
+        - {x: 5.5, y: 4.5}
+        - {x: 4.5, y: 5.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099bbf13e0724ef0a9bf5a10ccb14fa4
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Char5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 52
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.3636364, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: -4.5}
+        - {x: -5.5, y: 4.5}
+        - {x: 5.5, y: 4.5}
+        - {x: 5.5, y: -4.5}
+      physicsShape:
+      - - {x: -5.5, y: 4.5}
+        - {x: -5.5, y: -4.5}
+        - {x: 5.5, y: -4.5}
+        - {x: 5.5, y: 3.5}
+        - {x: 4.5, y: 4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7b233ada6a4aa3bddcff5243a1bdc9
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Ball_XL
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 41
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -3}
+        - {x: -3, y: 3}
+        - {x: 3, y: 3}
+        - {x: 3, y: -3}
+      physicsShape:
+      - - {x: -3, y: 3}
+        - {x: -3, y: -3}
+        - {x: 3, y: -3}
+        - {x: 3, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23137e3859cf4cb2a4cf18d3141c0187
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Explo1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 19
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -3}
+        - {x: -3, y: 3}
+        - {x: 3, y: 3}
+        - {x: 3, y: -3}
+      physicsShape:
+      - - {x: -3, y: 3}
+        - {x: -3, y: -3}
+        - {x: 3, y: -3}
+        - {x: 3, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f8eedd64814cc986f4f895915ce3cb
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Explo2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 19
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -3}
+        - {x: -3, y: 3}
+        - {x: 3, y: 3}
+        - {x: 3, y: -3}
+      physicsShape:
+      - - {x: -3, y: 3}
+        - {x: -3, y: -3}
+        - {x: 3, y: -3}
+        - {x: 3, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb01e5d75d84b7e8cb39098c30e1390
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Explo3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 18
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -4}
+        - {x: -4, y: 4}
+        - {x: 4, y: 4}
+        - {x: 4, y: -4}
+      physicsShape:
+      - - {x: -4, y: 4}
+        - {x: -4, y: -4}
+        - {x: 4, y: -4}
+        - {x: 4, y: 4}
+      - - {x: 0, y: 0}
+        - {x: 0, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4423000bb9b4d75b30d72f10688bbf7
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Explo4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 17
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -5}
+        - {x: -5, y: 5}
+        - {x: 5, y: 5}
+        - {x: 5, y: -5}
+      physicsShape:
+      - - {x: -5, y: 5}
+        - {x: -5, y: -5}
+        - {x: 5, y: -5}
+        - {x: 5, y: 5}
+      - - {x: -1, y: 1}
+        - {x: 1, y: 1}
+        - {x: 1, y: -1}
+        - {x: -1, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7035bd4c093479ba9034e123849b020
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Explo5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 17
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -5}
+        - {x: -5, y: 5}
+        - {x: 5, y: 5}
+        - {x: 5, y: -5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0a7469c93f481a864f018ff007d575
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Nbr_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 44
+        width: 3
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: -2.5}
+        - {x: -1.5, y: 2.5}
+        - {x: 1.5, y: 2.5}
+        - {x: 1.5, y: -2.5}
+      physicsShape:
+      - - {x: -1.5, y: 2.5}
+        - {x: -1.5, y: -2.5}
+        - {x: 1.5, y: -2.5}
+        - {x: 1.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcb1507e43c4e2a8f3cc909c6a17f23
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Nbr_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 38
+        width: 3
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: -2.5}
+        - {x: -1.5, y: 2.5}
+        - {x: 1.5, y: 2.5}
+        - {x: 1.5, y: -2.5}
+      physicsShape:
+      - - {x: -1.5, y: 2.5}
+        - {x: -1.5, y: -2.5}
+        - {x: 1.5, y: -2.5}
+        - {x: 1.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da89a27d14548f3b48fc2e474016cf0
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Nbr_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 32
+        width: 3
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: -2.5}
+        - {x: -1.5, y: 2.5}
+        - {x: 1.5, y: 2.5}
+        - {x: 1.5, y: -2.5}
+      physicsShape:
+      - - {x: -1.5, y: 2.5}
+        - {x: -1.5, y: -2.5}
+        - {x: 1.5, y: -2.5}
+        - {x: 1.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b0f63bea7c4a4c8a8ad6087a04f955
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Nbr_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 44
+        width: 3
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: -2.5}
+        - {x: -1.5, y: 2.5}
+        - {x: 1.5, y: 2.5}
+        - {x: 1.5, y: -2.5}
+      physicsShape:
+      - - {x: -1.5, y: 2.5}
+        - {x: -1.5, y: -2.5}
+        - {x: 1.5, y: -2.5}
+        - {x: 1.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1953b1a7923e450d992aabab1251c88e
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Nbr_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 38
+        width: 3
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: -2.5}
+        - {x: -1.5, y: 2.5}
+        - {x: 1.5, y: 2.5}
+        - {x: 1.5, y: -2.5}
+      physicsShape:
+      - - {x: -1.5, y: 2.5}
+        - {x: -1.5, y: -2.5}
+        - {x: 1.5, y: -2.5}
+        - {x: 1.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8c729308e446ddbcd35d2502861d4a
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Nbr_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 32
+        width: 3
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: -2.5}
+        - {x: -1.5, y: 2.5}
+        - {x: 1.5, y: 2.5}
+        - {x: 1.5, y: -2.5}
+      physicsShape:
+      - - {x: -1.5, y: 2.5}
+        - {x: -1.5, y: -2.5}
+        - {x: 1.5, y: -2.5}
+        - {x: 1.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf652c5f4afc48afa0a8ef38ce61e273
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Nbr_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 44
+        width: 3
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: -2.5}
+        - {x: -1.5, y: 2.5}
+        - {x: 1.5, y: 2.5}
+        - {x: 1.5, y: -2.5}
+      physicsShape:
+      - - {x: -1.5, y: 2.5}
+        - {x: -1.5, y: -2.5}
+        - {x: 1.5, y: -2.5}
+        - {x: 1.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bec4257a076454a86bb3f53ad262e86
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Nbr_7
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 38
+        width: 3
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: -2.5}
+        - {x: -1.5, y: 2.5}
+        - {x: 1.5, y: 2.5}
+        - {x: 1.5, y: -2.5}
+      physicsShape:
+      - - {x: -1.5, y: 2.5}
+        - {x: -1.5, y: -2.5}
+        - {x: 1.5, y: -2.5}
+        - {x: 1.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efc02f2abb64958a36f1b56144cf43e
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Nbr_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 32
+        width: 3
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: -2.5}
+        - {x: -1.5, y: 2.5}
+        - {x: 1.5, y: 2.5}
+        - {x: 1.5, y: -2.5}
+      physicsShape:
+      - - {x: -1.5, y: 2.5}
+        - {x: -1.5, y: -2.5}
+        - {x: 1.5, y: -2.5}
+        - {x: 1.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f744b07b7144bfaa4e4f508b26dc039
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Nbr_9
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 44
+        width: 3
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: -2.5}
+        - {x: -1.5, y: 2.5}
+        - {x: 1.5, y: 2.5}
+        - {x: 1.5, y: -2.5}
+      physicsShape:
+      - - {x: -1.5, y: 2.5}
+        - {x: -1.5, y: -2.5}
+        - {x: 1.5, y: -2.5}
+        - {x: 1.5, y: 2.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28c22df10054cb5972efdd4db9b0edf
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest_NesGame_Char6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 17
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.3636364, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: -4.5}
+        - {x: -5.5, y: 4.5}
+        - {x: 5.5, y: 4.5}
+        - {x: 5.5, y: -4.5}
+      physicsShape:
+      - - {x: -5.5, y: 4.5}
+        - {x: -5.5, y: -4.5}
+        - {x: 5.5, y: -4.5}
+        - {x: 5.5, y: 3.5}
+        - {x: 4.5, y: 4.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d4d18a396741cfb094ca1a885e60cf
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Forest_NesGame_Nbr_5: 21300034
+      Forest_NesGame_Explo2: 21300016
+      Forest_NesGame_Char1: 21300000
+      Forest_NesGame_Ball_XL: 21300012
+      Forest_NesGame_Nbr_8: 21300040
+      Forest_NesGame_Char3: 21300006
+      Forest_NesGame_Char6: 21300044
+      Forest_NesGame_Explo4: 21300020
+      Forest_NesGame_Char5: 21300010
+      Forest_NesGame_Nbr_3: 21300030
+      Forest_NesGame_Nbr_2: 21300028
+      Forest_NesGame_Nbr_9: 21300042
+      Forest_NesGame_Nbr_6: 21300036
+      Forest_NesGame_Explo1: 21300014
+      Forest_NesGame_Nbr_0: 21300024
+      Forest_NesGame_Ground: 21300002
+      Forest_NesGame_Nbr_7: 21300038
+      Forest_NesGame_Explo3: 21300018
+      Forest_NesGame_Char4: 21300008
+      Forest_NesGame_Char2: 21300004
+      Forest_NesGame_Nbr_4: 21300032
+      Forest_NesGame_Explo5: 21300022
+      Forest_NesGame_Nbr_1: 21300026
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

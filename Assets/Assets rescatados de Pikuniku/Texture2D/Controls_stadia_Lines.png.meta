@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 5a7485f7ba3455b4a8e4047d94024620
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Controls_stadia_Lines
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 1025
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Controls_stadia_Lines
+      rect:
+        serializedVersion: 2
+        x: 210.0761
+        y: 376.0761
+        width: 603.8478
+        height: 347.8478
+      alignment: 9
+      pivot: {x: 0.500828, y: 0.3907568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -139, y: 73}
+        - {x: -149, y: 127}
+        - {x: -149, y: 174}
+        - {x: -110, y: 174}
+        - {x: -107, y: 147}
+        - {x: -107, y: 73}
+      - - {x: 82, y: 52}
+        - {x: 45, y: 52}
+        - {x: 45, y: 94}
+        - {x: 52, y: 166}
+        - {x: 58, y: 169}
+        - {x: 125, y: 169}
+        - {x: 125, y: 124}
+      - - {x: 150, y: 19}
+        - {x: 150, y: 45}
+        - {x: 126, y: 45}
+      - - {x: -50, y: -23}
+        - {x: -302, y: -23}
+        - {x: -302, y: -16}
+        - {x: -301, y: -14}
+        - {x: -129, y: 44}
+        - {x: -134, y: 57}
+        - {x: -123, y: 65}
+        - {x: -104, y: 65}
+        - {x: -54, y: 16}
+        - {x: -50, y: 10}
+      physicsShape:
+      - - {x: 97, y: 51}
+        - {x: 92.99999, y: 43}
+        - {x: 92.99999, y: 20}
+        - {x: 102, y: -174}
+        - {x: 267, y: -174}
+        - {x: 301, y: -173}
+        - {x: 301, y: -164}
+        - {x: 142, y: 51}
+      - - {x: 123, y: -33}
+        - {x: 132, y: -100}
+        - {x: 134, y: -102}
+        - {x: 298, y: -102}
+        - {x: 298, y: -87}
+        - {x: 202, y: 23}
+        - {x: 126, y: 23}
+        - {x: 123, y: 15}
+      - - {x: 150, y: 49}
+        - {x: 150, y: 21}
+        - {x: 158, y: -25}
+        - {x: 298, y: -25}
+        - {x: 298, y: -20}
+        - {x: 296, y: -18}
+        - {x: 212, y: 49}
+      - - {x: -50, y: 7.999996}
+        - {x: -69, y: 16}
+        - {x: -100, y: 59.99999}
+        - {x: -110, y: 64}
+        - {x: -119, y: 64}
+        - {x: -124, y: 63}
+        - {x: -129, y: 56}
+        - {x: -128, y: 44}
+        - {x: -299, y: -15}
+        - {x: -301, y: -17}
+        - {x: -301, y: -21}
+        - {x: -299, y: -23}
+        - {x: -114, y: -23}
+        - {x: -112, y: -21}
+        - {x: -58, y: -19}
+        - {x: -50, y: -8.000002}
+      - - {x: 205, y: 71}
+        - {x: 124, y: 71}
+        - {x: 121, y: 65}
+        - {x: 121, y: 45}
+        - {x: 190, y: 45}
+        - {x: 296, y: 53}
+        - {x: 298, y: 55}
+        - {x: 298, y: 58}
+        - {x: 296, y: 59.99999}
+      - - {x: 54, y: 168}
+        - {x: 46, y: 125}
+        - {x: 46, y: 53}
+        - {x: 84, y: 53}
+        - {x: 124, y: 130}
+        - {x: 124, y: 168}
+      - - {x: -149, y: 173}
+        - {x: -149, y: 168}
+        - {x: -147, y: 166}
+        - {x: -139, y: 79.99999}
+        - {x: -128, y: 74}
+        - {x: -113, y: 74}
+        - {x: -108, y: 78}
+        - {x: -108, y: 168}
+        - {x: -114, y: 173}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3851a05cf64303b9d7651224edefdc
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Controls_stadia_Lines: 21300000
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
