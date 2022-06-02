@@ -44,7 +44,6 @@ public class MochiManager : MonoBehaviour
         if (SphereController.Instance == null) IsGrounded = CheckGrounded();
         else IsGrounded = CheckGrounded(SphereController.Instance.isGrounded);
 
-        //IsGrounded = SoftBodyController.Instance.isGrounded;    //  No se me ocurria otra forma que no fuera un singleton... Seguramente le estoy dando dolor en la medula a alguien pero me da igual, hacer simplemente el valor publico no funcionaba asi que nos quedamos asi.
         ChangeForms();
     }
 
