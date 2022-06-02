@@ -15,9 +15,9 @@ public class MochiManager : MonoBehaviour
     [Header("Formas Slime")]
     [SerializeField] GameObject mochiSlimePf;     //Prefabs para instanciar las formas
     [SerializeField] GameObject mochiSpherePf;
-    [SerializeField] GameObject slimeCenter; //  Hueso central del modo slime para poder instanciar el modo esfera en este punto, necesario porque de base se instanciara donde este el MochiController
+    public GameObject slimeCenter; //  Hueso central del modo slime para poder instanciar el modo esfera en este punto, necesario porque de base se instanciara donde este el MochiController
     GameObject mochiSlime, mochiSphere;  //  GameObjects donde se instanciaran las formas
-    bool IsSphere;  //  Permite indicar en que estado se encuentra el slime, si en esfera o slime
+    public bool IsSphere;  //  Permite indicar en que estado se encuentra el slime, si en esfera o slime
 
     [Header("Salto")]
     public float jumpForce;
@@ -44,7 +44,6 @@ public class MochiManager : MonoBehaviour
         if (SphereController.Instance == null) IsGrounded = CheckGrounded();
         else IsGrounded = CheckGrounded(SphereController.Instance.isGrounded);
 
-        //IsGrounded = SoftBodyController.Instance.isGrounded;    //  No se me ocurria otra forma que no fuera un singleton... Seguramente le estoy dando dolor en la medula a alguien pero me da igual, hacer simplemente el valor publico no funcionaba asi que nos quedamos asi.
         ChangeForms();
     }
 

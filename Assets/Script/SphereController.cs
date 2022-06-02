@@ -41,6 +41,7 @@ public class SphereController : MonoBehaviour
     void Update()
     {
         MovementSphere();
+        RaycastGroundCheck();
     }
 
     void MovementSphere()
@@ -69,25 +70,23 @@ public class SphereController : MonoBehaviour
     }
 
 
-    //void RaycastGroundCheck()     //  Testeando los raycast desde aqui que no tenia tantos rigidbodys
-    //{
-    //    var right45 = (sphereRb.transform.right + sphereRb.transform.up).normalized;
-    //    var left45 = (sphereRb.transform.right -sphereRb.transform.up).normalized;
+    void RaycastGroundCheck()     //  Testeando los raycast desde aqui que no tenia tantos rigidbodys
+    {
+        var right45 = (sphereRb.transform.right + sphereRb.transform.up).normalized;
+        var left45 = (sphereRb.transform.right -sphereRb.transform.up).normalized;
 
 
 
-    //    isGrounded = Physics2D.Raycast(sphereRb.transform.position, sphereRb.transform.right, 100);
-    //    Debug.DrawRay(sphereRb.transform.position, sphereRb.transform.right* 100, Color.red);
-    //    Debug.DrawRay(sphereRb.transform.position, left45 * 100, Color.red);
-    //    Debug.DrawRay(sphereRb.transform.position, right45 * 100, Color.red);
-    //    Debug.Log(sphereRb.transform.right);
-    //    Debug.Log(sphereRb.transform.forward);
+        isGrounded = Physics2D.Raycast(sphereRb.transform.position, sphereRb.transform.right, 100);
+        Debug.DrawRay(sphereRb.transform.position, sphereRb.transform.right* 100, Color.red);
+        Debug.DrawRay(sphereRb.transform.position, left45 * 100, Color.red);
+        Debug.DrawRay(sphereRb.transform.position, right45 * 100, Color.red);
 
-    //}
+    }
 
     private void OnDisable()
     {
-        //isGrounded = false;
+        isGrounded = false;
     }
 
     //void SendInertiaValue()
