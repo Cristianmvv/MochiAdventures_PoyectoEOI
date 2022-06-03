@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1507007811234749589
 Transform:
   m_ObjectHideFlags: 0
@@ -47,3 +47,7 @@ MonoBehaviour:
   mochiSlimePf: {fileID: 453652063807947849, guid: 9686f367442610349b688baa744ac720, type: 3}
   mochiSpherePf: {fileID: 5007650291400012696, guid: 5eb3315a9ee671747b42e7c51367e11a, type: 3}
   slimeCenter: {fileID: 0}
+  IsSphere: 0
+  jumpForce: 8
+  IsGrounded: 0
+  inertia: {x: 0, y: 0}

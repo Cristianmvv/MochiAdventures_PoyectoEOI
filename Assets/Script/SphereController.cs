@@ -37,7 +37,6 @@ public class SphereController : MonoBehaviour
         //sphereRb.velocity = MochiManager.Instance.inertia;    //  Si intento darle la inercia desde aqui no salta... ni idea de porque no.
     }
 
-    // Update is called once per frame
     void Update()
     {
         MovementSphere();

@@ -577,6 +577,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5040722847165370625, guid: 0e0ce86109f428b44838552919f4a093, type: 3}
+      propertyPath: mochiManager
+      value: 
+      objectReference: {fileID: 1929807056}
+    - target: {fileID: 5040722847165370625, guid: 0e0ce86109f428b44838552919f4a093, type: 3}
       propertyPath: mochiController
       value: 
       objectReference: {fileID: 1929807056}

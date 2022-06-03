@@ -79,6 +79,7 @@ public class MochiManager : MonoBehaviour
                 InstantiateMochiSphere();
                 IsSphere = true;
                 mochiSphere.GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);  //  El salto de la esfera
+                Debug.Log("Salto");
             }
             else   //   Si se a levantado despues de 0.2seg (mantenido pulsado) Y ESTA TOCANDO EL SUELO cambiara a esfera
             {
