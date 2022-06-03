@@ -322,6 +322,7 @@ MonoBehaviour:
     height: 430
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 14}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
