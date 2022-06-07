@@ -20,12 +20,12 @@ public class PlatformMoving : MonoBehaviour
     {
         objectToMove.transform.position = Vector3.MoveTowards(objectToMove.transform.position, moveTo, speed * Time.deltaTime);
 
-        if(objectToMove.transform.position == endPoint.position)
+        if (Vector3.Distance(objectToMove.transform.position, endPoint.position) < 1)
         {
             moveTo = startPoint.position;
         }
 
-        if (objectToMove.transform.position == startPoint.position)
+        if (Vector3.Distance(objectToMove.transform.position, startPoint.position) < 1)
         {
             moveTo = endPoint.position;
         }

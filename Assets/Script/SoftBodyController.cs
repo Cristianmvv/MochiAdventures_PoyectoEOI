@@ -5,7 +5,7 @@ using UnityEngine.Animations;
 
 public class SoftBodyController : MonoBehaviour
 {
-    public static SoftBodyController Instance { get; private set; }
+    //public static SoftBodyController Instance { get; private set; }
 
 
     #region Slime Variables
@@ -18,9 +18,9 @@ public class SoftBodyController : MonoBehaviour
 
     [Header("Raycast")] 
     public bool isGrounded;
-    public bool isGrounded1;
-    public bool isGrounded2;
-    public bool isGrounded3;
+    bool isGrounded1;
+    bool isGrounded2;
+    bool isGrounded3;
     [SerializeField] LayerMask groundLayer;
 
     float movH;
@@ -38,8 +38,8 @@ public class SoftBodyController : MonoBehaviour
 
     void Awake()
     {
-        if (Instance != null && Instance != this) Destroy(this);    //  Si al inicio del script tiene no ningun valor o si ya lo tiene, lo destruye
-        else Instance = this;   //  Le a?ade el valor de este propio script
+        //if (Instance != null && Instance != this) Destroy(this);    //  Si al inicio del script tiene no ningun valor o si ya lo tiene, lo destruye
+        //else Instance = this;   //  Le a?ade el valor de este propio script
 
         //  Al aparecer le mete la inercia de la forma esfera a todos los RigidBody del slime
         centerSlimeRb.velocity = MochiManager.Instance.inertia;
@@ -86,15 +86,21 @@ public class SoftBodyController : MonoBehaviour
             if (isGrounded1 || isGrounded2 || isGrounded3)  //  isGrounded se va sobrescribiendo por el valor del ultimo, por lo que si existen 3 solo cojera el valor del 3?
             {
                 isGrounded = true;
+                MochiManager.Instance.isGroundedSlime = isGrounded;
                 return; //  Mismo pasa con las vueltas en el array, solo coje el valor del ultimo objeto, por lo que en cuanto uno sea true se tiene que parar ahi para que no continue
             }
-            else isGrounded = false;
+            else 
+            {
+                isGrounded = false;
+                MochiManager.Instance.isGroundedSlime = isGrounded;
+            } 
         }
     }
 
     private void OnDisable()
     {
         isGrounded = false;
+        MochiManager.Instance.isGroundedSlime = isGrounded;
     }
 
     //void SendInertiaValue()

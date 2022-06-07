@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SphereController : MonoBehaviour
 {
-    public static SphereController Instance { get; private set; }
+    //public static SphereController Instance { get; private set; }
 
     #region Sphere Variables
     [SerializeField] int speed;
@@ -27,14 +27,11 @@ public class SphereController : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance != null && Instance != this) Destroy(this);    //  Si al inicio del script tiene no ningun valor o si ya lo tiene, lo destruye
-        else Instance = this;   //  Le a?ade el valor de este propio script
-    }
+        //if (Instance != null && Instance != this) Destroy(this);    //  Si al inicio del script tiene no ningun valor o si ya lo tiene, lo destruye
+        //else Instance = this;   //  Le a?ade el valor de este propio script
 
-    void Start()
-    {
         sphereRb = GetComponent<Rigidbody2D>();
-        //sphereRb.velocity = MochiManager.Instance.inertia;    //  Si intento darle la inercia desde aqui no salta... ni idea de porque no.
+        sphereRb.velocity = MochiManager.Instance.inertia;
     }
 
     void Update()
@@ -57,6 +54,7 @@ public class SphereController : MonoBehaviour
         if (collision.gameObject.tag == "Ground")
         {
             isGrounded = true;
+            MochiManager.Instance.isGroundedSphere = isGrounded;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -64,6 +62,7 @@ public class SphereController : MonoBehaviour
         if (collision.gameObject.tag == "Ground")
         {
             isGrounded = false;
+            MochiManager.Instance.isGroundedSphere = isGrounded;
         }
     }
 
@@ -85,6 +84,7 @@ public class SphereController : MonoBehaviour
     private void OnDisable()
     {
         isGrounded = false;
+        MochiManager.Instance.isGroundedSphere = isGrounded;
     }
 
     //void SendInertiaValue()

@@ -22,7 +22,9 @@ public class MochiManager : MonoBehaviour
     [Header("Salto")]
     public float jumpForce;
     float jumpTime;
-    [SerializeField] bool IsGrounded;
+    [SerializeField] bool isGrounded;
+    public bool isGroundedSphere;
+    public bool isGroundedSlime;
 
     public Vector2 inertia;
     #endregion
@@ -38,11 +40,11 @@ public class MochiManager : MonoBehaviour
         FirstInstantiateMochi();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (SphereController.Instance == null) IsGrounded = CheckGrounded();
-        else IsGrounded = CheckGrounded(SphereController.Instance.isGrounded);
+        //if (SphereController.Instance == null) isGrounded = CheckGrounded();
+        if (IsSphere) isGrounded = CheckGrounded();
+        else isGrounded = CheckGrounded(isGroundedSphere);
 
         ChangeForms();
     }
@@ -74,7 +76,7 @@ public class MochiManager : MonoBehaviour
                 }
 
             }
-            else if (IsGrounded)    //  Si se a levantado despues de 0.2seg (mantenido pulsado) Y NO ESTA TOCANDO EL SUELO realizara el salto
+            else if (isGrounded)    //  Si se a levantado despues de 0.2seg (mantenido pulsado) Y NO ESTA TOCANDO EL SUELO realizara el salto
             {
                 InstantiateMochiSphere();
                 IsSphere = true;
@@ -106,7 +108,7 @@ public class MochiManager : MonoBehaviour
         mochiSphere = Instantiate(mochiSpherePf, slimeCenter.transform.position, slimeCenter.transform.rotation, transform);    //  Instancia prefab de modo esfera en la ubicacion del centro de forma de forma slime
         Destroy(mochiSlime);
         mochiSphere.SetActive(true);
-        mochiSphere.GetComponent<Rigidbody2D>().velocity = inertia; //  Recoje la informacion de la inercia del modo slime que estaba guardada en la variable
+        //mochiSphere.GetComponent<Rigidbody2D>().velocity = inertia; //  Recoje la informacion de la inercia del modo slime que estaba guardada en la variable
     }
 
     void InstantiateMochiSlime()
@@ -123,6 +125,6 @@ public class MochiManager : MonoBehaviour
 
     bool CheckGrounded(bool _sphere = false)
     {
-        return SoftBodyController.Instance.isGrounded || _sphere;
+        return isGroundedSlime || _sphere;
     }
 }
