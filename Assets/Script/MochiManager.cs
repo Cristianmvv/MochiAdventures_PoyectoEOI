@@ -104,10 +104,10 @@ public class MochiManager : MonoBehaviour
     {
         //if (TakeInertia!= null) TakeInertia();
         inertia = slimeCenter.GetComponent<Rigidbody2D>().velocity; //  Envia la informacion de la inercia del modo slime a la variable
-        mochiSlime.SetActive(false);    //  Desactiva el modo slime
+        //mochiSlime.SetActive(false);    //  Desactiva el modo slime
         mochiSphere = Instantiate(mochiSpherePf, slimeCenter.transform.position, slimeCenter.transform.rotation, transform);    //  Instancia prefab de modo esfera en la ubicacion del centro de forma de forma slime
         Destroy(mochiSlime);
-        mochiSphere.SetActive(true);
+        //mochiSphere.SetActive(true);
         //mochiSphere.GetComponent<Rigidbody2D>().velocity = inertia; //  Recoje la informacion de la inercia del modo slime que estaba guardada en la variable
     }
 
@@ -115,10 +115,10 @@ public class MochiManager : MonoBehaviour
     {
         //if (TakeInertia != null) TakeInertia();
         inertia = mochiSphere.GetComponent<Rigidbody2D>().velocity; //  Envia la informacion de la inercia del modo esfera a la variable
-        mochiSphere.SetActive(false);    //  Desactiva el modo esfera
+        //mochiSphere.SetActive(false);    //  Desactiva el modo esfera
         mochiSlime = Instantiate(mochiSlimePf, mochiSphere.transform.position, mochiSphere.transform.rotation, transform);  //  Instancia prefab de forma slime en la ubicacion del modo esfera
         Destroy(mochiSphere);    //Destruye el modo esfera
-        mochiSlime.SetActive(true);
+        //mochiSlime.SetActive(true);
         slimeCenter = GameObject.FindGameObjectWithTag("SlimeCenter");
         //slimeCenter.GetComponent<Rigidbody2D>().velocity = inertia;   //  Para poder meterle la inercia a todos los RigidBody ahora lo coje desde su controller, ?Porque no lo hago igual con la esfera? porque si lo hago igual no salta la esfera, no pregunteis, no tengo ni idea.
     }

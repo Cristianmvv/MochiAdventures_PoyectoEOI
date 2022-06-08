@@ -30,4 +30,6 @@ public class PlatformMoving : MonoBehaviour
             moveTo = endPoint.position;
         }
     }
+
+    
 }

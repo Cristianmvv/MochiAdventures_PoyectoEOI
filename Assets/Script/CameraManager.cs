@@ -20,6 +20,13 @@ public class CameraManager : MonoBehaviour
     {
         if (MochiManager.Instance.IsSphere) cinemachine.Follow = mochiManager.transform.GetChild(0);
         else cinemachine.Follow = MochiManager.Instance.slimeCenter.transform;
+
+        GetComponent<CinemachineVirtualCamera>().m_Lens.OrthographicSize += Input.GetAxis("Mouse ScrollWheel");
+        if (GetComponent<CinemachineVirtualCamera>().m_Lens.OrthographicSize < 7)
+            GetComponent<CinemachineVirtualCamera>().m_Lens.OrthographicSize = 7;
+        if (GetComponent<CinemachineVirtualCamera>().m_Lens.OrthographicSize > 15)
+            GetComponent<CinemachineVirtualCamera>().m_Lens.OrthographicSize = 15;
+
     }
 
 
