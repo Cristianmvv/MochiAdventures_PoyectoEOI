@@ -251,7 +251,7 @@ GameObject:
   - component: {fileID: 6430051627449910788}
   m_Layer: 0
   m_Name: bone_4
-  m_TagString: Untagged
+  m_TagString: SlimePerimeter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -384,7 +384,7 @@ GameObject:
   - component: {fileID: 6430051627489995949}
   m_Layer: 0
   m_Name: bone_2
-  m_TagString: Untagged
+  m_TagString: SlimePerimeter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -517,7 +517,7 @@ GameObject:
   - component: {fileID: 6430051627695717280}
   m_Layer: 0
   m_Name: bone_5
-  m_TagString: Untagged
+  m_TagString: SlimePerimeter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -650,7 +650,7 @@ GameObject:
   - component: {fileID: 6430051627733930915}
   m_Layer: 0
   m_Name: bone_1
-  m_TagString: Untagged
+  m_TagString: SlimePerimeter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -783,7 +783,7 @@ GameObject:
   - component: {fileID: 6430051627973455871}
   m_Layer: 0
   m_Name: bone_8
-  m_TagString: Untagged
+  m_TagString: SlimePerimeter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -916,7 +916,7 @@ GameObject:
   - component: {fileID: 6430051628321074303}
   m_Layer: 0
   m_Name: bone_3
-  m_TagString: Untagged
+  m_TagString: SlimePerimeter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1120,7 +1120,7 @@ GameObject:
   - component: {fileID: 6430051628767511031}
   m_Layer: 0
   m_Name: bone_7
-  m_TagString: Untagged
+  m_TagString: SlimePerimeter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1253,7 +1253,7 @@ GameObject:
   - component: {fileID: 6430051628797948677}
   m_Layer: 0
   m_Name: bone_6
-  m_TagString: Untagged
+  m_TagString: SlimePerimeter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

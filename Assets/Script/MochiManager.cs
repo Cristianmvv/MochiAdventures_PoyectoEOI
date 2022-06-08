@@ -29,6 +29,8 @@ public class MochiManager : MonoBehaviour
     public Vector2 inertia;
     #endregion
 
+    public bool canTransform = true;
+
     private void Awake()
     {
         if (Instance != null && Instance != this) Destroy(this);    //  Si al inicio del script tiene no ningun valor o si ya lo tiene, lo destruye
@@ -51,6 +53,7 @@ public class MochiManager : MonoBehaviour
 
     void ChangeForms()
     {
+        if(!canTransform) return;
         if (Input.GetKey(KeyCode.W))    //  Cuando se mantenga pulsado el boton
         {
             jumpTime += Time.deltaTime; //  Empezara un contador
@@ -76,14 +79,15 @@ public class MochiManager : MonoBehaviour
                 }
 
             }
-            else if (isGrounded)    //  Si se a levantado despues de 0.2seg (mantenido pulsado) Y NO ESTA TOCANDO EL SUELO realizara el salto
+            else if (isGrounded)    //  Si se a levantado despues de 0.2seg (mantenido pulsado) Y ESTA TOCANDO EL SUELO realizara el salto
             {
                 InstantiateMochiSphere();
                 IsSphere = true;
+                mochiSphere.GetComponent<Rigidbody2D>().velocity = new Vector2(mochiSphere.GetComponent<Rigidbody2D>().velocity.x, 0);
                 mochiSphere.GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);  //  El salto de la esfera
                 Debug.Log("Salto");
             }
-            else   //   Si se a levantado despues de 0.2seg (mantenido pulsado) Y ESTA TOCANDO EL SUELO cambiara a esfera
+            else   //   Si se a levantado despues de 0.2seg (mantenido pulsado) Y NO ESTA TOCANDO EL SUELO cambiara a esfera
             {
                 InstantiateMochiSphere();
                 IsSphere = true;
