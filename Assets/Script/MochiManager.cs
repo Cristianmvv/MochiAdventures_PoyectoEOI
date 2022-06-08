@@ -29,6 +29,8 @@ public class MochiManager : MonoBehaviour
     public Vector2 inertia;
     #endregion
 
+    public bool canTransform = true;
+
     private void Awake()
     {
         if (Instance != null && Instance != this) Destroy(this);    //  Si al inicio del script tiene no ningun valor o si ya lo tiene, lo destruye
@@ -51,6 +53,7 @@ public class MochiManager : MonoBehaviour
 
     void ChangeForms()
     {
+        if(!canTransform) return;
         if (Input.GetKey(KeyCode.W))    //  Cuando se mantenga pulsado el boton
         {
             jumpTime += Time.deltaTime; //  Empezara un contador
@@ -76,14 +79,15 @@ public class MochiManager : MonoBehaviour
                 }
 
             }
-            else if (isGrounded)    //  Si se a levantado despues de 0.2seg (mantenido pulsado) Y NO ESTA TOCANDO EL SUELO realizara el salto
+            else if (isGrounded)    //  Si se a levantado despues de 0.2seg (mantenido pulsado) Y ESTA TOCANDO EL SUELO realizara el salto
             {
                 InstantiateMochiSphere();
                 IsSphere = true;
+                mochiSphere.GetComponent<Rigidbody2D>().velocity = new Vector2(mochiSphere.GetComponent<Rigidbody2D>().velocity.x, 0);
                 mochiSphere.GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);  //  El salto de la esfera
                 Debug.Log("Salto");
             }
-            else   //   Si se a levantado despues de 0.2seg (mantenido pulsado) Y ESTA TOCANDO EL SUELO cambiara a esfera
+            else   //   Si se a levantado despues de 0.2seg (mantenido pulsado) Y NO ESTA TOCANDO EL SUELO cambiara a esfera
             {
                 InstantiateMochiSphere();
                 IsSphere = true;
@@ -104,10 +108,10 @@ public class MochiManager : MonoBehaviour
     {
         //if (TakeInertia!= null) TakeInertia();
         inertia = slimeCenter.GetComponent<Rigidbody2D>().velocity; //  Envia la informacion de la inercia del modo slime a la variable
-        mochiSlime.SetActive(false);    //  Desactiva el modo slime
+        //mochiSlime.SetActive(false);    //  Desactiva el modo slime
         mochiSphere = Instantiate(mochiSpherePf, slimeCenter.transform.position, slimeCenter.transform.rotation, transform);    //  Instancia prefab de modo esfera en la ubicacion del centro de forma de forma slime
         Destroy(mochiSlime);
-        mochiSphere.SetActive(true);
+        //mochiSphere.SetActive(true);
         //mochiSphere.GetComponent<Rigidbody2D>().velocity = inertia; //  Recoje la informacion de la inercia del modo slime que estaba guardada en la variable
     }
 
@@ -115,10 +119,10 @@ public class MochiManager : MonoBehaviour
     {
         //if (TakeInertia != null) TakeInertia();
         inertia = mochiSphere.GetComponent<Rigidbody2D>().velocity; //  Envia la informacion de la inercia del modo esfera a la variable
-        mochiSphere.SetActive(false);    //  Desactiva el modo esfera
+        //mochiSphere.SetActive(false);    //  Desactiva el modo esfera
         mochiSlime = Instantiate(mochiSlimePf, mochiSphere.transform.position, mochiSphere.transform.rotation, transform);  //  Instancia prefab de forma slime en la ubicacion del modo esfera
         Destroy(mochiSphere);    //Destruye el modo esfera
-        mochiSlime.SetActive(true);
+        //mochiSlime.SetActive(true);
         slimeCenter = GameObject.FindGameObjectWithTag("SlimeCenter");
         //slimeCenter.GetComponent<Rigidbody2D>().velocity = inertia;   //  Para poder meterle la inercia a todos los RigidBody ahora lo coje desde su controller, ?Porque no lo hago igual con la esfera? porque si lo hago igual no salta la esfera, no pregunteis, no tengo ni idea.
     }

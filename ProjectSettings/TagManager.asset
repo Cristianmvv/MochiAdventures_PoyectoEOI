@@ -8,6 +8,7 @@ TagManager:
   - MochiSlime
   - Ground
   - MochiSphere
+  - SlimePerimeter
   layers:
   - Default
   - TransparentFX

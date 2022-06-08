@@ -97,7 +97,7 @@ public class SoftBodyController : MonoBehaviour
         }
     }
 
-    private void OnDisable()
+    private void OnDestroy()
     {
         isGrounded = false;
         MochiManager.Instance.isGroundedSlime = isGrounded;
