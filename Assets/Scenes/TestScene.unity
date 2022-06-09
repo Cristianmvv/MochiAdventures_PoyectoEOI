@@ -690,6 +690,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MochiCamera
       objectReference: {fileID: 0}
+    - target: {fileID: 5040722847165370655, guid: 0e0ce86109f428b44838552919f4a093, type: 3}
+      propertyPath: m_Lens.ModeOverride
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e0ce86109f428b44838552919f4a093, type: 3}
 --- !u!1 &823191631
@@ -841,7 +845,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: 0
   m_CullingMask:
