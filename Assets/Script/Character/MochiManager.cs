@@ -59,7 +59,6 @@ public class MochiManager : MonoBehaviour
             if (jumpTime >= 0.2f && IsSphere)   //  Si se pulsa por mas de 0.2seg Y ES ESFERA cambiara a forma de slime
             {
                 InstantiateMochiSlime();
-                IsSphere = false;
             }
         }
         if (Input.GetKeyUp(KeyCode.W))  //  Al levantar el boton
@@ -69,19 +68,16 @@ public class MochiManager : MonoBehaviour
                 if (!IsSphere)
                 {
                     InstantiateMochiSphere();
-                    IsSphere = true;
                 }
                 else
                 {
                     InstantiateMochiSlime();
-                    IsSphere = false;
                 }
 
             }
             else if (isGrounded)    //  Si se a levantado despues de 0.2seg (mantenido pulsado) Y ESTA TOCANDO EL SUELO realizara el salto
             {
                 InstantiateMochiSphere();
-                IsSphere = true;
                 mochiSphere.GetComponent<Rigidbody2D>().velocity = new Vector2(mochiSphere.GetComponent<Rigidbody2D>().velocity.x, 0);
                 mochiSphere.GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);  //  El salto de la esfera
                 Debug.Log("Salto");
@@ -89,7 +85,6 @@ public class MochiManager : MonoBehaviour
             else   //   Si se a levantado despues de 0.2seg (mantenido pulsado) Y NO ESTA TOCANDO EL SUELO cambiara a esfera
             {
                 InstantiateMochiSphere();
-                IsSphere = true;
             }
 
             jumpTime = 0;   //  Reinicia el contador
@@ -103,8 +98,9 @@ public class MochiManager : MonoBehaviour
         slimeCenter = GameObject.FindGameObjectWithTag("SlimeCenter");  //  Busca el centro del slime con un tag (Cada vez que se destruye o se instancia de 0 es necesario indicarlo)
     }
 
-    void InstantiateMochiSphere()
+    public void InstantiateMochiSphere()
     {
+        IsSphere = true;
         //if (TakeInertia!= null) TakeInertia();
         inertia = slimeCenter.GetComponent<Rigidbody2D>().velocity; //  Envia la informacion de la inercia del modo slime a la variable
         //mochiSlime.SetActive(false);    //  Desactiva el modo slime
@@ -116,6 +112,7 @@ public class MochiManager : MonoBehaviour
 
     void InstantiateMochiSlime()
     {
+        IsSphere = false;
         //if (TakeInertia != null) TakeInertia();
         inertia = mochiSphere.GetComponent<Rigidbody2D>().velocity; //  Envia la informacion de la inercia del modo esfera a la variable
         //mochiSphere.SetActive(false);    //  Desactiva el modo esfera
