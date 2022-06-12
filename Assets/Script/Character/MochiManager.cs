@@ -29,7 +29,7 @@ public class MochiManager : MonoBehaviour
     public Vector2 inertia;
     #endregion
 
-    public bool canTransform = true;
+    public bool disableTransform;
 
     private void Awake()
     {
@@ -48,12 +48,11 @@ public class MochiManager : MonoBehaviour
         if (IsSphere) isGrounded = CheckGrounded();
         else isGrounded = CheckGrounded(isGroundedSphere);
 
-        ChangeForms();
+        if (!disableTransform) ChangeForms();
     }
 
     void ChangeForms()
     {
-        if(!canTransform) return;
         if (Input.GetKey(KeyCode.W))    //  Cuando se mantenga pulsado el boton
         {
             jumpTime += Time.deltaTime; //  Empezara un contador
