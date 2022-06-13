@@ -9,6 +9,6 @@ public class ActivateMochiTransform : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name.Contains("bone0"))
-            MochiManager.Instance.canTransform = activate;
+            MochiManager.Instance.disableTransform = activate;
     }
 }

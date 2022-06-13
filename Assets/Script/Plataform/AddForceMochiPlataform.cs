@@ -9,7 +9,7 @@ public class AddForceMochiPlataform : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("SlimePerimeter"))
+        if (collision.gameObject.CompareTag("SlimePerimeter") || collision.gameObject.CompareTag("SlimeCenter"))
         {
             print("colisionando");
             collision.gameObject.GetComponent<Rigidbody2D>().AddForce(force, ForceMode2D.Force);
