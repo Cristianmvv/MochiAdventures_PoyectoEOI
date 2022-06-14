@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - MochiSphere
   - SlimePerimeter
+  - Pickups/Fruit
   layers:
   - Default
   - TransparentFX

@@ -249,6 +249,7 @@ GameObject:
   - component: {fileID: 6430051627449910790}
   - component: {fileID: 6430051627449910791}
   - component: {fileID: 6430051627449910788}
+  - component: {fileID: 6300132388031604757}
   m_Layer: 0
   m_Name: bone_4
   m_TagString: SlimePerimeter
@@ -368,6 +369,18 @@ SpringJoint2D:
   m_Distance: 0.005
   m_DampingRatio: 1
   m_Frequency: 5
+--- !u!114 &6300132388031604757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6430051627449910786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e35df5f4bd7694991f76c801eee13d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6430051627489995947
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,6 +395,7 @@ GameObject:
   - component: {fileID: 6430051627489995951}
   - component: {fileID: 6430051627489995948}
   - component: {fileID: 6430051627489995949}
+  - component: {fileID: 5928280487993958121}
   m_Layer: 0
   m_Name: bone_2
   m_TagString: SlimePerimeter
@@ -501,6 +515,18 @@ SpringJoint2D:
   m_Distance: 0.005
   m_DampingRatio: 1
   m_Frequency: 5
+--- !u!114 &5928280487993958121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6430051627489995947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e35df5f4bd7694991f76c801eee13d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6430051627695717294
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,6 +541,7 @@ GameObject:
   - component: {fileID: 6430051627695717282}
   - component: {fileID: 6430051627695717283}
   - component: {fileID: 6430051627695717280}
+  - component: {fileID: 3305716914701139299}
   m_Layer: 0
   m_Name: bone_5
   m_TagString: SlimePerimeter
@@ -634,6 +661,18 @@ SpringJoint2D:
   m_Distance: 0.005
   m_DampingRatio: 1
   m_Frequency: 5
+--- !u!114 &3305716914701139299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6430051627695717294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e35df5f4bd7694991f76c801eee13d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6430051627733930913
 GameObject:
   m_ObjectHideFlags: 0
@@ -648,6 +687,7 @@ GameObject:
   - component: {fileID: 6430051627733930917}
   - component: {fileID: 6430051627733930914}
   - component: {fileID: 6430051627733930915}
+  - component: {fileID: 6411112996955565923}
   m_Layer: 0
   m_Name: bone_1
   m_TagString: SlimePerimeter
@@ -767,6 +807,18 @@ SpringJoint2D:
   m_Distance: 0.005
   m_DampingRatio: 1
   m_Frequency: 5
+--- !u!114 &6411112996955565923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6430051627733930913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e35df5f4bd7694991f76c801eee13d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6430051627973455869
 GameObject:
   m_ObjectHideFlags: 0
@@ -781,6 +833,7 @@ GameObject:
   - component: {fileID: 6430051627973455857}
   - component: {fileID: 6430051627973455870}
   - component: {fileID: 6430051627973455871}
+  - component: {fileID: 1052980816809587442}
   m_Layer: 0
   m_Name: bone_8
   m_TagString: SlimePerimeter
@@ -900,6 +953,18 @@ SpringJoint2D:
   m_Distance: 0.005
   m_DampingRatio: 1
   m_Frequency: 5
+--- !u!114 &1052980816809587442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6430051627973455869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e35df5f4bd7694991f76c801eee13d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6430051628321074301
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,6 +979,7 @@ GameObject:
   - component: {fileID: 6430051628321074289}
   - component: {fileID: 6430051628321074302}
   - component: {fileID: 6430051628321074303}
+  - component: {fileID: 6444305741440348052}
   m_Layer: 0
   m_Name: bone_3
   m_TagString: SlimePerimeter
@@ -1033,6 +1099,18 @@ SpringJoint2D:
   m_Distance: 0.005
   m_DampingRatio: 1
   m_Frequency: 5
+--- !u!114 &6444305741440348052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6430051628321074301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e35df5f4bd7694991f76c801eee13d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6430051628710831492
 GameObject:
   m_ObjectHideFlags: 0
@@ -1044,6 +1122,7 @@ GameObject:
   - component: {fileID: 6430051628710831495}
   - component: {fileID: 6430051628710831513}
   - component: {fileID: 6430051628710831494}
+  - component: {fileID: 6641286573757361792}
   m_Layer: 0
   m_Name: bone_9 Center
   m_TagString: SlimeCenter
@@ -1104,6 +1183,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.2
+--- !u!114 &6641286573757361792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6430051628710831492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e35df5f4bd7694991f76c801eee13d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6430051628767511029
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,6 +1209,7 @@ GameObject:
   - component: {fileID: 6430051628767510921}
   - component: {fileID: 6430051628767511030}
   - component: {fileID: 6430051628767511031}
+  - component: {fileID: 563453357613843883}
   m_Layer: 0
   m_Name: bone_7
   m_TagString: SlimePerimeter
@@ -1237,6 +1329,18 @@ SpringJoint2D:
   m_Distance: 0.005
   m_DampingRatio: 1
   m_Frequency: 5
+--- !u!114 &563453357613843883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6430051628767511029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e35df5f4bd7694991f76c801eee13d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6430051628797948675
 GameObject:
   m_ObjectHideFlags: 0
@@ -1251,6 +1355,7 @@ GameObject:
   - component: {fileID: 6430051628797948679}
   - component: {fileID: 6430051628797948676}
   - component: {fileID: 6430051628797948677}
+  - component: {fileID: 6883661136718096560}
   m_Layer: 0
   m_Name: bone_6
   m_TagString: SlimePerimeter
@@ -1370,3 +1475,15 @@ SpringJoint2D:
   m_Distance: 0.005
   m_DampingRatio: 1
   m_Frequency: 5
+--- !u!114 &6883661136718096560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6430051628797948675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e35df5f4bd7694991f76c801eee13d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
