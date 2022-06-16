@@ -8,8 +8,9 @@ public class PickUpObject : MonoBehaviour
     {
         if (collision.CompareTag("Pickups/Fruit"))
         {
+            collision.gameObject.SetActive(false);
             GameManager.Instance.ScoreFruit();
-            Destroy(collision.gameObject);
+            //Destroy(collision.gameObject);
         }
     }
 }

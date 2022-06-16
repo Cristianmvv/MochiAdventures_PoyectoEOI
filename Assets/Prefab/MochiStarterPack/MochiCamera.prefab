@@ -200,4 +200,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63987265cc369aa45968544356148b0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mochiManager: {fileID: 1507007811234749591, guid: 8d38782d41ddd5e458ce90fe1ced15b2, type: 3}
+  mochiManager: {fileID: 0}

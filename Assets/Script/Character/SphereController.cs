@@ -61,7 +61,7 @@ public class SphereController : MonoBehaviour
         if (collision.gameObject.tag == "Ground")
         {
             isGrounded = true;
-            MochiManager.Instance.isGroundedSphere = isGrounded;
+            MochiManager.Instance.isGroundedSphere = true;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -69,7 +69,7 @@ public class SphereController : MonoBehaviour
         if (collision.gameObject.tag == "Ground")
         {
             isGrounded = false;
-            MochiManager.Instance.isGroundedSphere = isGrounded;
+            MochiManager.Instance.isGroundedSphere = false;
         }
     }
 
