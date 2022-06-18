@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 192239556154815177}
   - component: {fileID: -3577430028567385436}
   m_Layer: 0
-  m_Name: Fruit
-  m_TagString: Pickups/Fruit
+  m_Name: FruitX5
+  m_TagString: Pickups/FruitX5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: e9999d0225610ce499fb453cb30b70b5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1932af1a64b08804b872da6e86adb79a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

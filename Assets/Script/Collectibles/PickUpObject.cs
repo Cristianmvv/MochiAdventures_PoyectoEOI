@@ -12,5 +12,11 @@ public class PickUpObject : MonoBehaviour
             GameManager.Instance.ScoreFruit();
             //Destroy(collision.gameObject);
         }
+        if (collision.CompareTag("Pickups/FruitX5"))
+        {
+            collision.gameObject.SetActive(false);
+            GameManager.Instance.ScoreFruit(5);
+            //Destroy(collision.gameObject);
+        }
     }
 }
