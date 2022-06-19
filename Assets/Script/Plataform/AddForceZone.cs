@@ -7,6 +7,13 @@ public class AddForceZone : MonoBehaviour
     public Vector2 force;
     [SerializeField] bool effectEveryone;
     [SerializeField] bool dissableMochiTransform;
+    [SerializeField] bool forceMochiSlime;
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (MochiManager.Instance.IsSphere)
+            if(forceMochiSlime)MochiManager.Instance.InstantiateMochiSlime();
+    }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -16,20 +23,19 @@ public class AddForceZone : MonoBehaviour
             {
                 collision.transform.parent.GetChild(i).GetComponent<Rigidbody2D>().AddForce(force, ForceMode2D.Force);
             }
-            if(dissableMochiTransform) MochiManager.Instance.disableTransform = true;
+            if(!MochiManager.Instance.IsSphere && dissableMochiTransform) MochiManager.Instance.disableTransform = true;
         }
         if (effectEveryone)
         {
             collision.gameObject.GetComponent<Rigidbody2D>().AddForce(force, ForceMode2D.Force);
+            if (!MochiManager.Instance.IsSphere && dissableMochiTransform) MochiManager.Instance.disableTransform = true;
         }
     }
 
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (!effectEveryone && collision.gameObject.CompareTag("SlimeCenter"))
-        {
-            if (dissableMochiTransform) MochiManager.Instance.disableTransform = false;
-        }
+        if (collision.gameObject)
+            MochiManager.Instance.disableTransform = false;
     }
 }

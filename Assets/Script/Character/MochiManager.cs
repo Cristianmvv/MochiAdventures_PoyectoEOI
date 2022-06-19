@@ -110,7 +110,7 @@ public class MochiManager : MonoBehaviour
         //mochiSphere.GetComponent<Rigidbody2D>().velocity = inertia; //  Recoje la informacion de la inercia del modo slime que estaba guardada en la variable
     }
 
-    void InstantiateMochiSlime()
+    public void InstantiateMochiSlime()
     {
         IsSphere = false;
         //if (TakeInertia != null) TakeInertia();
