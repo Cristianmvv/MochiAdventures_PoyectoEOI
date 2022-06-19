@@ -78,7 +78,8 @@ public class MochiManager : MonoBehaviour
             else if (isGrounded)    //  Si se a levantado despues de 0.2seg (mantenido pulsado) Y ESTA TOCANDO EL SUELO realizara el salto
             {
                 InstantiateMochiSphere();
-                mochiSphere.GetComponent<Rigidbody2D>().velocity = new Vector2(mochiSphere.GetComponent<Rigidbody2D>().velocity.x, 0);
+                if (mochiSphere.GetComponent<Rigidbody2D>().velocity.y < 0)
+                    mochiSphere.GetComponent<Rigidbody2D>().velocity = new Vector2(mochiSphere.GetComponent<Rigidbody2D>().velocity.x, 0);
                 mochiSphere.GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);  //  El salto de la esfera
                 Debug.Log("Salto");
             }

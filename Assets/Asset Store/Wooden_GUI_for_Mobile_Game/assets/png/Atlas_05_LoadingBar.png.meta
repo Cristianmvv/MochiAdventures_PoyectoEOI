@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,285 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Atlas_05_LoadingBar_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1705
+        width: 1900
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7947bdfaef1404fa4440610d16cc56
+      internalID: 1502773010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_05_LoadingBar_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1526
+        width: 1510
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759029540663acb4ebe2f77ac2f81463
+      internalID: 1044541137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_05_LoadingBar_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1346
+        width: 1510
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa8374491690194998086a636c51eb9
+      internalID: -1267435955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_05_LoadingBar_3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1168
+        width: 1510
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5831cf144eb5343a1262e318887369
+      internalID: 1097148449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_05_LoadingBar_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 990
+        width: 1510
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b58f30b2a6277441818ce4b9ed0f3e7
+      internalID: -1625058454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_05_LoadingBar_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 812
+        width: 1510
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e88390c0a9a8c4d945b19407b08792
+      internalID: 1808172938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_05_LoadingBar_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 635
+        width: 1510
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200f2a3fff3888443b25349b9a8cc865
+      internalID: -77223997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_05_LoadingBar_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 458
+        width: 1510
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06552bfcfc7ab204e9b4ce703f2b8f27
+      internalID: -1125833686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_05_LoadingBar_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 280
+        width: 1510
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5e882039d81a640ab77ab11aff2330
+      internalID: 399811313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_05_LoadingBar_9
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 33
+        width: 570
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e839b84497bbf42ac79a9efa2d7678
+      internalID: 1017010763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_05_LoadingBar_10
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 102
+        width: 116
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06fc86d489310849bd1797939dd821a
+      internalID: 1867990148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_05_LoadingBar_11
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 8
+        width: 1079
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712f6e7031fb52341bea8d83dc6ccb25
+      internalID: 1846999192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +365,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Atlas_05_LoadingBar_4: -1625058454
+      Atlas_05_LoadingBar_10: 1867990148
+      Atlas_05_LoadingBar_3: 1097148449
+      Atlas_05_LoadingBar_1: 1044541137
+      Atlas_05_LoadingBar_8: 399811313
+      Atlas_05_LoadingBar_11: 1846999192
+      Atlas_05_LoadingBar_7: -1125833686
+      Atlas_05_LoadingBar_6: -77223997
+      Atlas_05_LoadingBar_9: 1017010763
+      Atlas_05_LoadingBar_5: 1808172938
+      Atlas_05_LoadingBar_2: -1267435955
+      Atlas_05_LoadingBar_0: 1502773010
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
