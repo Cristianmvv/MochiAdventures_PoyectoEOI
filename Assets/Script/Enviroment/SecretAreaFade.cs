@@ -2,17 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.U2D;
-
+/// <summary>
+/// WIP CODE
+/// el Sprite Shape tiene un fallo que no permite modificar directamente el color usando la libreria de UnityEngine.U2D
+/// por lo que se haria modificando el propio material
+/// </summary>
 public class SecretAreaFade : MonoBehaviour
 {
+    [SerializeField] Material material;
     [Range(0f, 1f)]
     [SerializeField] float fadeQuantity;
     [SerializeField] float fadeTime;
-    Color color;
+    public Color color;
 
-    private void Start()
+    private void Update()
     {
-         color = GetComponent<SpriteShapeRenderer>().material.color;
+        material.color = color;
+        if (Input.GetMouseButtonDown(0)) color = Color.cyan;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
