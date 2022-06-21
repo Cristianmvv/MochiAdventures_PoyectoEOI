@@ -2572,8 +2572,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f05306a07ffd31c45b7a2ba827197390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 84db57a80a80e8546bf96a7ca9a97286, type: 2}
   fadeQuantity: 0.1
   fadeTime: 0.1
+  color: {r: 1, g: 1, b: 1, a: 0}
 --- !u!60 &1749477388
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2707,7 +2709,7 @@ MonoBehaviour:
   m_CornerAngleThreshold: 30
   m_ColliderDetail: 16
   m_ColliderOffset: 0.5
-  m_UpdateCollider: 1
+  m_UpdateCollider: 0
   m_OptimizeCollider: 1
   m_OptimizeGeometry: 1
   m_EnableTangents: 0
@@ -2733,8 +2735,8 @@ SpriteShapeRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 84db57a80a80e8546bf96a7ca9a97286, type: 2}
+  - {fileID: 2100000, guid: 84db57a80a80e8546bf96a7ca9a97286, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
