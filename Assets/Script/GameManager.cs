@@ -16,9 +16,9 @@ public class GameManager : MonoBehaviour
         else Instance = this;   //  Le a?ade el valor de este propio script
     }
 
-    private void Start()
+    public int GetScoreFruit()
     {
-
+        return scoreFruit;
     }
 
     public void ScoreFruit(int _fruitValue = 1)

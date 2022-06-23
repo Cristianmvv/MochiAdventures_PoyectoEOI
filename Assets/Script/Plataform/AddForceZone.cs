@@ -12,7 +12,7 @@ public class AddForceZone : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (MochiManager.Instance.IsSphere)
-            if(forceMochiSlime)MochiManager.Instance.InstantiateMochiSlime();
+            if (forceMochiSlime) MochiManager.Instance.InstantiateMochiSlime();
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -23,12 +23,15 @@ public class AddForceZone : MonoBehaviour
             {
                 collision.transform.parent.GetChild(i).GetComponent<Rigidbody2D>().AddForce(force, ForceMode2D.Force);
             }
-            if(!MochiManager.Instance.IsSphere && dissableMochiTransform) MochiManager.Instance.disableTransform = true;
+            if (!MochiManager.Instance.IsSphere && dissableMochiTransform) MochiManager.Instance.disableTransform = true;
         }
         if (effectEveryone)
         {
-            collision.gameObject.GetComponent<Rigidbody2D>().AddForce(force, ForceMode2D.Force);
-            if (!MochiManager.Instance.IsSphere && dissableMochiTransform) MochiManager.Instance.disableTransform = true;
+            if (!(collision.CompareTag("Pickups/Fruit") || collision.CompareTag("Pickups/FruitX5")))
+            {
+                collision.gameObject.GetComponent<Rigidbody2D>().AddForce(force, ForceMode2D.Force);
+                if (!MochiManager.Instance.IsSphere && dissableMochiTransform) MochiManager.Instance.disableTransform = true;
+            }    
         }
     }
 
