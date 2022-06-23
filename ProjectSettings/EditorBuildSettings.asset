@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/OldLevels/Level1.unity
     guid: 6b31dd2e4daf3cd4bb50737c8176851f
   - enabled: 1
+    path: Assets/Scenes/Level Cris.unity
+    guid: 1e693ef671e062a4ca3d99d90ab74578
+  - enabled: 1
+    path: "Assets/Scenes/Level Se\xF1or Paco.unity"
+    guid: 9d47030ea83e7684a8ca5b726815020a
+  - enabled: 0
     path: Assets/Asset Store/Metal Chains/Scenes/DemoScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
