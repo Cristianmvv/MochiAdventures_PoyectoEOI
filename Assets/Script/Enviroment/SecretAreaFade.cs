@@ -26,9 +26,9 @@ public class SecretAreaFade : MonoBehaviour
         if (collision.gameObject.CompareTag("SlimeCenter") || collision.gameObject.CompareTag("MochiSphere"))
         {
             
-            StopCoroutine(FadeIn());
+            StopCoroutine("FadeOut");
 
-            StartCoroutine(FadeOut());
+            StartCoroutine("FadeIn");
         }
     }
 
@@ -36,9 +36,9 @@ public class SecretAreaFade : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("SlimeCenter") || collision.gameObject.CompareTag("MochiSphere"))
         {
-            StopCoroutine(FadeOut());
+            StopCoroutine("FadeIn");
 
-            StartCoroutine(FadeIn());
+            StartCoroutine("FadeOut");
         }
     }
 
