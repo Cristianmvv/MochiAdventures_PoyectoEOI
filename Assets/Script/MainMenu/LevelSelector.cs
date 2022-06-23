@@ -19,6 +19,7 @@ public class LevelSelector : MonoBehaviour
             else
                 buttonLevel[i].interactable = true;
         }
+        transform.parent.gameObject.SetActive(false);
     }
 
     void LoadData()
