@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class FInalPanel : MonoBehaviour
+public class FinalPanel : MonoBehaviour
 {
     public GameObject finalPanel;
     public Text textFruit;

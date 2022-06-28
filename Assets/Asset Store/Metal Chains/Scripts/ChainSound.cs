@@ -12,7 +12,8 @@ public class ChainSound : MonoBehaviour
     public int strength = 300; //The force at which the sound will be played. 
     //This will be different depending on the mass and amount of chains.
 
-    private bool letSound = true;
+    //private bool letSound = true;
+
 
     private void Start()
     {
