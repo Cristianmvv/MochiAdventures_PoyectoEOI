@@ -23,12 +23,19 @@ public class PlatformMoving : MonoBehaviour
         if (Vector3.Distance(objectToMove.transform.position, endPoint.position) < 1)
         {
             moveTo = startPoint.position;
+            StartCoroutine(PlatformWait());
         }
 
         if (Vector3.Distance(objectToMove.transform.position, startPoint.position) < 1)
         {
             moveTo = endPoint.position;
+            StartCoroutine(PlatformWait());
         }
+    }
+
+    IEnumerator PlatformWait()
+    {
+        yield return new WaitForSeconds(1);
     }
 
     

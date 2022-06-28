@@ -15,4 +15,12 @@ public class OptionsMenu : MonoBehaviour
     {
         audioMixer.SetFloat("Volume", volume);
     }
+    public void ChangeVolumeMusic(float volume)
+    {
+        audioMixer.SetFloat("VolumeMusic", volume);
+    }
+    public void ChangeVolumeSfx(float volume)
+    {
+        audioMixer.SetFloat("VolumeSfx", volume);
+    }
 }
