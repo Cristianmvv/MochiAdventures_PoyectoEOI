@@ -38,7 +38,10 @@ public class FinalPanel : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("SlimeCenter") || collision.gameObject.CompareTag("MochiSphere"))
+        {
+            print("mochidentro");
             StartCoroutine(OpenfinalPanel());
+        }
     }
 
     public void MainMenu()
