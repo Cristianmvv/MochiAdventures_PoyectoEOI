@@ -18,6 +18,8 @@ public class MochiManager : MonoBehaviour
     public GameObject slimeCenter; //  Hueso central del modo slime para poder instanciar el modo esfera en este punto, necesario porque de base se instanciara donde este el MochiController
     GameObject mochiSlime, mochiSphere;  //  GameObjects donde se instanciaran las formas
     public bool IsSphere;  //  Permite indicar en que estado se encuentra el slime, si en esfera o slime
+    public bool disableMovement;
+    public bool disableTransform;
 
     [Header("Salto")]
     public float jumpForce;
@@ -29,7 +31,6 @@ public class MochiManager : MonoBehaviour
     public Vector2 inertia;
     #endregion
 
-    public bool disableTransform;
 
     private void Awake()
     {

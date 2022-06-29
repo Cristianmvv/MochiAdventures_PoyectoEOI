@@ -15,17 +15,24 @@ public class FinalPanel : MonoBehaviour
     {
         totalFruits = GameObject.FindGameObjectsWithTag("Pickups/Fruit").Length + (GameObject.FindGameObjectsWithTag("Pickups/FruitX5").Length * 5);
         finalPanel.SetActive(false);
+
     }
 
     public IEnumerator OpenfinalPanel()
     {
         PlayerPrefs.SetInt("ScoreLevel" + levelNumber, GameManager.Instance.GetScoreFruit());
         finalPanel.SetActive(true);
-        for (int i = 0; i <= GameManager.Instance.GetScoreFruit(); i++)
+        if (GameManager.Instance.GetScoreFruit() > 0)
         {
-            textFruit.text = i + " / " + totalFruits;
-            yield return new WaitForSeconds((float)5 / (float)GameManager.Instance.GetScoreFruit());
+            for (int i = 0; i <= GameManager.Instance.GetScoreFruit(); i++)
+            {
+                textFruit.text = i + " / " + totalFruits;
+                yield return new WaitForSeconds((float)5 / (float)GameManager.Instance.GetScoreFruit());
+            }
+
+            GetComponent<ParticleSystem>().Play();
         }
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

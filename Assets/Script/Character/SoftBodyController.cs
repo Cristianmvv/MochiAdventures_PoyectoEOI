@@ -57,11 +57,14 @@ public class SoftBodyController : MonoBehaviour
 
     void MovementSlime()
     {
+
+        if (MochiManager.Instance.disableMovement == true) return;
         movH = Input.GetAxis("Horizontal");
         if (movH!=0 /*|| centerSlimeRb.velocity.x >= 4*/)    //  Permite que al soltar el boton, la velocidad no vuelva a 0 sino que decaiga con el drag del Rigidbody
         {
             centerSlimeRb.velocity = new Vector2(movH * speed, centerSlimeRb.velocity.y);    //  Permite el movimiento lateral, si no se le indica el ejeY caera "flotando" y no con su peso real
         }
+
     }
 
     void RaycastGroundCheck()
