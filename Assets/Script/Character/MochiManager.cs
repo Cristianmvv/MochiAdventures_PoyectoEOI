@@ -29,6 +29,9 @@ public class MochiManager : MonoBehaviour
     public bool isGroundedSlime;
 
     public Vector2 inertia;
+
+    AudioSource audioS;
+    public AudioClip audioJump, audioForm;
     #endregion
 
 
@@ -36,6 +39,7 @@ public class MochiManager : MonoBehaviour
     {
         if (Instance != null && Instance != this) Destroy(this);    //  Si al inicio del script tiene no ningun valor o si ya lo tiene, lo destruye
         else Instance = this;   //  Le a?ade el valor de este propio script
+        audioS = GetComponent<AudioSource>();
     }
 
     void Start()
@@ -82,6 +86,8 @@ public class MochiManager : MonoBehaviour
                 if (mochiSphere.GetComponent<Rigidbody2D>().velocity.y < 0)
                     mochiSphere.GetComponent<Rigidbody2D>().velocity = new Vector2(mochiSphere.GetComponent<Rigidbody2D>().velocity.x, 0);
                 mochiSphere.GetComponent<Rigidbody2D>().AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);  //  El salto de la esfera
+                audioS.clip = audioJump;
+                audioS.Play();
                 Debug.Log("Salto");
             }
             else   //   Si se a levantado despues de 0.2seg (mantenido pulsado) Y NO ESTA TOCANDO EL SUELO cambiara a esfera
@@ -102,6 +108,8 @@ public class MochiManager : MonoBehaviour
 
     public void InstantiateMochiSphere()
     {
+        audioS.clip = audioForm;
+        audioS.Play();
         IsSphere = true;
         //if (TakeInertia!= null) TakeInertia();
         inertia = slimeCenter.GetComponent<Rigidbody2D>().velocity; //  Envia la informacion de la inercia del modo slime a la variable
@@ -114,6 +122,8 @@ public class MochiManager : MonoBehaviour
 
     public void InstantiateMochiSlime()
     {
+        audioS.clip = audioForm;
+        audioS.Play();
         IsSphere = false;
         //if (TakeInertia != null) TakeInertia();
         inertia = mochiSphere.GetComponent<Rigidbody2D>().velocity; //  Envia la informacion de la inercia del modo esfera a la variable
