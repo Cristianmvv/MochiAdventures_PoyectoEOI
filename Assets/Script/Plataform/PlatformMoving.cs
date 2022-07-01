@@ -7,6 +7,7 @@ public class PlatformMoving : MonoBehaviour
     public GameObject objectToMove;
     public Transform startPoint;
     public Transform endPoint;
+    [SerializeField] float waitTime;
 
     public float speed;
 
@@ -22,20 +23,23 @@ public class PlatformMoving : MonoBehaviour
 
         if (Vector3.Distance(objectToMove.transform.position, endPoint.position) < 1)
         {
-            moveTo = startPoint.position;
-            StartCoroutine(PlatformWait());
+            Invoke("MoveToStart", waitTime);
         }
 
         if (Vector3.Distance(objectToMove.transform.position, startPoint.position) < 1)
         {
-            moveTo = endPoint.position;
-            StartCoroutine(PlatformWait());
+            Invoke("MoveToEnd", waitTime);
         }
     }
 
-    IEnumerator PlatformWait()
+    void MoveToStart()
     {
-        yield return new WaitForSeconds(1);
+        moveTo = startPoint.position;
+    }
+
+    void MoveToEnd()
+    {
+        moveTo = endPoint.position;
     }
 
     

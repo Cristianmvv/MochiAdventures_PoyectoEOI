@@ -43,6 +43,7 @@ public class SphereController : MonoBehaviour
 
     void MovementSphere()
     {
+        if (MochiManager.Instance.disableMovement == true) return;
         movH = Input.GetAxis("Horizontal");
         if (movH != 0)    //  Permite que al soltar el boton, la velocidad no vuelva a 0 sino que decaiga con el drag del Rigidbody
         {
