@@ -8,7 +8,7 @@ public class FinalPanel : MonoBehaviour
 {
     public GameObject finalPanel;
     public Text textFruit;
-    public int totalFruits;
+    int totalFruits;
     public int levelNumber;
 
     private void Start()
