@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class DisableTransformCollider : MonoBehaviour
 {
-
+    [SerializeField] bool disableMovement;
+    [SerializeField] bool disableTransform;
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        MochiManager.Instance.disableMovement = true;
-        MochiManager.Instance.disableTransform = true;
+        if (disableMovement)
+            MochiManager.Instance.disableMovement = true;
+
+        if (disableTransform)
+            MochiManager.Instance.disableTransform = true;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
