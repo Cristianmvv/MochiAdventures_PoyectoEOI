@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 7972136911024460616}
   - component: {fileID: 7972136911024460619}
   m_Layer: 0
-  m_Name: LevelEnd
-  m_TagString: Untagged
+  m_Name: DONT USE LevelEnd
+  m_TagString: DEPRECATED
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalPanel: {fileID: 0}
   textFruit: {fileID: 0}
+  totalFruits: 0
   levelNumber: 0
 --- !u!61 &7972136911024460619
 BoxCollider2D:

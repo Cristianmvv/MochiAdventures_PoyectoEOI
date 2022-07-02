@@ -11,11 +11,16 @@ public class FinalPanel : MonoBehaviour
     public int totalFruits;
     public int levelNumber;
 
+    private void Awake()
+    {
+        finalPanel = GameObject.FindGameObjectWithTag("Panel/FinalPanel");
+        textFruit = GameObject.FindGameObjectWithTag("Panel/FinalPanelScore").GetComponent<Text>();
+    }
+
     private void Start()
     {
         totalFruits = GameObject.FindGameObjectsWithTag("Pickups/Fruit").Length + (GameObject.FindGameObjectsWithTag("Pickups/FruitX5").Length * 5);
         finalPanel.SetActive(false);
-
     }
 
     public IEnumerator OpenfinalPanel()
@@ -24,16 +29,15 @@ public class FinalPanel : MonoBehaviour
         finalPanel.SetActive(true);
         if (GameManager.Instance.GetScoreFruit() > 0)
         {
+            GetComponent<ParticleSystem>().Play();
+
             for (int i = 0; i <= GameManager.Instance.GetScoreFruit(); i++)
             {
                 print("Conteo panel final");
                 textFruit.text = i + " / " + totalFruits;
                 yield return new WaitForSeconds((float)5 / (float)GameManager.Instance.GetScoreFruit());
             }
-
-            GetComponent<ParticleSystem>().Play();
         }
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

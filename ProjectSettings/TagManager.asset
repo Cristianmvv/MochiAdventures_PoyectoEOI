@@ -11,6 +11,13 @@ TagManager:
   - SlimePerimeter
   - Pickups/Fruit
   - Pickups/FruitX5
+  - Panel/PausePanel
+  - Panel/CurrentScore
+  - MochiManager
+  - Panel/FinalPanel
+  - Panel/FinalPanelScore
+  - WinZone
+  - DEPRECATED
   layers:
   - Default
   - TransparentFX

@@ -12,8 +12,9 @@ public class CameraManager : MonoBehaviour
 
     void Start()
     {
-        cinemachine = GetComponent<CinemachineVirtualCamera>();
+        mochiManager = GameObject.FindGameObjectWithTag("MochiManager");
 
+        cinemachine = GetComponent<CinemachineVirtualCamera>();
     }
 
     private void Update()

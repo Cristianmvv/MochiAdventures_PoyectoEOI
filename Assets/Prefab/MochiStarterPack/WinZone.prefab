@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 8681004259532799073}
   - component: {fileID: 8681004259532799074}
   m_Layer: 0
-  m_Name: FinalWinPanel
-  m_TagString: Untagged
+  m_Name: WinZone
+  m_TagString: WinZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
