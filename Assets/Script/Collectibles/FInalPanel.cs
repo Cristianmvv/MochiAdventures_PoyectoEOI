@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class FinalPanel : MonoBehaviour
 {
     public GameObject finalPanel;
-    public Text textFruit;
+    public TextMeshPro textFruit;
     public int totalFruits;
     public int levelNumber;
 
