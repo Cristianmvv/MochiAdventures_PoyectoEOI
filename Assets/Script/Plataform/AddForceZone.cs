@@ -11,8 +11,8 @@ public class AddForceZone : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (MochiManager.Instance.IsSphere)
-            if (forceMochiSlime) MochiManager.Instance.InstantiateMochiSlime();
+        if (MochiManager.Instance.IsSphere && forceMochiSlime)
+            /*if (forceMochiSlime)*/ MochiManager.Instance.InstantiateMochiSlime();
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -35,10 +35,17 @@ public class AddForceZone : MonoBehaviour
         }
     }
 
-
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject)
             MochiManager.Instance.disableTransform = false;
     }
+
+    //private void OnParticleTrigger()
+    //{
+    //    ParticleSystem particle = GetComponent<ParticleSystem>();
+
+    //    particle.getT
+    //}
+
 }

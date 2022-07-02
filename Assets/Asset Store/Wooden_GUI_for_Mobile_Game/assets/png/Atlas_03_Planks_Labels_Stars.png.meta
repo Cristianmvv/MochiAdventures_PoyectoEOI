@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,222 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Atlas_03_Planks_Labels_Stars_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1710
+        width: 1892
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fc01fed317d0542b495404949aa067
+      internalID: 1126384241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_03_Planks_Labels_Stars_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1310
+        width: 1839
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029c1229e8fb4274c9d9eb167d3e26fe
+      internalID: -984894059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_03_Planks_Labels_Stars_2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 961
+        width: 1206
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee07f92f86eede42851540ebdd06683
+      internalID: -1934209140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_03_Planks_Labels_Stars_3
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 654
+        width: 672
+        height: 647
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0513ecd40ca585d4baa6a0d3cbdbc91f
+      internalID: 1050402755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_03_Planks_Labels_Stars_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 617
+        width: 1206
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7a141ad05ae184d9ab61a766dab96c
+      internalID: 1449868606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_03_Planks_Labels_Stars_5
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 35
+        width: 582
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3c8ed6ceb6bee48af37f03bf5c5ce1
+      internalID: 2082030461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_03_Planks_Labels_Stars_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 272
+        width: 1206
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7091b5436d69e484496f9c816c097fae
+      internalID: -1183557409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_03_Planks_Labels_Stars_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 40
+        width: 507
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14ac0b7af1df0a48ac184cfe19f91a8
+      internalID: 824887645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_03_Planks_Labels_Stars_8
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 35
+        width: 733
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abb28eb50eeadb42a405fa5bf03318d
+      internalID: -1046732839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +302,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Atlas_03_Planks_Labels_Stars_3: 1050402755
+      Atlas_03_Planks_Labels_Stars_4: 1449868606
+      Atlas_03_Planks_Labels_Stars_2: -1934209140
+      Atlas_03_Planks_Labels_Stars_5: 2082030461
+      Atlas_03_Planks_Labels_Stars_7: 824887645
+      Atlas_03_Planks_Labels_Stars_0: 1126384241
+      Atlas_03_Planks_Labels_Stars_6: -1183557409
+      Atlas_03_Planks_Labels_Stars_1: -984894059
+      Atlas_03_Planks_Labels_Stars_8: -1046732839
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

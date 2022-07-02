@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,180 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Atlas_06_Labels_Stars_Chest_Icons_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1757
+        width: 1669
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9aaa7f72f06ef46bca52821e8c567d
+      internalID: 1452646320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_06_Labels_Stars_Chest_Icons_1
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1870
+        width: 350
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a156cee0b04a5140adc34c03c462654
+      internalID: -701950374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_06_Labels_Stars_Chest_Icons_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1409
+        width: 1206
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5e33928c60a1649bfec7305b3f7af0
+      internalID: -121334441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_06_Labels_Stars_Chest_Icons_3
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1256
+        width: 574
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49712164d9e14fe4891113efd0e3dca8
+      internalID: 1550305076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_06_Labels_Stars_Chest_Icons_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1065
+        width: 1206
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65aac7fdebb81f40b00ab35026c55d9
+      internalID: -1435525257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_06_Labels_Stars_Chest_Icons_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 655
+        width: 386
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd02583ce13d6604b8f283f935edeb9f
+      internalID: -1038928739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas_06_Labels_Stars_Chest_Icons_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 627
+        width: 445
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd83fed66869144d9779474b47ff46a
+      internalID: -1814057653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +260,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Atlas_06_Labels_Stars_Chest_Icons_5: -1038928739
+      Atlas_06_Labels_Stars_Chest_Icons_3: 1550305076
+      Atlas_06_Labels_Stars_Chest_Icons_0: 1452646320
+      Atlas_06_Labels_Stars_Chest_Icons_6: -1814057653
+      Atlas_06_Labels_Stars_Chest_Icons_1: -701950374
+      Atlas_06_Labels_Stars_Chest_Icons_2: -121334441
+      Atlas_06_Labels_Stars_Chest_Icons_4: -1435525257
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
