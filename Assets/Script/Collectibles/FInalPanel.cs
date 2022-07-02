@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using TMPro;
 
 public class FinalPanel : MonoBehaviour
 {
     public GameObject finalPanel;
-    public TextMeshPro textFruit;
+    public Text textFruit;
     public int totalFruits;
     public int levelNumber;
 
@@ -27,6 +26,7 @@ public class FinalPanel : MonoBehaviour
         {
             for (int i = 0; i <= GameManager.Instance.GetScoreFruit(); i++)
             {
+                print("Conteo panel final");
                 textFruit.text = i + " / " + totalFruits;
                 yield return new WaitForSeconds((float)5 / (float)GameManager.Instance.GetScoreFruit());
             }

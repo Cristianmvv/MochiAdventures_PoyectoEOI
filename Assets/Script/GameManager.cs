@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
     #region Game Metods Collectables
     public int GetScoreFruit()
     {
+        print("Cojer Datos de Puntuacion");
         return scoreFruit;
     }
 
