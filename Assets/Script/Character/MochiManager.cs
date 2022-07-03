@@ -28,6 +28,9 @@ public class MochiManager : MonoBehaviour
     public bool isGroundedSphere;
     public bool isGroundedSlime;
 
+    [Header("Animacion")]
+    private Animator anim;
+
     public Vector2 inertia;
 
     AudioSource audioS;
@@ -45,6 +48,7 @@ public class MochiManager : MonoBehaviour
     void Start()
     {
         FirstInstantiateMochi();
+        //anim.GetComponent<Animator>();
     }
 
     void Update()
@@ -52,7 +56,7 @@ public class MochiManager : MonoBehaviour
         //if (SphereController.Instance == null) isGrounded = CheckGrounded();
         if (IsSphere) isGrounded = CheckGrounded();
         else isGrounded = CheckGrounded(isGroundedSphere);
-
+        //anim.SetBool("isGrounded", isGrounded);
         if (!disableTransform) ChangeForms();
     }
 
