@@ -21,6 +21,15 @@ public class FinalPanel : MonoBehaviour
     {
         totalFruits = GameObject.FindGameObjectsWithTag("Pickups/Fruit").Length + (GameObject.FindGameObjectsWithTag("Pickups/FruitX5").Length * 5);
         finalPanel.SetActive(false);
+
+        #region Checkeo de si las cosas estan bien
+            #if UNITY_EDITOR
+
+        if (finalPanel == null)
+            Debug.Log("<color=red>Error: </color> Recuerda activar el <FinalPanel> antes de iniciar el juego");
+
+            #endif
+        #endregion
     }
 
     public IEnumerator OpenfinalPanel()

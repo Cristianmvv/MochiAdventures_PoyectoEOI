@@ -16,6 +16,9 @@ public class GameManager : MonoBehaviour
 
     [Header("PausePanel")]
     [SerializeField] GameObject pausePanel;
+    Button resumeButton;
+    Button restartButton;
+    Button exitButton;
 
 
     private void Awake()
@@ -34,6 +37,7 @@ public class GameManager : MonoBehaviour
     {
         #region Checkeo de si las cosas estan bien
             #if UNITY_EDITOR
+
         GameObject DEPRECATED;
         DEPRECATED = GameObject.FindGameObjectWithTag("DEPRECATED"); //  GameObject con este tag son los que no se quieren usar
 
@@ -41,8 +45,23 @@ public class GameManager : MonoBehaviour
             Debug.Log("<color=red>Error: </color>Te falta poner la zona final");
         if (DEPRECATED != null)
             Debug.Log("<color=red>Error: </color>Debes sustituir el gameobject<"+DEPRECATED.name +">Por el bueno en MochiStartedPack",DEPRECATED);
+        if (pausePanel == null)
+            Debug.Log("<color=red>Error: </color> Recuerda activar el <PausePanel> antes de iniciar el juego");
+            
             #endif
         #endregion
+
+        resumeButton = GameObject.FindGameObjectWithTag("Button/Resume").GetComponent<Button>();
+        resumeButton.onClick.AddListener(ResumeButtom);
+
+        restartButton = GameObject.FindGameObjectWithTag("Button/Restart").GetComponent<Button>();
+        restartButton.onClick.AddListener(RestartButton);
+
+        exitButton = GameObject.FindGameObjectWithTag("Button/Exit").GetComponent<Button>();
+        exitButton.onClick.AddListener(ExitButton);
+
+        pausePanel.SetActive(false);
+
     }
 
     private void Update()

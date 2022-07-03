@@ -18,6 +18,9 @@ TagManager:
   - Panel/FinalPanelScore
   - WinZone
   - DEPRECATED
+  - Button/Resume
+  - Button/Restart
+  - Button/Exit
   layers:
   - Default
   - TransparentFX
