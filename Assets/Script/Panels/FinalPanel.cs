@@ -27,7 +27,7 @@ public class FinalPanel : MonoBehaviour
     {
         PlayerPrefs.SetInt("ScoreLevel" + levelNumber, GameManager.Instance.GetScoreFruit());
         finalPanel.SetActive(true);
-        if (GameManager.Instance.GetScoreFruit() > 0)
+        if (GameManager.Instance.GetScoreFruit() > (25 * GameManager.Instance.GetScoreFruit()/100))
         {
             GetComponent<ParticleSystem>().Play();
 

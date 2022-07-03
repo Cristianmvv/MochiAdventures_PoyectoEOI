@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
 
         pausePanel = GameObject.FindGameObjectWithTag("Panel/PausePanel");
         scoreFruitText = GameObject.FindGameObjectWithTag("Panel/CurrentScore").GetComponent<TextMeshProUGUI>();
-
+        pausePanel.SetActive(false);
         audioS = GetComponent<AudioSource>();
     }
 
@@ -91,6 +91,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;
         pausePanel.SetActive(false);
+
     }
 
     public void RestartButton()

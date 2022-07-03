@@ -2539,7 +2539,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.08627642, y: 1}
   m_AnchorMax: {x: 0.5112339, y: 1}
-  m_AnchoredPosition: {x: -8.483765, y: -12.604187}
+  m_AnchoredPosition: {x: -8.483749, y: -12.604187}
   m_SizeDelta: {x: -18.893967, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &349143372
@@ -7967,7 +7967,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.08627642, y: 1}
   m_AnchorMax: {x: 0.5112339, y: 1}
-  m_AnchoredPosition: {x: -8.483765, y: -12.604187}
+  m_AnchoredPosition: {x: -8.483749, y: -12.604187}
   m_SizeDelta: {x: -18.893967, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1021498108
@@ -11913,7 +11913,7 @@ GameObject:
   - component: {fileID: 1601588452}
   m_Layer: 5
   m_Name: LevelSelector
-  m_TagString: Untagged
+  m_TagString: Panel/LevelSelector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13198,7 +13198,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.08627642, y: 1}
   m_AnchorMax: {x: 0.5112339, y: 1}
-  m_AnchoredPosition: {x: -8.483765, y: -12.604187}
+  m_AnchoredPosition: {x: -8.483749, y: -12.604187}
   m_SizeDelta: {x: -18.893967, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1848002158

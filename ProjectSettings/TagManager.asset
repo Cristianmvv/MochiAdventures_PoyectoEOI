@@ -18,6 +18,7 @@ TagManager:
   - Panel/FinalPanelScore
   - WinZone
   - DEPRECATED
+  - Panel/LevelSelector
   layers:
   - Default
   - TransparentFX
