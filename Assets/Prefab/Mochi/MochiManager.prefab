@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1507007811234749588}
   m_Layer: 0
   m_Name: MochiManager
-  m_TagString: Untagged
+  m_TagString: DEPRECATED
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,6 +48,12 @@ MonoBehaviour:
   mochiSpherePf: {fileID: 5007650291400012696, guid: 5eb3315a9ee671747b42e7c51367e11a, type: 3}
   slimeCenter: {fileID: 0}
   IsSphere: 0
+  disableMovement: 0
+  disableTransform: 0
   jumpForce: 8
-  IsGrounded: 0
+  isGrounded: 0
+  isGroundedSphere: 0
+  isGroundedSlime: 0
   inertia: {x: 0, y: 0}
+  audioJump: {fileID: 0}
+  audioForm: {fileID: 0}
