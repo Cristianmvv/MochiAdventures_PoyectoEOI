@@ -30,7 +30,6 @@ public class GameManager : MonoBehaviour
 
         pausePanel = GameObject.FindGameObjectWithTag("Panel/PausePanel");
         scoreFruitText = GameObject.FindGameObjectWithTag("Panel/CurrentScore").GetComponent<TextMeshProUGUI>();
-        pausePanel.SetActive(false);
         audioS = GetComponent<AudioSource>();
     }
 
