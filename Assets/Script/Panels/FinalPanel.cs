@@ -11,6 +11,9 @@ public class FinalPanel : MonoBehaviour
     public int totalFruits;
     public int levelNumber;
 
+    Button nextButton;
+    Button menuButton;
+
     private void Awake()
     {
         finalPanel = GameObject.FindGameObjectWithTag("Panel/FinalPanel");
@@ -19,9 +22,6 @@ public class FinalPanel : MonoBehaviour
 
     private void Start()
     {
-        totalFruits = GameObject.FindGameObjectsWithTag("Pickups/Fruit").Length + (GameObject.FindGameObjectsWithTag("Pickups/FruitX5").Length * 5);
-        finalPanel.SetActive(false);
-
         #region Checkeo de si las cosas estan bien
             #if UNITY_EDITOR
 
@@ -30,6 +30,31 @@ public class FinalPanel : MonoBehaviour
 
             #endif
         #endregion
+
+        nextButton = GameObject.FindGameObjectWithTag("Button/Next").GetComponent<Button>();
+        nextButton.onClick.AddListener(GameManager.Instance.NextButton);
+
+        menuButton = GameObject.FindGameObjectWithTag("Button/Menu").GetComponent<Button>();
+        menuButton.onClick.AddListener(GameManager.Instance.MenuButton);
+
+        totalFruits = GameObject.FindGameObjectsWithTag("Pickups/Fruit").Length + (GameObject.FindGameObjectsWithTag("Pickups/FruitX5").Length * 5);
+        finalPanel.SetActive(false);
+
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("SlimeCenter") || collision.gameObject.CompareTag("MochiSphere"))
+        {
+            print("mochidentro");
+            Invoke("CallCoroutine", 1);
+        }
+    }
+
+    void CallCoroutine()
+    {
+        StartCoroutine(OpenfinalPanel());
     }
 
     public IEnumerator OpenfinalPanel()
@@ -46,15 +71,6 @@ public class FinalPanel : MonoBehaviour
                 textFruit.text = i + " / " + totalFruits;
                 yield return new WaitForSeconds((float)5 / (float)GameManager.Instance.GetScoreFruit());
             }
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("SlimeCenter") || collision.gameObject.CompareTag("MochiSphere"))
-        {
-            print("mochidentro");
-            StartCoroutine(OpenfinalPanel());
         }
     }
 

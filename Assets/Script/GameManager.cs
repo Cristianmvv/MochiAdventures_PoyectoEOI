@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     Button restartButton;
     Button exitButton;
 
+    
 
     private void Awake()
     {
@@ -47,6 +48,8 @@ public class GameManager : MonoBehaviour
             Debug.Log("<color=red>Error: </color>Debes sustituir el gameobject<"+DEPRECATED.name +">Por el bueno en MochiStartedPack",DEPRECATED);
         if (pausePanel == null)
             Debug.Log("<color=red>Error: </color> Recuerda activar el <PausePanel> antes de iniciar el juego");
+
+
             
             #endif
         #endregion
@@ -60,7 +63,10 @@ public class GameManager : MonoBehaviour
         exitButton = GameObject.FindGameObjectWithTag("Button/Exit").GetComponent<Button>();
         exitButton.onClick.AddListener(ExitButton);
 
+
+
         pausePanel.SetActive(false);
+        
 
     }
 
@@ -126,5 +132,17 @@ public class GameManager : MonoBehaviour
         #endif
         Application.Quit();
     }
+
+    public void NextButton()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void MenuButton()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    
     #endregion
 }

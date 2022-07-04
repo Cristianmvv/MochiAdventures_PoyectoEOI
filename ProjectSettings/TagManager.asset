@@ -21,6 +21,9 @@ TagManager:
   - Button/Resume
   - Button/Restart
   - Button/Exit
+  - Button/Next
+  - Button/Menu
+  - Panel/PreNextStage
   layers:
   - Default
   - TransparentFX
