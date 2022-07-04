@@ -24,6 +24,8 @@ TagManager:
   - Button/Next
   - Button/Menu
   - Panel/PreNextStage
+  - Button/RestartFinal
+  - Estrellitas
   layers:
   - Default
   - TransparentFX

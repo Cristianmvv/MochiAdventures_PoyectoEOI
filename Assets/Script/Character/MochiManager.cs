@@ -35,6 +35,8 @@ public class MochiManager : MonoBehaviour
 
     AudioSource audioS;
     public AudioClip audioJump, audioForm;
+
+    public bool inForceZone;
     #endregion
 
 
