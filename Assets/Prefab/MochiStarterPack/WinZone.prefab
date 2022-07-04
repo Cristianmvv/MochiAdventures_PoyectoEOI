@@ -52,6 +52,7 @@ MonoBehaviour:
   textFruit: {fileID: 0}
   totalFruits: 0
   levelNumber: 0
+  estrellitas: []
 --- !u!61 &8681004259532799075
 BoxCollider2D:
   m_ObjectHideFlags: 0

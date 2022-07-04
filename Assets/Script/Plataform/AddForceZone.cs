@@ -17,11 +17,15 @@ public class AddForceZone : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
+        if(collision.gameObject.CompareTag("SlimePerimeter"))
+            MochiManager.Instance.inForceZone = true;
+
         if (!effectEveryone && collision.gameObject.CompareTag("SlimeCenter"))
         {
             for (int i = 0; i < collision.transform.parent.childCount; i++)
             {
                 collision.transform.parent.GetChild(i).GetComponent<Rigidbody2D>().AddForce(force, ForceMode2D.Force);
+                MochiManager.Instance.inForceZone = true;
             }
             if (!MochiManager.Instance.IsSphere && dissableMochiTransform) MochiManager.Instance.disableTransform = true;
         }
@@ -37,8 +41,13 @@ public class AddForceZone : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject)
+        if (collision.gameObject.CompareTag("SlimeCenter") || collision.gameObject.CompareTag("MochiSphere"))
+        {
             MochiManager.Instance.disableTransform = false;
+            MochiManager.Instance.inForceZone = false;
+
+        }
+
     }
 
     //private void OnParticleTrigger()

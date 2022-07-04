@@ -314,7 +314,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Atlas_01_MainMenu_Settings_Hud_10
+      name: Estrellita
       rect:
         serializedVersion: 2
         x: 1910
@@ -1223,12 +1223,12 @@ TextureImporter:
       Atlas_01_MainMenu_Settings_Hud_8: 329513523
       Atlas_01_MainMenu_Settings_Hud_9: -372076809
       Atlas_01_MainMenu_Settings_Hud_44: -1120029731
+      Estrellita: 811508632
       Atlas_01_MainMenu_Settings_Hud_43: -1961509087
       Atlas_01_MainMenu_Settings_Hud_34: -1055259498
       Atlas_01_MainMenu_Settings_Hud_0: 2035028883
       Atlas_01_MainMenu_Settings_Hud_7: 1182275143
       Atlas_01_MainMenu_Settings_Hud_14: -765711107
-      Atlas_01_MainMenu_Settings_Hud_10: 811508632
       Atlas_01_MainMenu_Settings_Hud_4: -585565426
       Atlas_01_MainMenu_Settings_Hud_29: 91289588
       Atlas_01_MainMenu_Settings_Hud_28: -984325590
