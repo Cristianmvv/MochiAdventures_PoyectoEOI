@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8681004259532799075}
   - component: {fileID: 8681004259532799073}
   - component: {fileID: 8681004259532799074}
+  - component: {fileID: 962207877}
   m_Layer: 0
   m_Name: WinZone
   m_TagString: WinZone
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 8681004259532799079}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -334.1, y: -67.9, z: 6.365944}
-  m_LocalScale: {x: 0.3890625, y: 0.3890625, z: 0.3890625}
+  m_LocalScale: {x: 0.38906258, y: 0.3890625, z: 0.3890625}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -64,7 +65,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 6.4385805, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -75,7 +76,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 56.2, y: 26.34}
+  m_Size: {x: 43.322845, y: 26.34}
   m_EdgeRadius: 0
 --- !u!198 &8681004259532799073
 ParticleSystem:
@@ -4825,7 +4826,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 120
   m_RenderMode: 0
   m_MeshDistribution: 0
   m_SortMode: 0
@@ -4856,3 +4857,17 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &962207877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8681004259532799079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef92b08db6afa694394a3dcb951239c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableMovement: 1
+  disableTransform: 1
