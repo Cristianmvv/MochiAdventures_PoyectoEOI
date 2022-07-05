@@ -37,6 +37,8 @@ public class MochiManager : MonoBehaviour
     public AudioClip audioJump, audioForm;
 
     public bool inForceZone;
+
+    public bool caraMochi;
     #endregion
 
 
@@ -66,12 +68,12 @@ public class MochiManager : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))    //  Cuando se mantenga pulsado el boton
         {
-            if (!IsSphere) mochiSlime.GetComponent<SoftBodyController>().spriteCara.sprite = mochiSlime.GetComponent<SoftBodyController>().caras[1];
+            if (!IsSphere) caraMochi = true;
             jumpTime += Time.deltaTime; //  Empezara un contador
             if (jumpTime >= 0.2f && IsSphere)   //  Si se pulsa por mas de 0.2seg Y ES ESFERA cambiara a forma de slime
             {
                 InstantiateMochiSlime();
-                mochiSlime.GetComponent<SoftBodyController>().spriteCara.sprite = mochiSlime.GetComponent<SoftBodyController>().caras[1];
+                caraMochi = true;
             }
         }
         if (Input.GetKeyUp(KeyCode.W))  //  Al levantar el boton
@@ -86,7 +88,7 @@ public class MochiManager : MonoBehaviour
                 {
                     InstantiateMochiSlime();
                 }
-
+                caraMochi = false;
             }
             else if (isGrounded)    //  Si se a levantado despues de 0.2seg (mantenido pulsado) Y ESTA TOCANDO EL SUELO realizara el salto
             {
@@ -139,9 +141,9 @@ public class MochiManager : MonoBehaviour
         //mochiSphere.SetActive(false);    //  Desactiva el modo esfera
         mochiSlime = Instantiate(mochiSlimePf, mochiSphere.transform.position, mochiSphere.transform.rotation, transform);  //  Instancia prefab de forma slime en la ubicacion del modo esfera
         Destroy(mochiSphere);    //Destruye el modo esfera
-        mochiSlime.GetComponent<SoftBodyController>().spriteCara.sprite = mochiSlime.GetComponent<SoftBodyController>().caras[2];   
         //mochiSlime.SetActive(true);
         slimeCenter = GameObject.FindGameObjectWithTag("SlimeCenter");
+        mochiSlime.GetComponent<SoftBodyController>().spriteCara.sprite = mochiSlime.GetComponent<SoftBodyController>().caras[2];   
         //slimeCenter.GetComponent<Rigidbody2D>().velocity = inertia;   //  Para poder meterle la inercia a todos los RigidBody ahora lo coje desde su controller, ?Porque no lo hago igual con la esfera? porque si lo hago igual no salta la esfera, no pregunteis, no tengo ni idea.
     }
 
