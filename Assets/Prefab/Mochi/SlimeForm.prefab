@@ -152,6 +152,11 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+  caras:
+  - {fileID: 21300000, guid: 1d2744cd717a83e4ebe1438aeeebcd08, type: 3}
+  - {fileID: 21300000, guid: 8eb28ffe73fe934408b7ce5eccbe04c0, type: 3}
+  - {fileID: 21300000, guid: f696b922ec3eb334291d18753e91ea34, type: 3}
+  spriteCara: {fileID: 2777430643745317069}
 --- !u!95 &3918504264446037970
 Animator:
   serializedVersion: 4

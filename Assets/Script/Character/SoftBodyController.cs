@@ -23,7 +23,8 @@ public class SoftBodyController : MonoBehaviour
     bool isGrounded3;
     [SerializeField] LayerMask groundLayer;
 
-    
+    public Sprite[] caras;
+    public SpriteRenderer spriteCara;
 
     float movH;
     #endregion

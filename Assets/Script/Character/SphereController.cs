@@ -13,6 +13,9 @@ public class SphereController : MonoBehaviour
 
     public bool isGrounded;
 
+    public Sprite[] caras;
+    public SpriteRenderer spriteCara;
+
     #endregion
 
     public float maxVelX;
@@ -50,10 +53,15 @@ public class SphereController : MonoBehaviour
             sphereRb.AddForce(Vector2.right * movH * speed * Time.deltaTime);   //  A?adiendo fuerzas se me hace mas divertido, la esfera es mas rapida pero se controla peor, y el slime lo contrario
             //sphereRb.velocity = new Vector2(movH * speed * Time.deltaTime, sphereRb.velocity.y);    //  Permite el movimiento lateral, si no se le indica el ejeY caera "flotando" y no con su peso real
 
+            spriteCara.sprite = caras[0];
+
             if (sphereRb.velocity.x > maxVelX)
                 sphereRb.velocity = new Vector2(maxVelX, sphereRb.velocity.y);
             else if (sphereRb.velocity.x < -maxVelX)
                 sphereRb.velocity = new Vector2(-maxVelX, sphereRb.velocity.y);
+
+            if (sphereRb.velocity.magnitude >= 7) spriteCara.sprite = caras[0];
+            else spriteCara.sprite = caras[1];
         }
     }
 

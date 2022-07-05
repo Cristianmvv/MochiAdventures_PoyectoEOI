@@ -66,6 +66,7 @@ public class MochiManager : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))    //  Cuando se mantenga pulsado el boton
         {
+            mochiSlime.GetComponent<SoftBodyController>().spriteCara.sprite = mochiSlime.GetComponent<SoftBodyController>().caras[0];
             jumpTime += Time.deltaTime; //  Empezara un contador
             if (jumpTime >= 0.2f && IsSphere)   //  Si se pulsa por mas de 0.2seg Y ES ESFERA cambiara a forma de slime
             {
@@ -83,6 +84,7 @@ public class MochiManager : MonoBehaviour
                 else
                 {
                     InstantiateMochiSlime();
+                    mochiSlime.GetComponent<SoftBodyController>().spriteCara.sprite = mochiSlime.GetComponent<SoftBodyController>().caras[2];
                 }
 
             }
