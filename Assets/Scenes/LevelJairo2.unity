@@ -15195,6 +15195,10 @@ PrefabInstance:
       propertyPath: finalPanel
       value: 
       objectReference: {fileID: 1920593064}
+    - target: {fileID: 8681004259532799076, guid: 8329453204f8a4e4eabe199c7086e2d0, type: 3}
+      propertyPath: levelNumber
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8681004259532799077, guid: 8329453204f8a4e4eabe199c7086e2d0, type: 3}
       propertyPath: m_RootOrder
       value: 0
