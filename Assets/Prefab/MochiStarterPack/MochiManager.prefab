@@ -51,13 +51,15 @@ MonoBehaviour:
   IsSphere: 0
   disableMovement: 0
   disableTransform: 0
-  jumpForce: 8
+  jumpForce: 10
   isGrounded: 0
   isGroundedSphere: 0
   isGroundedSlime: 0
   inertia: {x: 0, y: 0}
   audioJump: {fileID: 8300000, guid: e36044c970aece04db387ebec5ee103f, type: 3}
   audioForm: {fileID: 8300000, guid: 94febf29e774726488111e72f26e8544, type: 3}
+  inForceZone: 0
+  caraMochi: 0
 --- !u!82 &1045980739
 AudioSource:
   m_ObjectHideFlags: 0

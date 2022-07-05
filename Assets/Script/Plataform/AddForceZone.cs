@@ -12,7 +12,7 @@ public class AddForceZone : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (MochiManager.Instance.IsSphere && forceMochiSlime)
-            /*if (forceMochiSlime)*/ MochiManager.Instance.InstantiateMochiSlime();
+            MochiManager.Instance.InstantiateMochiSlime();
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -41,7 +41,7 @@ public class AddForceZone : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("SlimeCenter") || collision.gameObject.CompareTag("MochiSphere"))
+        if  (collision.gameObject) /*(collision.gameObject.CompareTag("SlimeCenter") || collision.gameObject.CompareTag("MochiSphere"))*/
         {
             MochiManager.Instance.disableTransform = false;
             MochiManager.Instance.inForceZone = false;

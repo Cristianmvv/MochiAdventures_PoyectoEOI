@@ -38,8 +38,6 @@ public class SphereController : MonoBehaviour
 
         sphereRb = GetComponent<Rigidbody2D>();
         sphereRb.velocity = MochiManager.Instance.inertia;
-
-        spriteCara = gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>();
     }
 
     void Update()

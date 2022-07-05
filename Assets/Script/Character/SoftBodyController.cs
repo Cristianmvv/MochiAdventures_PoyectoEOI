@@ -52,8 +52,6 @@ public class SoftBodyController : MonoBehaviour
         {
             perimeterSlimeRb[i].velocity = MochiManager.Instance.inertia;
         }
-
-        spriteCara = gameObject.transform.GetChild(8).transform.GetChild(0).GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -117,6 +115,7 @@ public class SoftBodyController : MonoBehaviour
     void FaceController()
     {
         if (centerSlimeRb.velocity.magnitude >= velocityFaceChange) spriteCara.sprite = caras[0];
+        else if (MochiManager.Instance.caraMochi) spriteCara.sprite = caras[1];
         else spriteCara.sprite = caras[2];
     }
     private void OnDestroy()
