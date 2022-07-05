@@ -66,6 +66,8 @@ public class MochiManager : MonoBehaviour
 
     void ChangeForms()
     {
+        if (disableTransform) return;
+
         if (Input.GetKey(KeyCode.W))    //  Cuando se mantenga pulsado el boton
         {
             if (!IsSphere) caraMochi = true;
