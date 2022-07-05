@@ -16,9 +16,10 @@ public class SphereController : MonoBehaviour
     public Sprite[] caras;
     public SpriteRenderer spriteCara;
 
+    public float maxVelX;
+    [SerializeField] int velocityFaceChange;
     #endregion
 
-    public float maxVelX;
 
     //  Intento de comunicar la inercia por eventos... fallo mucho
     //private void Awake()
@@ -37,11 +38,14 @@ public class SphereController : MonoBehaviour
 
         sphereRb = GetComponent<Rigidbody2D>();
         sphereRb.velocity = MochiManager.Instance.inertia;
+
+        spriteCara = gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
         MovementSphere();
+        FaceController();
     }
 
     void MovementSphere()
@@ -53,16 +57,20 @@ public class SphereController : MonoBehaviour
             sphereRb.AddForce(Vector2.right * movH * speed * Time.deltaTime);   //  A?adiendo fuerzas se me hace mas divertido, la esfera es mas rapida pero se controla peor, y el slime lo contrario
             //sphereRb.velocity = new Vector2(movH * speed * Time.deltaTime, sphereRb.velocity.y);    //  Permite el movimiento lateral, si no se le indica el ejeY caera "flotando" y no con su peso real
 
-            spriteCara.sprite = caras[0];
+            /////////////spriteCara.sprite = caras[0];
 
             if (sphereRb.velocity.x > maxVelX)
                 sphereRb.velocity = new Vector2(maxVelX, sphereRb.velocity.y);
             else if (sphereRb.velocity.x < -maxVelX)
                 sphereRb.velocity = new Vector2(-maxVelX, sphereRb.velocity.y);
 
-            if (sphereRb.velocity.magnitude >= 7) spriteCara.sprite = caras[0];
-            else spriteCara.sprite = caras[1];
         }
+    }
+
+    void FaceController()
+    {
+        if (sphereRb.velocity.magnitude >= velocityFaceChange) spriteCara.sprite = caras[0];
+        else spriteCara.sprite = caras[2];
     }
 
     private void OnTriggerStay2D(Collider2D collision)

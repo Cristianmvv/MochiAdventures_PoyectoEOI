@@ -27,6 +27,8 @@ public class SoftBodyController : MonoBehaviour
     public SpriteRenderer spriteCara;
 
     float movH;
+
+    [SerializeField] int velocityFaceChange; 
     #endregion
 
     //  Intento de comunicar la inercia por eventos... fallo mucho
@@ -50,6 +52,13 @@ public class SoftBodyController : MonoBehaviour
         {
             perimeterSlimeRb[i].velocity = MochiManager.Instance.inertia;
         }
+
+        spriteCara = gameObject.transform.GetChild(8).transform.GetChild(0).GetComponent<SpriteRenderer>();
+    }
+
+    private void Update()
+    {
+        FaceController();
     }
 
     void FixedUpdate()
@@ -105,7 +114,11 @@ public class SoftBodyController : MonoBehaviour
         }
     }
 
-
+    void FaceController()
+    {
+        if (centerSlimeRb.velocity.magnitude >= velocityFaceChange) spriteCara.sprite = caras[0];
+        else spriteCara.sprite = caras[2];
+    }
     private void OnDestroy()
     {
         isGrounded = false;

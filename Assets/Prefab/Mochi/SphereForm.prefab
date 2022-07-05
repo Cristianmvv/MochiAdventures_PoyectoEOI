@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 7045876702686558617}
   - component: {fileID: 5007650293237586797}
   - component: {fileID: 1934045508479933612}
-  - component: {fileID: 657437664099045715}
   m_Layer: 0
   m_Name: SphereForm
   m_TagString: MochiSphere
@@ -158,27 +157,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 500
   isGrounded: 0
+  caras:
+  - {fileID: 21300000, guid: 1d2744cd717a83e4ebe1438aeeebcd08, type: 3}
+  - {fileID: 21300000, guid: 8eb28ffe73fe934408b7ce5eccbe04c0, type: 3}
+  - {fileID: 21300000, guid: f696b922ec3eb334291d18753e91ea34, type: 3}
+  spriteCara: {fileID: 6904600073018619329}
   maxVelX: 45
---- !u!95 &657437664099045715
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5007650291400012696}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5637534d03020d9469ad3150e9c026c4, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  velocityFaceChange: 15
 --- !u!1 &6925644054197890972
 GameObject:
   m_ObjectHideFlags: 0
