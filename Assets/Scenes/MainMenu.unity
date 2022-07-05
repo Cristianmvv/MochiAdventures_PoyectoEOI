@@ -267,11 +267,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 824031077}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 639.3533, y: -29.8829}
+  m_AnchoredPosition: {x: 476.2355, y: -18.1837}
   m_SizeDelta: {x: 160, y: 36.3674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &76674977
@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40cb6e6a4a7e1ed4ba246070f79b1497, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: www.twitter.com
+  url: https://es.linkedin.com/in/cristianmv
 --- !u!114 &76674978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -404,8 +404,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 476.2355, y: -22.761282}
-  m_SizeDelta: {x: 952.471, y: 45.522564}
+  m_AnchoredPosition: {x: 476.2355, y: -26.884918}
+  m_SizeDelta: {x: 952.471, y: 53.769836}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &83784709
 MonoBehaviour:
@@ -454,7 +454,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36.35
+  m_fontSize: 42.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -797,8 +797,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 476.2355, y: -22.761282}
-  m_SizeDelta: {x: 952.471, y: 45.522564}
+  m_AnchoredPosition: {x: 476.2355, y: -26.884918}
+  m_SizeDelta: {x: 952.471, y: 53.769836}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &107009241
 MonoBehaviour:
@@ -847,7 +847,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36.35
+  m_fontSize: 42.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1800,8 +1800,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 476.2355, y: -124.435005}
-  m_SizeDelta: {x: 952.471, y: 248.87001}
+  m_AnchoredPosition: {x: 476.2355, y: -138.70508}
+  m_SizeDelta: {x: 952.471, y: 277.41016}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &154362274
 MonoBehaviour:
@@ -1872,8 +1872,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 476.2355, y: -117.313385}
-  m_SizeDelta: {x: 952.471, y: 143.58165}
+  m_AnchoredPosition: {x: 476.2355, y: -120.22912}
+  m_SizeDelta: {x: 952.471, y: 132.91856}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &168064499
 MonoBehaviour:
@@ -1895,11 +1895,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '==========
-
-    ==========0
-
-    ==========='
+  m_text: "Dise\xF1ador de Niveles\nDise\xF1ador UX/UI\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 89ef395659f179b4184934a88d1e53a6, type: 2}
   m_sharedMaterial: {fileID: 1272049091444726042, guid: 89ef395659f179b4184934a88d1e53a6, type: 2}
@@ -1926,7 +1922,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.5
+  m_fontSize: 36.55
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2590,7 +2586,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 476.2355, y: -218.98712}
+  m_AnchoredPosition: {x: 476.2355, y: -216.5713}
   m_SizeDelta: {x: 952.471, y: 59.7658}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &284215116
@@ -7623,15 +7619,14 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1974406650}
   - {fileID: 76674976}
   m_Father: {fileID: 154362273}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 476.2355, y: -218.98712}
-  m_SizeDelta: {x: 952.471, y: 59.7658}
+  m_AnchoredPosition: {x: 476.2355, y: -259.22644}
+  m_SizeDelta: {x: 952.471, y: 36.3674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &824031078
 MonoBehaviour:
@@ -8344,8 +8339,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 476.2355, y: -622.17505}
-  m_SizeDelta: {x: 952.471, y: 248.87001}
+  m_AnchoredPosition: {x: 476.2355, y: -635.2372}
+  m_SizeDelta: {x: 952.471, y: 222.74565}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &930002246
 MonoBehaviour:
@@ -10923,8 +10918,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 476.2355, y: -117.313385}
-  m_SizeDelta: {x: 952.471, y: 143.58165}
+  m_AnchoredPosition: {x: 476.2355, y: -120.074036}
+  m_SizeDelta: {x: 952.471, y: 132.6084}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1214094214
 MonoBehaviour:
@@ -10946,11 +10941,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '================
-
-    ================0
-
-    =============='
+  m_text: "Dise\xF1o de Juego\nAnimador\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 89ef395659f179b4184934a88d1e53a6, type: 2}
   m_sharedMaterial: {fileID: 1272049091444726042, guid: 89ef395659f179b4184934a88d1e53a6, type: 2}
@@ -10977,7 +10968,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.5
+  m_fontSize: 36.55
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -11388,15 +11379,14 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3722433040976999031}
   - {fileID: 8999064156504301041}
   m_Father: {fileID: 930002245}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 476.2355, y: -218.98712}
-  m_SizeDelta: {x: 952.471, y: 59.7658}
+  m_AnchoredPosition: {x: 476.2355, y: -204.56194}
+  m_SizeDelta: {x: 952.471, y: 36.3674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1271256790
 MonoBehaviour:
@@ -11873,8 +11863,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 476.2355, y: -117.313385}
-  m_SizeDelta: {x: 952.471, y: 143.58165}
+  m_AnchoredPosition: {x: 476.2355, y: -147.4063}
+  m_SizeDelta: {x: 952.471, y: 187.27292}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1321861302
 MonoBehaviour:
@@ -11896,11 +11886,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '============
-
-    ============
-
-    ============'
+  m_text: "Lider de equipo\nProgramdor Jefe\nDise\xF1ador de Juego"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 89ef395659f179b4184934a88d1e53a6, type: 2}
   m_sharedMaterial: {fileID: 1272049091444726042, guid: 89ef395659f179b4184934a88d1e53a6, type: 2}
@@ -11927,7 +11913,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.5
+  m_fontSize: 38.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -12256,8 +12242,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 476.2355, y: -22.761282}
-  m_SizeDelta: {x: 952.471, y: 45.522564}
+  m_AnchoredPosition: {x: 476.2355, y: -26.884918}
+  m_SizeDelta: {x: 952.471, y: 53.769836}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1379676027
 MonoBehaviour:
@@ -12306,7 +12292,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36.35
+  m_fontSize: 42.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -15901,141 +15887,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1934961841}
   m_CullTransparentMesh: 1
---- !u!1 &1974406649
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1974406650}
-  - component: {fileID: 1974406653}
-  - component: {fileID: 1974406652}
-  - component: {fileID: 1974406651}
-  - component: {fileID: 1974406654}
-  m_Layer: 5
-  m_Name: ButtonTwitter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1974406650
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974406649}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 824031077}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 313.11774, y: -29.8829}
-  m_SizeDelta: {x: 160, y: 59.7658}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1974406651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974406649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1974406652}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1974406652
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974406649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 113253789, guid: a1cb3df9e1a43a54782188f5a8e4fb89, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1974406653
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974406649}
-  m_CullTransparentMesh: 1
---- !u!114 &1974406654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1974406649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40cb6e6a4a7e1ed4ba246070f79b1497, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  url: www.google.es
 --- !u!1 &2001299114
 GameObject:
   m_ObjectHideFlags: 0
@@ -16508,8 +16359,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 476.2355, y: -373.30502}
-  m_SizeDelta: {x: 952.471, y: 248.87001}
+  m_AnchoredPosition: {x: 476.2355, y: -400.63727}
+  m_SizeDelta: {x: 952.471, y: 246.4542}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2058961122
 MonoBehaviour:
@@ -17453,7 +17304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40cb6e6a4a7e1ed4ba246070f79b1497, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: www.google.es
+  url: https://twitter.com/jairosoleraruiz
 --- !u!114 &2502725528806101584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17560,7 +17411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40cb6e6a4a7e1ed4ba246070f79b1497, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: www.twitter.com
+  url: www.linkedin.com/in/JairoSoleraRuiz
 --- !u!222 &2502725528806101590
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17589,141 +17440,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!222 &3722433040976999024
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3722433040976999028}
-  m_CullTransparentMesh: 1
---- !u!114 &3722433040976999025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3722433040976999028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 113253789, guid: a1cb3df9e1a43a54782188f5a8e4fb89, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!114 &3722433040976999027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3722433040976999028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40cb6e6a4a7e1ed4ba246070f79b1497, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  url: www.google.es
---- !u!1 &3722433040976999028
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3722433040976999031}
-  - component: {fileID: 3722433040976999024}
-  - component: {fileID: 3722433040976999025}
-  - component: {fileID: 3722433040976999030}
-  - component: {fileID: 3722433040976999027}
-  m_Layer: 5
-  m_Name: ButtonTwitter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &3722433040976999030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3722433040976999028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 3722433040976999025}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!224 &3722433040976999031
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3722433040976999028}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1271256789}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 313.11774, y: -29.8829}
-  m_SizeDelta: {x: 160, y: 59.7658}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &8999064156504301006
 GameObject:
   m_ObjectHideFlags: 0
@@ -17756,7 +17472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40cb6e6a4a7e1ed4ba246070f79b1497, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: www.twitter.com
+  url: www.linkedin.com/in/francisco-diaz-roldan
 --- !u!224 &8999064156504301041
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17770,11 +17486,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1271256789}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 639.3533, y: -29.8829}
+  m_AnchoredPosition: {x: 476.2355, y: -18.1837}
   m_SizeDelta: {x: 160, y: 36.3674}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8999064156504301042

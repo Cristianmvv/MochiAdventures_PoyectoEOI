@@ -9,17 +9,22 @@ public class DisableTransformCollider : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (disableMovement)
-            MochiManager.Instance.disableMovement = true;
+        if (collision.gameObject)
+        {
+            if (disableMovement)
+                MochiManager.Instance.disableMovement = true;
 
-        if (disableTransform)
-            MochiManager.Instance.disableTransform = true;
+            if (disableTransform)
+                MochiManager.Instance.disableTransform = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        MochiManager.Instance.disableTransform = false;
-        MochiManager.Instance.disableMovement = false;
+        if (collision.gameObject)
+        {
+            MochiManager.Instance.disableTransform = false;
+            MochiManager.Instance.disableMovement = false;
+        }
     }
-
 }
