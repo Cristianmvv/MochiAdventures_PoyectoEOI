@@ -18,8 +18,8 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelPaco1.unity
     guid: 2dc71cf2c54a93c42992081e2117da18
   - enabled: 1
-    path: Assets/Scenes/LevelPaco2.unity
-    guid: 5e0c583a13696bd44bb5b049da772682
+    path: Assets/Scenes/SuperLevelPaco2Definitivo.unity
+    guid: f0411524e378a1f4e9dd99efbe2514bc
   - enabled: 1
     path: Assets/Scenes/LevelJairo1.unity
     guid: eb88a8e4b7e2bf940af91b2fd9c7cda9
